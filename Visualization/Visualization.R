@@ -39,7 +39,7 @@ normalize_price <- function(x) {
   ifelse(!is.na(x_num) & x_num < 1000, x_num * 100000, x_num)
 }
 
-# Thêm hàm chuẩn hóa Hộp số (Fix lỗi tiếng Việt từ trang Bonbanh)
+# Hàm chuẩn hóa Hộp số (Fix lỗi tiếng Việt từ trang Bonbanh)
 normalize_transmission_vis <- function(x) {
   x <- trimws(tolower(as.character(x)))
   out <- rep(NA_character_, length(x))
