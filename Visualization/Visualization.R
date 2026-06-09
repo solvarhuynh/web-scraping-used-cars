@@ -6,10 +6,8 @@ library(dplyr)
 library(readr)
 library(plotly)
 
-#Kiểm soát vị trí lưu file khi các biểu đồ được tạo (Thay đổi đường dẫn nếu muốn code chạy)
 setwd("D:/Trung Khang/Documents/R_programming/Project_cuoiky/web-scraping-used-cars/Visualization")
 
-# Tự động tạo folder plots nằm trong Visualization nếu chưa có
 if (!dir.exists("plots")) {
   dir.create("plots", recursive = TRUE)
 }
@@ -39,7 +37,6 @@ normalize_price <- function(x) {
   ifelse(!is.na(x_num) & x_num < 1000, x_num * 100000, x_num)
 }
 
-# Hàm chuẩn hóa Hộp số (Fix lỗi tiếng Việt từ trang Bonbanh)
 normalize_transmission_vis <- function(x) {
   x <- trimws(tolower(as.character(x)))
   out <- rep(NA_character_, length(x))
@@ -55,7 +52,7 @@ data_clean <- data_raw %>%
     year = suppressWarnings(as.numeric(as.character(year))),
     mileage = suppressWarnings(as.numeric(gsub("[^0-9.]", "", as.character(mileage)))),
     brand = trimws(brand),
-    transmission = normalize_transmission_vis(transmission) # Dùng hàm mới ở đây
+    transmission = normalize_transmission_vis(transmission) 
   ) %>%
   filter(
     !is.na(price), price > 0,
