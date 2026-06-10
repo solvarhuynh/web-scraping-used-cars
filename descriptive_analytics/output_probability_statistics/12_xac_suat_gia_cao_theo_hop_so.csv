@@ -1,0 +1,5 @@
+"transmission","is_high_price","so_luong","tong_nhom","xac_suat","xac_suat_pct"
+"Automatic","FALSE",3080,4194,0.734382451120649,"73.44%"
+"Automatic","TRUE",1114,4194,0.265617548879351,"26.56%"
+"Manual","FALSE",259,261,0.992337164750958,"99.23%"
+"Manual","TRUE",2,261,0.00766283524904215,"0.77%"

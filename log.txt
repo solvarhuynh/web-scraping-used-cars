@@ -1837,3 +1837,20 @@
 [2026-06-10 08:09:06] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
 [2026-06-10 08:09:06] [scrap_chotot.R] - INFO: Navigating to listing page 1: https://xe.chotot.com/mua-ban-oto
 [2026-06-10 08:09:58] [scrap_chotot.R] - INFO: Page 1: found 28 links (28 new) | Total new: 28
+[2026-06-10 08:10:00] [scrap_chotot.R] - INFO: Navigating to listing page 2: https://xe.chotot.com/mua-ban-oto?page=2
+[2026-06-10 08:10:44] [scrap_chotot.R] - INFO: Page 2: found 29 links (23 new) | Total new: 51
+[2026-06-10 08:10:47] [scrap_chotot.R] - INFO: Navigating to listing page 3: https://xe.chotot.com/mua-ban-oto?page=3
+[2026-06-10 08:11:29] [scrap_chotot.R] - INFO: Page 3: found 20 links (17 new) | Total new: 68
+[2026-06-10 08:11:31] [scrap_chotot.R] - INFO: Navigating to listing page 4: https://xe.chotot.com/mua-ban-oto?page=4
+[2026-06-10 08:12:13] [scrap_chotot.R] - INFO: Page 4: found 20 links (18 new) | Total new: 86
+[2026-06-10 08:12:15] [scrap_chotot.R] - INFO: Navigating to listing page 5: https://xe.chotot.com/mua-ban-oto?page=5
+[2026-06-10 08:12:57] [scrap_chotot.R] - INFO: Page 5: found 20 links (17 new) | Total new: 103
+[2026-06-10 08:12:59] [scrap_chotot.R] - INFO: Navigating to listing page 6: https://xe.chotot.com/mua-ban-oto?page=6
+[2026-06-10 08:13:41] [scrap_chotot.R] - INFO: Page 6: found 20 links (18 new) | Total new: 121
+[2026-06-10 08:13:43] [scrap_chotot.R] - INFO: Navigating to listing page 7: https://xe.chotot.com/mua-ban-oto?page=7
+[2026-06-10 08:14:26] [scrap_chotot.R] - INFO: Page 7: found 20 links (18 new) | Total new: 139
+[2026-06-10 08:14:27] [scrap_chotot.R] - INFO: Navigating to listing page 8: https://xe.chotot.com/mua-ban-oto?page=8
+[2026-06-10 08:15:13] [scrap_chotot.R] - INFO: Page 8: found 20 links (19 new) | Total new: 158
+[2026-06-10 08:15:15] [scrap_chotot.R] - INFO: Navigating to listing page 9: https://xe.chotot.com/mua-ban-oto?page=9
+[2026-06-10 08:16:05] [scrap_chotot.R] - INFO: Page 9: found 20 links (20 new) | Total new: 178
+[2026-06-10 08:16:08] [scrap_chotot.R] - INFO: Navigating to listing page 10: https://xe.chotot.com/mua-ban-oto?page=10
