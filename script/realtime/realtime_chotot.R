@@ -1,99 +1,129 @@
-# Real-time Chợ Tốt delta fetch example.
-# Rule: scrape Page 1 only, check each URL against SQLite, INSERT new rows,
-# and break immediately when an existing URL is encountered.
+# Realtime scraper for Chợ Tốt (Page 1 only)
+# Reuses the exact HTML parsing logic from script/scrap/scrap_chotot.R
+# Returns the number of newly inserted listings.
 
 suppressPackageStartupMessages({
-  library(httr)
-  library(jsonlite)
   library(DBI)
   library(RSQLite)
   library(dplyr)
-  library(stringr)
+  library(cli)
 })
 
+# Load utilities and the batch scraper (contains helpers and the detail scraper)
 source("script/utils.R")
+source("script/scrap/scrap_chotot.R")  # defines make_session(), safe_navigate(), get_page_html(), scrape_car(), etc.
 
 SCRIPT_NAME <- "realtime_chotot.R"
-DB_FILE <- "data/master_data.db"
 TABLE_NAME <- "car_listings"
-API_ENDPOINT_PAGE_1 <- "https://gateway.chotot.com/v1/public/ad-listing-video?cg=2010&st=s%2Ck&source=listing&limit=20&o=0"
 SOURCE_NAME <- "xe.chotot.com"
 
-fetch_chotot_page_1 <- function() {
-  response <- httr::GET(API_ENDPOINT_PAGE_1, httr::user_agent("R used-car realtime delta fetch"))
-  httr::stop_for_status(response)
+#' Run realtime Chợ Tốt scraper (page 1)
+#' @param con DBI connection to the SQLite database (car_listings must exist)
+#' @return Number of newly inserted listings
+run_realtime_chotot <- function(con) {
+  log_message(SCRIPT_NAME, "Starting realtime Chợ Tốt scraper (page 1).")
 
-  payload <- jsonlite::fromJSON(httr::content(response, as = "text", encoding = "UTF-8"), flatten = TRUE)
-  ads <- payload$ads %||% payload$data %||% data.frame()
+  # ---------------------------------------------------------------
+  # 1. Initialise Chromote session (single session reused for all detail pages)
+  # ---------------------------------------------------------------
+  sess <- make_session()
+  on.exit({
+    close_session(sess)
+    log_message(SCRIPT_NAME, "Chromote session closed.")
+  }, add = TRUE)
 
-  if (nrow(ads) == 0) {
-    return(empty_car_data())
+  # ---------------------------------------------------------------
+  # 2. Fetch URLs from the first listing page
+  # ---------------------------------------------------------------
+  nav_res <- safe_navigate(sess, LISTING_URL)
+  sess <- nav_res$session
+  if (!nav_res$ok) {
+    log_message(SCRIPT_NAME, "Failed to navigate to Chợ Tốt page 1.", "ERROR")
+    return(0L)
   }
 
-  tibble(
-    brand = ads$brand %||% NA_character_,
-    model = ads$model %||% NA_character_,
-    trim = ads$subject %||% ads$title %||% NA_character_,
-    year = ads$caryear %||% ads$year %||% NA_integer_,
-    body_type = ads$cartype %||% NA_character_,
-    fuel_type = ads$fuel %||% NA_character_,
-    transmission = ads$gearbox %||% ads$transmission %||% NA_character_,
-    engine_size = ads$engine_capacity %||% NA_real_,
-    seat_count = ads$seats %||% NA_integer_,
-    drivetrain = ads$drive_type %||% NA_character_,
-    price = ads$price %||% NA_real_,
-    mileage = ads$mileage %||% ads$mileage_v2 %||% NA_integer_,
-    origin = ads$origin %||% NA_character_,
-    color = ads$carcolor %||% ads$color %||% NA_character_,
-    city = ads$region_name %||% ads$area_name %||% NA_character_,
-    posted_date = ads$date %||% ads$list_time %||% NA_character_,
-    source = SOURCE_NAME,
-    url = ifelse(!is.na(ads$list_id), paste0("https://xe.chotot.com/", ads$list_id, ".htm"), NA_character_)
-  ) %>%
-    standardize_car_data()
-}
-
-insert_new_chotot_records <- function() {
-  log_message(SCRIPT_NAME, "Starting Chợ Tốt real-time delta fetch.")
-
-  if (!file.exists(DB_FILE)) {
-    log_message(SCRIPT_NAME, "Database does not exist. Run script/init_database.R first.", "ERROR")
-    stop("Database does not exist. Run script/init_database.R first.")
+  # Scroll a few times to trigger lazy loading (same as batch script)
+  for (i in seq_len(5)) {
+    tryCatch(sess$Runtime$evaluate('window.scrollBy(0, window.innerHeight)'), error = function(e) NULL)
+    Sys.sleep(1)
   }
 
-  con <- DBI::dbConnect(RSQLite::SQLite(), DB_FILE)
-  on.exit(DBI::dbDisconnect(con), add = TRUE)
+  html_content <- tryCatch(
+    sess$Runtime$evaluate('document.documentElement.outerHTML')$result$value,
+    error = function(e) NULL)
+  if (is.null(html_content)) {
+    log_message(SCRIPT_NAME, "Unable to retrieve page HTML.", "ERROR")
+    return(0L)
+  }
 
-  new_rows <- fetch_chotot_page_1()
+  page_html <- tryCatch(read_html(html_content, encoding = "UTF-8"), error = function(e) NULL)
+  if (is.null(page_html)) {
+    log_message(SCRIPT_NAME, "Failed to parse page HTML.", "ERROR")
+    return(0L)
+  }
+
+  links <- page_html |>
+    html_nodes("a.c15fd2pn") |>
+    html_attr("href") |>
+    na.omit()
+
+  links <- links[str_detect(links, "\\/\\d+\\.htm")]
+  links <- str_replace(links, "#.*$", "")
+  page_urls <- unique(paste0(BASE_URL, links))
+
+  total_urls <- length(page_urls)
+  log_message(SCRIPT_NAME, sprintf("Found %d URLs on Page 1.", total_urls))
+
+  if (total_urls == 0) {
+    log_message(SCRIPT_NAME, "No URLs discovered – exiting.", "WARN")
+    return(0L)
+  }
+
+  # ---------------------------------------------------------------
+  # 3. Delta fetching loop: stop at first duplicate URL
+  # ---------------------------------------------------------------
   inserted <- 0L
+  pb <- cli_progress_bar(total = total_urls,
+                         format = "[{pb_progress}] {pb_current}/{pb_total} URLs – new: {inserted}")
 
-  for (i in seq_len(nrow(new_rows))) {
-    row <- new_rows[i, ]
-
-    if (is.na(row$url) || row$url == "") {
-      log_message(SCRIPT_NAME, sprintf("Skipping row %s because URL is missing.", i), "WARN")
-      next
-    }
-
-    existing_count <- DBI::dbGetQuery(
-      con,
-      sprintf("SELECT COUNT(*) AS n FROM %s WHERE url = ?", TABLE_NAME),
-      params = list(row$url)
-    )$n
-
-    if (existing_count > 0) {
-      log_message(SCRIPT_NAME, sprintf("Existing URL found; breaking delta loop: %s", row$url))
+  for (i in seq_along(page_urls)) {
+    url <- page_urls[[i]]
+    # Check for existence
+    dup <- DBI::dbGetQuery(con,
+      sprintf("SELECT 1 FROM %s WHERE url = ? LIMIT 1", TABLE_NAME),
+      params = list(url))
+    if (nrow(dup) > 0) {
+      log_message(SCRIPT_NAME, sprintf("Duplicate URL %s encountered – breaking.", url), "INFO")
       break
     }
 
-    row <- row %>% mutate(posted_date = as.character(posted_date))
-    DBI::dbWriteTable(con, TABLE_NAME, row, append = TRUE)
-    inserted <- inserted + 1L
-    log_message(SCRIPT_NAME, sprintf("Inserted new listing: %s", row$url))
+    # Scrape detail using the batch scraper's `scrape_car()` function
+    # Ensure the global session variable used by `scrape_car` points to our session
+    assign("b", sess, envir = .GlobalEnv)
+    detail <- tryCatch(
+      scrape_car(url),
+      error = function(e) {
+        log_message(SCRIPT_NAME, sprintf("Error scraping %s: %s", url, e$message), "ERROR")
+        NULL
+      }
+    )
+
+    if (!is.null(detail) && nrow(detail) == 1) {
+      DBI::dbWriteTable(con, TABLE_NAME, detail, append = TRUE, row.names = FALSE)
+      inserted <- inserted + 1L
+      log_message(SCRIPT_NAME, sprintf("Inserted new listing %s (total %d).", url, inserted))
+    }
+    cli_progress_update(id = pb, set = i)
   }
 
-  log_message(SCRIPT_NAME, sprintf("Completed Chợ Tốt delta fetch. Inserted %s new records.", inserted))
-  invisible(inserted)
+  cli_progress_done(pb)
+  log_message(SCRIPT_NAME, sprintf("Realtime Chợ Tốt completed – %d new rows inserted.", inserted))
+  return(inserted)
 }
 
-insert_new_chotot_records()
+# Convenience wrapper for interactive testing
+if (interactive()) {
+  con <- DBI::dbConnect(RSQLite::SQLite(), "data/master_data.db")
+  run_realtime_chotot(con)
+  DBI::dbDisconnect(con)
+}

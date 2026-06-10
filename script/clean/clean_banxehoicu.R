@@ -1,5 +1,5 @@
 # Clean Bán Xe Hơi Cũ raw data according to rule/clean_rule.md.
-# Output: data/data_banxehoicu_clean.csv
+# Output: data/clean/data_banxehoicu_clean.csv
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -10,8 +10,8 @@ suppressPackageStartupMessages({
 source("script/utils.R")
 
 SCRIPT_NAME <- "clean_banxehoicu.R"
-INPUT_FILE <- "data/data_banxehoicu_raw.csv"
-OUTPUT_FILE <- "data/data_banxehoicu_clean.csv"
+INPUT_FILE <- "data/raw/data_banxehoicu_raw.csv"
+OUTPUT_FILE <- "data/clean/data_banxehoicu_clean.csv"
 DISPLAY_NAME <- "Bán Xe Hơi Cũ"
 
 clean_banxehoicu <- function() {

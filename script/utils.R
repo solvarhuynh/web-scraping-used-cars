@@ -38,6 +38,9 @@ log_message <- function(script_name, message, level = "INFO") {
 ensure_directories <- function() {
   dir.create(root_path("script"), showWarnings = FALSE, recursive = TRUE)
   dir.create(root_path("data"), showWarnings = FALSE, recursive = TRUE)
+  # Create subdirectories for raw and clean data as per process_rule.md
+  dir.create(root_path("data", "raw"), showWarnings = FALSE, recursive = TRUE)
+  dir.create(root_path("data", "clean"), showWarnings = FALSE, recursive = TRUE)
 }
 
 empty_car_data <- function(n = 0) {
@@ -82,7 +85,11 @@ clean_text <- function(x) {
 }
 
 parse_price_vnd <- function(x) {
-  x <- str_to_lower(clean_text(x))
+  # Guard against NA/empty input
+  if (is.null(x) || length(x) == 0) return(NA_real_)
+  x <- clean_text(x)
+  if (all(is.na(x))) return(NA_real_)
+  x <- str_to_lower(x)
   multiplier <- case_when(
     str_detect(x, "tỷ|ty") ~ 1000000000,
     str_detect(x, "triệu|trieu") ~ 1000000,
@@ -112,9 +119,32 @@ parse_engine_size <- function(x) {
 }
 
 parse_posted_date <- function(x) {
-  x <- clean_text(x)
-  parsed <- suppressWarnings(parse_date_time(x, orders = c("dmy", "ymd", "mdy", "dmy HMS", "ymd HMS")))
-  as.Date(parsed)
+  # Safety wrapper – any parsing failure returns NA instead of throwing.
+  tryCatch({
+    x <- clean_text(x)
+    # Handle Vietnamese relative time strings like "4 giờ trước" or "11 phút trước"
+    rel_match <- stringr::str_match(x, "(?i)(\\d+)\\s*(giờ|phút|phut|giay|giây)\\s*trước")
+    if (!is.na(rel_match[1,1])) {
+      value <- as.numeric(rel_match[1,2])
+      unit <- tolower(rel_match[1,3])
+      now <- Sys.time()
+      dt <- switch(unit,
+                   "giờ" = now - lubridate::hours(value),
+                   "giây" = now - lubridate::seconds(value),
+                   "giay" = now - lubridate::seconds(value),
+                   "phút" = now - lubridate::minutes(value),
+                   "phut" = now - lubridate::minutes(value),
+                   now)
+      return(as.Date(dt))
+    }
+    # Fallback to absolute date parsing
+    parsed <- suppressWarnings(parse_date_time(x, orders = c("dmy", "ymd", "mdy", "dmy HMS", "ymd HMS")))
+    as.Date(parsed)
+  }, error = function(e) {
+    # Log the warning for debugging (optional)
+    log_message("utils.R", sprintf("parse_posted_date failed for input '%s': %s", x, e$message), "WARN")
+    NA
+  })
 }
 
 standardize_transmission <- function(x) {
@@ -145,7 +175,12 @@ standardize_car_data <- function(df) {
     mutate(across(where(is.character), clean_text)) %>%
     mutate(
       brand = str_to_upper(brand),
-      model = str_to_upper(model),
+      model = str_to_upper(model)
+    ) %>%
+    mutate(
+      # Split combined brand/model if model missing
+      brand = ifelse(is.na(model) | model == "", str_extract(brand, "^[^\\s]+"), brand),
+      model = ifelse(is.na(model) | model == "", str_trim(str_remove(str_to_upper(brand), "^[^\\s]+")), model),
       price = parse_price_vnd(price),
       mileage = parse_integer_value(mileage),
       engine_size = parse_engine_size(engine_size),

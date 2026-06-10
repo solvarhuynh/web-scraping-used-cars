@@ -1,5 +1,5 @@
-# Clean Carpla raw data according to rule/clean_rule.md.
-# Output: data/data_carpla_clean.csv
+# Clean Carpla raw data.
+# Output: data/clean/data_carpla_clean.csv
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -10,66 +10,51 @@ suppressPackageStartupMessages({
 source("script/utils.R")
 
 SCRIPT_NAME <- "clean_carpla.R"
-INPUT_FILE <- "data/data_carpla_raw.csv"
-OUTPUT_FILE <- "data/data_carpla_clean.csv"
+INPUT_FILE <- "data/raw/data_carpla_raw.csv"
+OUTPUT_FILE <- "data/clean/data_carpla_clean.csv"
 DISPLAY_NAME <- "Carpla"
 
 clean_carpla <- function() {
-  cat(sprintf("
-Starting %s data cleaning...
-", DISPLAY_NAME))
+  dir.create("data/clean", showWarnings = FALSE, recursive = TRUE)
   log_message(SCRIPT_NAME, sprintf("Starting %s cleaning.", DISPLAY_NAME))
 
-  tryCatch({
-    cat(sprintf("Reading raw file: %s
-", INPUT_FILE))
-    raw <- if (file.exists(INPUT_FILE)) {
-      readr::read_csv(INPUT_FILE, show_col_types = FALSE, locale = locale(encoding = "UTF-8"))
-    } else {
-      cat(sprintf("Raw file not found: %s. Creating empty cleaned dataset.
-", INPUT_FILE))
-      empty_car_data()
-    }
+  if (!file.exists(INPUT_FILE)) {
+    log_message(SCRIPT_NAME, "Input file not found.", "ERROR")
+    return(invisible(NULL))
+  }
 
-    row_count <- nrow(raw)
-    cat(sprintf("Loaded %s raw rows from %s.
-", row_count, DISPLAY_NAME))
+  raw <- readr::read_csv(INPUT_FILE, col_types = cols(.default = "c"), locale = locale(encoding = "UTF-8"))
 
-    if (row_count > 0) {
-      cat("Applying standard cleaning transformations...
-")
-      pb <- txtProgressBar(min = 0, max = 4, style = 3)
-      setTxtProgressBar(pb, 1)
-      raw <- align_schema(raw)
-      setTxtProgressBar(pb, 2)
-      clean <- standardize_car_data(raw)
-      setTxtProgressBar(pb, 3)
-      safe_write_csv(clean, OUTPUT_FILE)
-      setTxtProgressBar(pb, 4)
-      close(pb)
-      cat("
-")
-    } else {
-      cat("No rows to clean. Writing an empty cleaned CSV with the required schema.
-")
-      clean <- empty_car_data()
-      safe_write_csv(clean, OUTPUT_FILE)
-    }
+  if (nrow(raw) == 0) {
+    log_message(SCRIPT_NAME, "Raw data is empty.", "WARN")
+    return(invisible(NULL))
+  }
 
-    log_message(SCRIPT_NAME, sprintf("Finished %s cleaning with %s rows.", DISPLAY_NAME, nrow(clean)))
-    cat(sprintf("Successfully cleaned %s rows for %s. Output saved to %s.
-", nrow(clean), DISPLAY_NAME, OUTPUT_FILE))
-    clean
-  }, error = function(e) {
-    cat(sprintf("Cleaning failed for %s: %s
-", DISPLAY_NAME, e$message))
-    log_message(SCRIPT_NAME, e$message, "ERROR")
-    clean <- empty_car_data()
-    safe_write_csv(clean, OUTPUT_FILE)
-    cat(sprintf("Wrote empty fallback cleaned file to %s.
-", OUTPUT_FILE))
-    clean
-  })
+  # -------------------------------------------------------------------
+  # Basic sanitisation & numeric conversion according to clean_rule.md
+  # -------------------------------------------------------------------
+  df_cleaned <- raw %>%
+    # Trim whitespace and normalise empty strings to NA
+    mutate(across(everything(), ~ ifelse(is.na(.x) || str_trim(.x) == "" || str_to_lower(.x) %in% c("na", "n/a", "null", "unknown", "không rõ"), NA_character_, str_squish(.x)))) %>%
+    # Parse price (VND), mileage (km), engine size (L), year, seat count, posted date
+    mutate(
+      price = parse_price_vnd(price),
+      mileage = parse_integer_value(mileage),
+      engine_size = parse_engine_size(engine_size),
+      year = parse_integer_value(year),
+      seat_count = parse_integer_value(seat_count),
+      posted_date = parse_posted_date(posted_date)
+    ) %>%
+    # Apply the global canonical schema helper (adds missing columns, reorders)
+    align_schema()
+
+  # Use the higher‑level standardiser to ensure brand/model uppercase and other text cleaning
+  df_final <- standardize_car_data(df_cleaned)
+
+  safe_write_csv(df_final, OUTPUT_FILE)
+  log_message(SCRIPT_NAME, sprintf("Finished %s cleaning with %s rows.", DISPLAY_NAME, nrow(df_final)))
+  return(df_final)
 }
 
+# Execute automatically when sourced
 carpla_clean <- clean_carpla()

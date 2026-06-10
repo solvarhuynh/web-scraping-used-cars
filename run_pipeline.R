@@ -1,7 +1,19 @@
 # Main batch orchestrator for the used-car data pipeline.
+# Implements the workflow defined in rule/process_rule.md
 # Execute with: Rscript run_pipeline.R
 
-source("script/utils.R")
+args <- commandArgs(trailingOnly = FALSE)
+file_arg <- "--file="
+script_arg <- args[startsWith(args, file_arg)]
+
+PROJECT_ROOT <- if (length(script_arg) > 0) {
+  normalizePath(dirname(sub(file_arg, "", script_arg[[1]])), winslash = "/", mustWork = TRUE)
+} else {
+  normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+}
+
+setwd(PROJECT_ROOT)
+source(file.path(PROJECT_ROOT, "script", "utils.R"))
 
 SCRIPT_NAME <- "run_pipeline.R"
 
@@ -15,20 +27,21 @@ run_pipeline <- function() {
   tryCatch({
     # Define all pipeline tasks
     tasks <- list(
-      list(file = "script/scrap_chotot.R", desc = "Scraping raw data from Chotot"),
-      list(file = "script/scrap_carpla.R", desc = "Scraping raw data from Carpla"),
-      list(file = "script/scrap_banxehoicu.R", desc = "Scraping raw data from Banxehoicu"),
-      list(file = "script/scrap_oto.R", desc = "Scraping raw data from Oto.com.vn"),
-      list(file = "script/clean_chotot.R", desc = "Cleaning Chotot data"),
-      list(file = "script/clean_carpla.R", desc = "Cleaning Carpla data"),
-      list(file = "script/clean_banxehoicu.R", desc = "Cleaning Banxehoicu data"),
-      list(file = "script/clean_oto.R", desc = "Cleaning Oto.com.vn data"),
-      list(file = "script/merge_data.R", desc = "Merging all cleaned data"),
-      list(file = "script/init_database.R", desc = "Initializing SQLite database")
+      list(file = "script/scrap/scrap_chotot.R", desc = "Scraping raw data from Chotot"),
+      list(file = "script/scrap/scrap_carpla.R", desc = "Scraping raw data from Carpla"),
+      list(file = "script/scrap/scrap_banxehoicu.R", desc = "Scraping raw data from Banxehoicu")
     )
 
+    missing_files <- vapply(tasks, function(task) !file.exists(task$file), logical(1))
+    if (any(missing_files)) {
+      stop(sprintf(
+        "Missing pipeline task file(s): %s",
+        paste(vapply(tasks[missing_files], `[[`, character(1), "file"), collapse = ", ")
+      ))
+    }
+
     total_tasks <- length(tasks)
-    
+
     # Initialize overall progress bar
     cat("\nOverall Pipeline Progress:\n")
     pb <- txtProgressBar(min = 0, max = total_tasks, style = 3)

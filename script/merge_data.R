@@ -1,42 +1,66 @@
-# Merge all cleaned source CSV files into one master dataset.
-# Output: data/master_data.csv
-
-suppressPackageStartupMessages({
-  library(dplyr)
-  library(readr)
-})
+library(DBI)
+library(RSQLite)
+library(tidyverse)
+library(cli)
 
 source("script/utils.R")
 
-SCRIPT_NAME <- "merge_data.R"
-OUTPUT_FILE <- "data/master_data.csv"
+log_file <- "log.txt"
+input_dir <- "data/init_db/"
+output_db <- "data/master_data.db"
 
-merge_clean_data <- function() {
-  log_message(SCRIPT_NAME, "Starting merge of cleaned datasets.")
-
-  tryCatch({
-    clean_files <- list.files("data", pattern = "^data_.*_clean\\.csv$", full.names = TRUE)
-
-    if (length(clean_files) == 0) {
-      log_message(SCRIPT_NAME, "No clean CSV files found; writing empty master dataset.", "WARN")
-      master <- empty_car_data()
-    } else {
-      master <- clean_files %>%
-        lapply(function(path) readr::read_csv(path, show_col_types = FALSE, locale = locale(encoding = "UTF-8")) %>% align_schema()) %>%
-        bind_rows() %>%
-        distinct(url, .keep_all = TRUE) %>%
-        align_schema()
-    }
-
-    safe_write_csv(master, OUTPUT_FILE)
-    log_message(SCRIPT_NAME, sprintf("Merged %s files into %s master records.", length(clean_files), nrow(master)))
-    master
-  }, error = function(e) {
-    log_message(SCRIPT_NAME, e$message, "ERROR")
-    master <- empty_car_data()
-    safe_write_csv(master, OUTPUT_FILE)
-    master
-  })
+log_msg <- function(msg) {
+  cat(paste0("[", Sys.time(), "] [merge_data.R] - INFO: ", msg, "\n"), file = log_file, append = TRUE)
 }
 
-master_data <- merge_clean_data()
+log_msg("Starting merge of individual SQLite databases into master database.")
+
+# Ensure output directory exists
+output_dir <- dirname(output_db)
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir, recursive = TRUE)
+  log_msg(paste("Created output directory", output_dir))
+}
+
+# Find all individual DB files
+db_files <- list.files(input_dir, pattern = "^data_.*\\.db$", full.names = TRUE)
+
+if (length(db_files) == 0) {
+  log_msg("No individual SQLite databases found; creating empty master database.")
+  # Create empty master DB with proper schema
+  con_master <- dbConnect(SQLite(), dbname = output_db)
+  dbExecute(con_master, "CREATE TABLE IF NOT EXISTS car_listings ("\
+                "url TEXT PRIMARY KEY, "\
+                "brand TEXT, model TEXT, year INTEGER, price REAL, mileage REAL, "\
+                "location TEXT, color TEXT, fuel TEXT, transmission TEXT, "\
+                "engine TEXT, doors INTEGER, seats INTEGER, "\
+                "description TEXT, image_url TEXT, source TEXT, scraped_at TEXT);")
+  dbDisconnect(con_master)
+} else {
+  pb <- cli_progress_bar(total = length(db_files), format = "[:bar] :current/:total (:percent) :msg")
+  # Create master DB and ensure schema
+  con_master <- dbConnect(SQLite(), dbname = output_db)
+  dbExecute(con_master, "DROP TABLE IF EXISTS car_listings;")
+  dbExecute(con_master, "CREATE TABLE car_listings ("\
+                "url TEXT PRIMARY KEY, "\
+                "brand TEXT, model TEXT, year INTEGER, price REAL, mileage REAL, "\
+                "location TEXT, color TEXT, fuel TEXT, transmission TEXT, "\
+                "engine TEXT, doors INTEGER, seats INTEGER, "\
+                "description TEXT, image_url TEXT, source TEXT, scraped_at TEXT);")
+
+  total_records <- 0
+  for (db_path in db_files) {
+    website_name <- sub("^data_(.*)\\.db$", "\\1", basename(db_path))
+    con_ind <- dbConnect(SQLite(), dbname = db_path)
+    df <- dbReadTable(con_ind, "car_listings")
+    dbDisconnect(con_ind)
+    # Insert into master DB, ignoring duplicates via primary key constraint
+    dbWriteTable(con_master, "car_listings", df, append = TRUE, row.names = FALSE)
+    total_records <- total_records + nrow(df)
+    log_msg(paste0("Merged ", nrow(df), " records from ", db_path))
+    cli_progress_update(id = pb, set = 1, message = website_name)
+  }
+  cli_progress_done(pb)
+  dbDisconnect(con_master)
+  log_msg(paste0("Merging completed. Total records in master DB: ", total_records))
+}

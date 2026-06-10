@@ -1,70 +1,49 @@
-# Initialize SQLite database and import data/master_data.csv.
-# Output: data/master_data.db containing table car_listings.
-
-suppressPackageStartupMessages({
-  library(DBI)
-  library(RSQLite)
-  library(readr)
-  library(dplyr)
-})
+library(DBI)
+library(RSQLite)
+library(tidyverse)
+library(cli)
 
 source("script/utils.R")
 
-SCRIPT_NAME <- "init_database.R"
-DB_FILE <- "data/master_data.db"
-MASTER_FILE <- "data/master_data.csv"
-TABLE_NAME <- "car_listings"
+log_file <- "log.txt"
+clean_dir <- "data/clean/"
+output_dir <- "data/init_db/"
 
-init_database <- function() {
-  log_message(SCRIPT_NAME, "Starting SQLite database initialization.")
-
-  con <- DBI::dbConnect(RSQLite::SQLite(), DB_FILE)
-  on.exit(DBI::dbDisconnect(con), add = TRUE)
-
-  tryCatch({
-    DBI::dbExecute(con, sprintf("DROP TABLE IF EXISTS %s", TABLE_NAME))
-
-    DBI::dbExecute(con, sprintf(
-      "CREATE TABLE %s (
-        brand TEXT,
-        model TEXT,
-        trim TEXT,
-        year INTEGER,
-        body_type TEXT,
-        fuel_type TEXT,
-        transmission TEXT,
-        engine_size REAL,
-        seat_count INTEGER,
-        drivetrain TEXT,
-        price INTEGER,
-        mileage INTEGER,
-        origin TEXT,
-        color TEXT,
-        city TEXT,
-        posted_date TEXT,
-        source TEXT,
-        url TEXT PRIMARY KEY
-      )",
-      TABLE_NAME
-    ))
-
-    master <- if (file.exists(MASTER_FILE)) {
-      readr::read_csv(MASTER_FILE, show_col_types = FALSE, locale = locale(encoding = "UTF-8")) %>% align_schema()
-    } else {
-      empty_car_data()
-    }
-
-    if (nrow(master) > 0) {
-      master <- master %>% mutate(posted_date = as.character(posted_date))
-      DBI::dbWriteTable(con, TABLE_NAME, master, append = TRUE)
-    }
-
-    log_message(SCRIPT_NAME, sprintf("Initialized database with %s records.", nrow(master)))
-    invisible(TRUE)
-  }, error = function(e) {
-    log_message(SCRIPT_NAME, e$message, "ERROR")
-    invisible(FALSE)
-  })
+log_msg <- function(msg) {
+  cat(paste0("[", Sys.time(), "] [init_database.R] - INFO: ", msg, "\n"), file = log_file, append = TRUE)
 }
 
-init_database()
+log_msg("Starting per-source SQLite database initialization.")
+
+# Ensure output directory exists
+if (!dir.exists(output_dir)) {
+  dir.create(output_dir, recursive = TRUE)
+  log_msg(paste("Created output directory", output_dir))
+}
+
+# Find all cleaned CSV files
+clean_files <- list.files(clean_dir, pattern = "^data_.*_clean\\.csv$", full.names = TRUE)
+
+if (length(clean_files) == 0) {
+  log_msg("No cleaned CSV files found in data/clean/; nothing to process.")
+} else {
+  pb <- cli_progress_bar(total = length(clean_files), format = "[:bar] :current/:total (:percent) :msg")
+  for (csv_path in clean_files) {
+    website_name <- sub("^data_(.*)_clean\\.csv$", "\\1", basename(csv_path))
+    db_path <- file.path(output_dir, paste0("data_", website_name, ".db"))
+
+    # Read CSV
+    data_df <- read_csv(csv_path, show_col_types = FALSE)
+
+    # Connect and write to SQLite
+    con <- dbConnect(SQLite(), dbname = db_path)
+    dbWriteTable(con, "car_listings", data_df, overwrite = TRUE, row.names = FALSE)
+    # Ensure url column is primary key unique
+    dbExecute(con, "CREATE UNIQUE INDEX IF NOT EXISTS idx_url ON car_listings(url);")
+    dbDisconnect(con)
+
+    log_msg(paste0("Imported ", nrow(data_df), " records from ", csv_path, " into ", db_path))
+    cli_progress_update(id = pb, set = 1, message = website_name)
+  }
+  cli_progress_done(pb)
+}
