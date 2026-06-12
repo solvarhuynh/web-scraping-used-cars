@@ -1,2 +1,3 @@
 ﻿# web-scraping-used-cars
-chỉ có file data_bonbanh_clean.csv là dùng được=))
+ae sài đỡ data, sẽ cập nhập tiếp data + realtime vào tuần tới. tức nhiên là trước thứ 4
+
