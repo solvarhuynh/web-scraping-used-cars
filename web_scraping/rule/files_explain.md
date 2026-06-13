@@ -6,15 +6,15 @@ Below is a concise, human‑readable description of every important file in the 
 |----------------------------------------|----------------------------------------------------------------------------|
 | **README.md**                          | High‑level project description, usage notes, and quick‑start instructions for developers. 
 
-| **run_pipeline.R**                     | Orchestrates the full batch pipeline (scraping → cleaning → merging → DB init).
+| **run_pipeline.R**                     | Orchestrates the full batch pipeline (optional scraping → cleaning → validation → DB init → merge).
                       
 | **run_realtime.R**                     | Entry point for the real‑time update jobs (delta‑fetching).
                                           
 | **script/utils.R**                     | Shared utility library (logging, directory helpers, schema definitions, and cleaning functions).
      
-| **script/init_database.R**             | Initializes the SQLite database (`data/master_data.db`) and imports the consolidated CSV.
+| **script/init_database.R**             | Initializes per-source SQLite databases in `web_scraping/data/init_db/` from clean CSV files.
             
-| **script/merge_data.R**                | Merges all cleaned CSV files in `data/clean/` into `master_data.csv`, handling deduplication on `url`. 
+| **script/merge_data.R**                | Merges per-source SQLite databases into `web_scraping/data/master_data.db` and `web_scraping/data/master_data.csv`, handling deduplication on `url`. 
 
 | **script/clean/clean_chotot.R**        | Cleans raw Chợ Tốt data into a standardized format.
                                                   
@@ -42,7 +42,7 @@ Below is a concise, human‑readable description of every important file in the 
                                                                      
 | **data/clean/data_bonbanh_clean.csv**  | Sample cleaned dataset (kept for reference).
                                                          
-| **data/clean/master_data.csv**         | Result of the merge step – consolidated master file used by the pipeline before DB import.
+| **data/master_data.csv**               | Result of the merge step – consolidated master file used by visualization, modeling, and the app.
            
 | **data/raw/data_chotot_raw.csv**       | Raw CSV output from the Chợ Tốt batch scraper.
                                                        

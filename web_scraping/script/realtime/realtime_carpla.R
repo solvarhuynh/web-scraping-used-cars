@@ -75,7 +75,9 @@ run_realtime_carpla <- function(con) {
     )
 
     if (!is.null(detail) && nrow(detail) == 1) {
-      DBI::dbWriteTable(con, TABLE_NAME, detail, append = TRUE, row.names = FALSE)
+      detail_clean <- standardize_car_data(detail) %>% apply_business_rules()
+      if (nrow(detail_clean) != 1) next
+      DBI::dbWriteTable(con, TABLE_NAME, detail_clean, append = TRUE, row.names = FALSE)
       inserted <- inserted + 1L
       log_message(SCRIPT_NAME, sprintf("Inserted new listing %s (total %d).", url, inserted))
     }
@@ -90,7 +92,7 @@ run_realtime_carpla <- function(con) {
 # If run directly (e.g., via `Rscript script/realtime/realtime_carpla.R`),
 # open a DB connection for convenience.
 if (interactive()) {
-  con <- DBI::dbConnect(RSQLite::SQLite(), "data/master_data.db")
+  con <- DBI::dbConnect(RSQLite::SQLite(), "web_scraping/data/master_data.db")
   run_realtime_carpla(con)
   DBI::dbDisconnect(con)
 }

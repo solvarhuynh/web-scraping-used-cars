@@ -9,7 +9,7 @@ suppressPackageStartupMessages({
   library(purrr)
 })
 
-source("script/utils.R")
+source("web_scraping/script/utils.R")
 
 SCRIPT_NAME <- "realtime_bonbanh.R"
 DB_FILE <- "web_scraping/data/master_data.db"
@@ -101,13 +101,16 @@ scrape_detail_page <- function(url) {
   )
 }
 
-insert_new_bonbanh_records <- function() {
+insert_new_bonbanh_records <- function(con = NULL) {
   cat("\nStarting Bonbanh real-time delta fetch...\n")
   log_message(SCRIPT_NAME, "Starting Bonbanh real-time delta fetch.")
   
   if (!file.exists(DB_FILE)) stop("Database does not exist.")
-  con <- DBI::dbConnect(RSQLite::SQLite(), DB_FILE)
-  on.exit(DBI::dbDisconnect(con), add = TRUE)
+  owns_connection <- is.null(con)
+  if (owns_connection) {
+    con <- DBI::dbConnect(RSQLite::SQLite(), DB_FILE)
+    on.exit(DBI::dbDisconnect(con), add = TRUE)
+  }
   
   listing_page <- tryCatch(read_html(LISTING_URL), error = function(e) NULL)
   if (is.null(listing_page)) return(0L)
@@ -129,15 +132,20 @@ insert_new_bonbanh_records <- function() {
     raw_row <- tryCatch(scrape_detail_page(url), error = function(e) NULL)
     if (!is.null(raw_row) && nrow(raw_row) > 0) {
     
-      clean_row <- standardize_car_data(raw_row) %>% mutate(posted_date = as.character(posted_date))
+      clean_row <- standardize_car_data(raw_row) %>%
+        apply_business_rules() %>%
+        mutate(posted_date = as.character(posted_date))
       
-      DBI::dbWriteTable(con, TABLE_NAME, clean_row, append = TRUE)
-      inserted <- inserted + 1L
-      cat(sprintf("Inserted: %s\n", url))
+      if (nrow(clean_row) == 1) {
+        DBI::dbWriteTable(con, TABLE_NAME, clean_row, append = TRUE)
+        inserted <- inserted + 1L
+        cat(sprintf("Inserted: %s\n", url))
+      }
     }
     Sys.sleep(1) # Nghỉ để tránh block
   }
   cat(sprintf("Real-time fetch completed. %s new records inserted.\n", inserted))
+  inserted
 }
 
-insert_new_bonbanh_records()
+run_realtime_bonbanh <- insert_new_bonbanh_records

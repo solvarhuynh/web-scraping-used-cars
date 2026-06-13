@@ -82,15 +82,6 @@ clean_chotot <- function() {
   # ── BƯỚC 1: Giải mã mã số Chợ Tốt → giá trị text (chỉ khi là mã số) ────────
   df <- raw %>%
     mutate(
-      # Xử lý giá tiền: Định nghĩa tiền tỷ và triệu để không bị mất dữ liệu
-      price = {
-        p <- str_replace_all(price, ",", ".")
-        val_ty <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*t[ỷỉ])"))
-        val_tr <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*triệu)"))
-        total <- coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6
-        ifelse(total > 0, as.character(total), str_remove_all(price, "[^0-9]"))
-      },
-
       # Brand: nếu là mã số thì map, không thì giữ nguyên
       brand = ifelse(
         !is.na(brand) & str_detect(brand, "^[0-9]+$"),
@@ -133,7 +124,8 @@ clean_chotot <- function() {
   #   - clean_transmission: "Automatic"/"Manual" → "Tự động"/"Số sàn"
   #   - clean_body_type, clean_drivetrain, clean_origin
   #   - brand/model → UPPERCASE
-  df_final <- standardize_car_data(df)
+  df_final <- standardize_car_data(df) %>%
+    apply_business_rules()
 
   # ── BƯỚC 3: Ghi output ───────────────────────────────────────────────────────
   safe_write_csv(df_final, OUTPUT_FILE)

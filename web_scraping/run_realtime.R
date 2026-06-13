@@ -1,10 +1,17 @@
-# Orchestrator for Real-time Delta Fetching
-# Execute with: Rscript run_realtime.R
-# Purpose: Fetch only new records from Page 1 and append to SQLite database.
+# ==============================================================================
+# Script: run_realtime.R
+# Purpose: Fetch page-1 deltas and append valid new records to master SQLite DB
+# ==============================================================================
+
+suppressPackageStartupMessages({
+  library(DBI)
+  library(RSQLite)
+})
 
 source("web_scraping/script/utils.R")
 
-SCRIPT_NAME <- "run_realtime.R"
+SCRIPT_NAME <- "web_scraping/run_realtime.R"
+DB_FILE <- "web_scraping/data/master_data.db"
 
 run_realtime <- function() {
   log_message(SCRIPT_NAME, "Starting real-time delta fetch cycle.")
@@ -12,32 +19,53 @@ run_realtime <- function() {
   cat("   STARTING REAL-TIME UPDATE CYCLE\n")
   cat("========================================\n")
 
-  tryCatch({
-    # Danh sách các script realtime cần chạy
-    scripts <- c(
-      "web_scraping/script/realtime/realtime_chotot.R",
-      "web_scraping/script/realtime/realtime_carpla.R",
-      "web_scraping/script/realtime/realtime_banxehoicu.R",
-      "web_scraping/script/realtime/realtime_oto.R"
-    )
+  if (!file.exists(DB_FILE)) {
+    stop("Master database not found. Run web_scraping/run_pipeline.R first.")
+  }
 
-    for (script in scripts) {
-      if (file.exists(script)) {
-        source(script)
-      } else {
-        cat(sprintf("\n[WARN] Script not found: %s\n", script))
-        log_message(SCRIPT_NAME, sprintf("Script not found: %s", script), "WARN")
-      }
+  realtime_scripts <- list(
+    list(file = "web_scraping/script/realtime/realtime_chotot.R", fn = "run_realtime_chotot"),
+    list(file = "web_scraping/script/realtime/realtime_carpla.R", fn = "run_realtime_carpla"),
+    list(file = "web_scraping/script/realtime/realtime_banxehoicu.R", fn = "run_realtime_banxehoicu"),
+    list(file = "web_scraping/script/realtime/realtime_bonbanh.R", fn = "run_realtime_bonbanh")
+  )
+
+  con <- DBI::dbConnect(RSQLite::SQLite(), DB_FILE)
+  on.exit(DBI::dbDisconnect(con), add = TRUE)
+
+  inserted_total <- 0L
+
+  for (task in realtime_scripts) {
+    if (!file.exists(task$file)) {
+      log_message(SCRIPT_NAME, sprintf("Script not found: %s", task$file), "WARN")
+      next
     }
 
-    log_message(SCRIPT_NAME, "Real-time update cycle completed.")
-    cat("\n========================================\n")
-    cat("   REAL-TIME UPDATE COMPLETED! \n")
-    cat("========================================\n")
-  }, error = function(e) {
-    log_message(SCRIPT_NAME, e$message, "ERROR")
-    cat(sprintf("\n[ERROR] Real-time cycle failed: %s\n", e$message))
-  })
+    env <- new.env(parent = globalenv())
+    source(task$file, local = env)
+
+    if (!exists(task$fn, envir = env)) {
+      log_message(SCRIPT_NAME, sprintf("Function not found: %s in %s", task$fn, task$file), "ERROR")
+      next
+    }
+
+    inserted <- tryCatch(
+      get(task$fn, envir = env)(con),
+      error = function(e) {
+        log_message(SCRIPT_NAME, sprintf("%s failed: %s", task$fn, e$message), "ERROR")
+        0L
+      }
+    )
+
+    inserted_total <- inserted_total + as.integer(inserted)
+  }
+
+  log_message(SCRIPT_NAME, sprintf("Real-time update cycle completed with %d new rows.", inserted_total))
+  cat("\n========================================\n")
+  cat("   REAL-TIME UPDATE COMPLETED\n")
+  cat("========================================\n")
+
+  invisible(inserted_total)
 }
 
 run_realtime()

@@ -1,0 +1,19 @@
+CLEAN DATA VALIDATION REPORT
+Generated at: 2026-06-13 13:39:01
+Current year rule: <= 2026
+
+# A tibble: 4 × 15
+  file         source_name  rows schema_ok missing_cols extra_cols duplicate_url
+  <chr>        <chr>       <int> <lgl>     <chr>        <chr>              <int>
+1 web_scrapin… banxehoicu   2018 TRUE      ""           ""                     0
+2 web_scrapin… bonbanh      5821 TRUE      ""           ""                     0
+3 web_scrapin… carpla          0 TRUE      ""           ""                     0
+4 web_scrapin… chotot      17675 TRUE      ""           ""                     0
+# ℹ 8 more variables: missing_brand <int>, missing_model <int>,
+#   missing_url <int>, bad_year <int>, bad_price <int>, bad_mileage <int>,
+#   total_issues <int>, status <chr>
+
+Cross-source duplicate URLs: 0
+Total clean rows: 25514
+Schema OK for all files: TRUE
+Files needing check: 

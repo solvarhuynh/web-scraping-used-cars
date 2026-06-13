@@ -17,13 +17,13 @@ BRAND_FALLBACK <- c(
   "Mitsubishi", "VinFast", "Mercedes-Benz", "BMW"
 )
 REGIONS <- c(
-  "Hà Nội", "TP. Hồ Chí Minh", "Đà Nẵng", "Hải Phòng",
+  "Hà Nội", "Tp Hồ Chí Minh", "Đà Nẵng", "Hải Phòng",
   "Cần Thơ", "Bình Dương", "Đồng Nai"
 )
 FUELS <- c("Xăng", "Dầu", "Hybrid", "Điện")
-TRANSMISSIONS <- c("Số tự động", "Số sàn")
+TRANSMISSIONS <- c("Tự động", "Số sàn", "CVT")
 CONDITIONS <- c("Như mới", "Tốt", "Trung bình")
-ORIGINS <- c("Lắp ráp trong nước", "Nhập khẩu")
+ORIGINS <- c("Trong nước", "Nhập khẩu")
 CHART_COLORS <- c("#0f78c7", "#22b07d", "#e9a826", "#cf3f36", "#7657d6", "#45b8df")
 CURRENT_YEAR <- max(2026, as.integer(format(Sys.Date(), "%Y")))
 
@@ -33,9 +33,7 @@ first_existing_file <- function(paths) {
 }
 
 DATA_FILE_CANDIDATES <- c(
-  file.path("data", "data_bonbanh_clean.csv"),
-  file.path("data", "master_data.csv"),
-  "data_bonbanh_clean.csv"
+  file.path("web_scraping", "data", "master_data.csv")
 )
 MODEL_FILE_CANDIDATES <- c(
   file.path("machine_learning", "output_models.RData"),
@@ -93,9 +91,10 @@ get_price_ticks <- function(max_val) {
 clean_transmission <- function(x) {
   y <- tolower(trimws(as.character(x)))
   case_when(
-    y %in% c("automatic", "auto", "at", "cvt", "số tự động", "so tu dong", "tự động", "tu dong") ~ "Số tự động",
+    y %in% c("automatic", "auto", "at", "số tự động", "so tu dong", "tự động", "tu dong") ~ "Tự động",
+    y %in% c("cvt") ~ "CVT",
     y %in% c("manual", "mt", "robot", "số sàn", "so san", "sàn", "san") ~ "Số sàn",
-    TRUE ~ "Số tự động"
+    TRUE ~ "Tự động"
   )
 }
 
@@ -112,7 +111,7 @@ clean_fuel <- function(x) {
 
 clean_origin <- function(x) {
   y <- tolower(trimws(as.character(x)))
-  ifelse(grepl("nhập|nhap|import", y), "Nhập khẩu", "Lắp ráp trong nước")
+  ifelse(grepl("nhập|nhap|import", y), "Nhập khẩu", "Trong nước")
 }
 
 median_safe <- function(x) {
@@ -156,7 +155,7 @@ prepare_bonbanh_data <- function(raw) {
       transmission = clean_transmission(transmission),
       fuel_type = clean_fuel(fuel_type),
       origin = clean_origin(origin),
-      is_auto = as.integer(transmission == "Số tự động"),
+      is_auto = as.integer(transmission %in% c("Tự động", "CVT")),
       is_imported = as.integer(origin == "Nhập khẩu"),
       price_segment = factor(
         case_when(
@@ -171,8 +170,8 @@ prepare_bonbanh_data <- function(raw) {
         body_type %in% c("SUV", "Crossover") ~ "SUV/Crossover",
         body_type == "Sedan" ~ "Sedan",
         body_type %in% c("Hatchback", "Wagon") ~ "Hatchback/Wagon",
-        body_type == "Van/Minivan" ~ "Van/Minivan",
-        body_type %in% c("Bán tải / Pickup", "Truck") ~ "Bán tải/Truck",
+        body_type %in% c("Van/Minibus", "Van/Minivan") ~ "Van/Minibus",
+        body_type %in% c("Bán tải", "Bán tải / Pickup", "Pickup", "Truck") ~ "Bán tải/Truck",
         TRUE ~ "Khác"
       ),
       cluster_id = NA_integer_,
@@ -220,7 +219,7 @@ data_clean <- source_data %>%
     origin = clean_origin(origin),
     region = ifelse(is.na(city) | city == "", "Không rõ", trimws(as.character(city))),
     age = CURRENT_YEAR - year,
-    is_auto = as.integer(transmission == "Số tự động"),
+    is_auto = as.integer(transmission %in% c("Tự động", "CVT")),
     is_imported = as.integer(origin == "Nhập khẩu"),
     price_segment = factor(price_segment, levels = c("Phổ thông", "Tầm trung", "Khá", "Cao cấp")),
     condition = case_when(
@@ -250,7 +249,7 @@ TRANSMISSIONS <- sort(unique(data_clean$transmission))
 PRICE_MAX <- ceiling(max(data_clean$price, na.rm = TRUE) / 1e8) * 1e8
 KM_MAX <- ceiling(max(data_clean$km, na.rm = TRUE) / 10000) * 10000
 DEFAULT_BRAND <- if ("TOYOTA" %in% BRANDS) "TOYOTA" else BRANDS[1]
-DEFAULT_REGION <- if ("TP HCM" %in% REGIONS) "TP HCM" else if ("Hà Nội" %in% REGIONS) "Hà Nội" else REGIONS[1]
+DEFAULT_REGION <- if ("Tp Hồ Chí Minh" %in% REGIONS) "Tp Hồ Chí Minh" else if ("TP HCM" %in% REGIONS) "TP HCM" else if ("Hà Nội" %in% REGIONS) "Hà Nội" else REGIONS[1]
 DEFAULT_YEAR <- min(2022, max(YEARS))
 
 models_for_brand <- function(brand) {
@@ -273,7 +272,7 @@ top_one <- function(df, col) {
 
 kpis <- function(df = data_clean) {
   total <- nrow(df)
-  auto <- sum(df$transmission == "Số tự động", na.rm = TRUE)
+  auto <- sum(df$transmission %in% c("Tự động", "CVT"), na.rm = TRUE)
   list(
     total = total,
     medianPrice = median_safe(df$price),
@@ -331,7 +330,7 @@ estimate_price <- function(form) {
     car_age = max(0, CURRENT_YEAR - form$year),
     mileage_k = max(0, form$km / 1000),
     engine_size = form$engine_size,
-    is_auto = as.integer(form$transmission == "Số tự động"),
+    is_auto = as.integer(form$transmission %in% c("Tự động", "CVT")),
     is_imported = as.integer(form$origin == "Nhập khẩu"),
     seat_count = form$seat_count
   )
@@ -349,13 +348,13 @@ estimate_price <- function(form) {
       median_safe(data_clean$price)
     }
     km_adj <- 1 - min(0.25, (form$km / 200000) * 0.25)
-    trans_adj <- if (form$transmission == "Số tự động") 1.02 else 0.97
+    trans_adj <- if (form$transmission %in% c("Tự động", "CVT")) 1.02 else 0.97
     point <- base * km_adj * trans_adj
     source <- "Heuristic fallback"
   }
 
   condition_adj <- if (form$condition == "Như mới") 1.04 else if (form$condition == "Tốt") 1 else 0.94
-  region_adj <- if (form$region %in% c("TP HCM", "TP. Hồ Chí Minh", "Hà Nội")) 1.015 else 1
+  region_adj <- if (form$region %in% c("Tp Hồ Chí Minh", "TP HCM", "TP. Hồ Chí Minh", "Hà Nội")) 1.015 else 1
   point <- max(5e7, point * condition_adj * region_adj)
 
   reg_metrics <- artifact("reg_metrics", list(r_squared = 0.55, rmse_billion = 0.7))
@@ -1073,11 +1072,11 @@ ui <- fluidPage(
                 filter_select("Dòng xe", "est_model", models_for_brand(DEFAULT_BRAND)),
                 filter_select("Năm sản xuất", "est_year", setNames(rev(YEARS), rev(YEARS)), DEFAULT_YEAR),
                 field("Số km đã đi", numericInput("est_km", NULL, value = 60000, min = 0, step = 1000, width = "100%")),
-                filter_select("Hộp số", "est_transmission", TRANSMISSIONS, "Số tự động"),
+                filter_select("Hộp số", "est_transmission", TRANSMISSIONS, "Tự động"),
                 filter_select("Nhiên liệu", "est_fuel", FUELS, "Xăng"),
                 field("Dung tích động cơ (L)", numericInput("est_engine", NULL, value = 2.0, min = 0.4, max = 12.7, step = 0.1, width = "100%")),
                 field("Số chỗ ngồi", numericInput("est_seats", NULL, value = 5, min = 2, max = 47, step = 1, width = "100%")),
-                filter_select("Nguồn gốc", "est_origin", ORIGINS, "Lắp ráp trong nước"),
+                filter_select("Nguồn gốc", "est_origin", ORIGINS, "Trong nước"),
                 filter_select("Khu vực", "est_region", REGIONS, DEFAULT_REGION),
                 filter_select("Tình trạng xe", "est_condition", CONDITIONS, "Tốt")
               ),
@@ -1207,11 +1206,11 @@ server <- function(input, output, session) {
     updateSelectInput(session, "est_model", choices = models_for_brand(DEFAULT_BRAND), selected = default_model)
     updateSelectInput(session, "est_year", selected = DEFAULT_YEAR)
     updateNumericInput(session, "est_km", value = 60000)
-    updateSelectInput(session, "est_transmission", selected = "Số tự động")
+    updateSelectInput(session, "est_transmission", selected = "Tự động")
     updateSelectInput(session, "est_fuel", selected = "Xăng")
     updateNumericInput(session, "est_engine", value = median_lookup(DEFAULT_BRAND, default_model, "engine_size", 2))
     updateNumericInput(session, "est_seats", value = median_lookup(DEFAULT_BRAND, default_model, "seat_count", 5))
-    updateSelectInput(session, "est_origin", selected = "Lắp ráp trong nước")
+    updateSelectInput(session, "est_origin", selected = "Trong nước")
     updateSelectInput(session, "est_region", selected = DEFAULT_REGION)
     updateSelectInput(session, "est_condition", selected = "Tốt")
   })
@@ -1233,7 +1232,7 @@ server <- function(input, output, session) {
 
   output$hero_total <- renderText(paste0(num(base_kpis()$total), " mẫu xe"))
   output$hero_regions <- renderText(paste0(num(length(REGIONS)), " tỉnh/thành"))
-  output$overview_gauge <- renderUI(gauge_arc(base_kpis()$automaticRatio, paste0(round(base_kpis()$automaticRatio * 100), "%"), "Số tự động"))
+  output$overview_gauge <- renderUI(gauge_arc(base_kpis()$automaticRatio, paste0(round(base_kpis()$automaticRatio * 100), "%"), "Tự động/CVT"))
   output$kpi_total <- renderText(num(base_kpis()$total))
   output$kpi_median <- renderText(format_vnd(base_kpis()$medianPrice))
   output$kpi_km <- renderText(format_km(base_kpis()$meanKm))
@@ -1957,11 +1956,11 @@ server <- function(input, output, session) {
       model = model,
       year = as.integer(input$est_year %||% DEFAULT_YEAR),
       km = as.numeric(input$est_km %||% 60000),
-      transmission = input$est_transmission %||% "Số tự động",
+      transmission = input$est_transmission %||% "Tự động",
       fuel = input$est_fuel %||% "Xăng",
       engine_size = as.numeric(input$est_engine %||% median_lookup(brand, model, "engine_size", 2)),
       seat_count = as.numeric(input$est_seats %||% median_lookup(brand, model, "seat_count", 5)),
-      origin = input$est_origin %||% "Lắp ráp trong nước",
+      origin = input$est_origin %||% "Trong nước",
       region = input$est_region %||% DEFAULT_REGION,
       condition = input$est_condition %||% "Tốt"
     )

@@ -3,9 +3,7 @@
 # File này dùng để thống kê mô tả và tính xác suất
 # ============================================================
 
-setwd("D:/Trung Khang/Documents/R_programming/Project_cuoiky/web-scraping-used-cars/Xác suất thống kê mô tả")
-
-OUTPUT_DIR <- "output_probability_statistics"
+OUTPUT_DIR <- "insights/descriptive_analytics/output_probability_statistics"
 CLEAN_FILE <- file.path(OUTPUT_DIR, "00_data_da_lam_sach.csv")
 
 if (!file.exists(CLEAN_FILE)) {
@@ -149,8 +147,8 @@ freq_age_group <- freq_table(data_clean$age_group, "age_group")
 freq_price_scale <- freq_table(data_clean$price_scale, "price_scale")
 
 basic_prob <- data.frame(
-  bien_co = c("P(Automatic)", "P(Manual)", "P(CVT)", "P(Gia cao >= Q75)", "P(Mileage cao >= Q75)", "P(Xe moi 0-3 nam)", "P(Xe tren 12 nam)"),
-  so_luong = c(sum(data_clean$transmission == "Automatic", na.rm = TRUE), sum(data_clean$transmission == "Manual", na.rm = TRUE), sum(data_clean$transmission == "CVT", na.rm = TRUE), sum(data_clean$is_high_price, na.rm = TRUE), sum(data_clean$is_high_mileage, na.rm = TRUE), sum(data_clean$age_group == "0-3 nam", na.rm = TRUE), sum(data_clean$age_group == "Tren 12 nam", na.rm = TRUE))
+  bien_co = c("P(Tự động)", "P(Số sàn)", "P(CVT)", "P(Gia cao >= Q75)", "P(Mileage cao >= Q75)", "P(Xe moi 0-3 nam)", "P(Xe tren 12 nam)"),
+  so_luong = c(sum(data_clean$transmission == "Tự động", na.rm = TRUE), sum(data_clean$transmission == "Số sàn", na.rm = TRUE), sum(data_clean$transmission == "CVT", na.rm = TRUE), sum(data_clean$is_high_price, na.rm = TRUE), sum(data_clean$is_high_mileage, na.rm = TRUE), sum(data_clean$age_group == "0-3 nam", na.rm = TRUE), sum(data_clean$age_group == "Tren 12 nam", na.rm = TRUE))
 )
 basic_prob$xac_suat <- basic_prob$so_luong / n
 basic_prob$xac_suat_pct <- format_pct(basic_prob$xac_suat)
@@ -169,16 +167,16 @@ joint_tab$xac_suat_ket_hop <- joint_tab$so_luong / n
 joint_tab$xac_suat_ket_hop_pct <- format_pct(joint_tab$xac_suat_ket_hop)
 
 bayes_auto_new <- data.frame(
-  cong_thuc = "P(0-3 nam | Automatic)",
-  so_xe_automatic_va_moi = sum(data_clean$transmission == "Automatic" & data_clean$age_group == "0-3 nam", na.rm = TRUE),
-  tong_xe_automatic = sum(data_clean$transmission == "Automatic", na.rm = TRUE)
+  cong_thuc = "P(0-3 nam | Tự động)",
+  so_xe_automatic_va_moi = sum(data_clean$transmission == "Tự động" & data_clean$age_group == "0-3 nam", na.rm = TRUE),
+  tong_xe_automatic = sum(data_clean$transmission == "Tự động", na.rm = TRUE)
 )
 bayes_auto_new$xac_suat <- ifelse(bayes_auto_new$tong_xe_automatic == 0, NA, bayes_auto_new$so_xe_automatic_va_moi / bayes_auto_new$tong_xe_automatic)
 bayes_auto_new$xac_suat_pct <- format_pct(bayes_auto_new$xac_suat)
 
 # KIỂM ĐỊNH THỐNG KÊ GIẢ THUYẾT
 test_results <- data.frame(kiem_dinh = character(), thong_ke = character(), p_value = numeric(), ket_luan = character(), stringsAsFactors = FALSE)
-data_ttest <- data_clean[data_clean$transmission %in% c("Automatic", "Manual"), ]
+data_ttest <- data_clean[data_clean$transmission %in% c("Tự động", "Số sàn"), ]
 
 if (length(unique(data_ttest$transmission)) == 2 && all(table(data_ttest$transmission) >= 2)) {
   ttest <- t.test(price ~ transmission, data = data_ttest)

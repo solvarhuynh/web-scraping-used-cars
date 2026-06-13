@@ -1,21 +1,26 @@
 # ==============================================================================
 # Script: merge_data.R
-# Purpose: Merge all per-source SQLite databases into one master database
+# Purpose: Merge all per-source SQLite databases into master DB and CSV
 # Input : web_scraping/data/init_db/data_*.db
-# Output: web_scraping/data/raw/master_data.db
-# Requires: web_scraping/script/utils.R
+# Output: web_scraping/data/master_data.db, web_scraping/data/master_data.csv
 # ==============================================================================
 
-library(DBI)
-library(RSQLite)
-library(cli)
+suppressPackageStartupMessages({
+  library(DBI)
+  library(RSQLite)
+  library(readr)
+  library(dplyr)
+  library(cli)
+})
 
 source("web_scraping/script/utils.R")
 
-INPUT_DIR <- "web_scraping/data/init_db/"
+SCRIPT_NAME <- "web_scraping/script/merge_data.R"
+INPUT_DIR <- "web_scraping/data/init_db"
 OUTPUT_DB <- "web_scraping/data/master_data.db"
+OUTPUT_CSV <- "web_scraping/data/master_data.csv"
+TABLE_NAME <- "car_listings"
 
-# SQL tạo bảng đúng theo 18-cột canonical schema (clean_rule.md)
 CREATE_TABLE_SQL <- "
   CREATE TABLE IF NOT EXISTS car_listings (
     brand        TEXT,
@@ -28,7 +33,7 @@ CREATE_TABLE_SQL <- "
     engine_size  REAL,
     seat_count   INTEGER,
     drivetrain   TEXT,
-    price        INTEGER,
+    price        REAL,
     mileage      INTEGER,
     origin       TEXT,
     color        TEXT,
@@ -39,63 +44,82 @@ CREATE_TABLE_SQL <- "
   );
 "
 
-log_message("merge_data.R", "Starting merge of individual SQLite databases into master database.")
-
-# Đảm bảo thư mục output tồn tại
-output_dir_path <- dirname(OUTPUT_DB)
-if (!dir.exists(output_dir_path)) {
-  dir.create(output_dir_path, recursive = TRUE)
-  log_message("merge_data.R", paste("Created output directory:", output_dir_path))
+coerce_master_types <- function(df) {
+  align_schema(df) %>%
+    mutate(
+      year = suppressWarnings(as.integer(year)),
+      engine_size = suppressWarnings(as.numeric(engine_size)),
+      seat_count = suppressWarnings(as.integer(seat_count)),
+      price = suppressWarnings(as.numeric(price)),
+      mileage = suppressWarnings(as.integer(mileage)),
+      posted_date = as.character(posted_date)
+    )
 }
 
-# Tìm tất cả file DB riêng lẻ
-db_files <- list.files(INPUT_DIR, pattern = "^data_.*\\.db$", full.names = TRUE)
+merge_data <- function() {
+  dir.create(dirname(OUTPUT_DB), recursive = TRUE, showWarnings = FALSE)
+  log_message(SCRIPT_NAME, "Starting merge of individual SQLite databases into master outputs.")
 
-if (length(db_files) == 0) {
-  log_message("merge_data.R", "No individual SQLite databases found; creating empty master database.", "WARN")
-  con_master <- dbConnect(SQLite(), dbname = OUTPUT_DB)
-  dbExecute(con_master, CREATE_TABLE_SQL)
-  dbDisconnect(con_master)
-} else {
-  pb <- cli_progress_bar(
-    total  = length(db_files),
-    format = "[:bar] :current/:total (:percent)"
-  )
+  db_files <- list.files(INPUT_DIR, pattern = "^data_.*\\.db$", full.names = TRUE)
 
-  # Tạo/mở master DB và reset bảng
   con_master <- dbConnect(SQLite(), dbname = OUTPUT_DB)
+  on.exit(dbDisconnect(con_master), add = TRUE)
+
   dbExecute(con_master, "DROP TABLE IF EXISTS car_listings;")
   dbExecute(con_master, CREATE_TABLE_SQL)
 
-  total_records <- 0L
+  if (!length(db_files)) {
+    log_message(SCRIPT_NAME, "No individual SQLite databases found; creating empty master outputs.", "WARN")
+  } else {
+    pb <- cli_progress_bar(total = length(db_files), format = "[:bar] :current/:total (:percent)")
 
-  for (db_path in db_files) {
-    website_name <- sub("^data_(.*)\\.db$", "\\1", basename(db_path))
+    for (i in seq_along(db_files)) {
+      db_path <- db_files[[i]]
+      source_name <- sub("^data_(.*)\\.db$", "\\1", basename(db_path))
 
-    tryCatch({
-      con_src <- dbConnect(SQLite(), dbname = db_path)
-      df      <- dbReadTable(con_src, "car_listings")
-      dbDisconnect(con_src)
+      tryCatch({
+        con_src <- dbConnect(SQLite(), dbname = db_path)
+        df <- dbReadTable(con_src, TABLE_NAME)
+        dbDisconnect(con_src)
 
-      # Chèn vào master, bỏ qua duplicate theo PRIMARY KEY (url)
-      dbWriteTable(con_master, "car_listings", df, append = TRUE, row.names = FALSE)
-      total_records <- total_records + nrow(df)
+        df <- coerce_master_types(df)
 
-      log_message("merge_data.R", sprintf(
-        "Merged %d records from %s", nrow(df), db_path
-      ))
-    }, error = function(e) {
-      log_message("merge_data.R", sprintf("Failed for %s: %s", website_name, e$message), "ERROR")
-    })
+        tmp_table <- paste0("tmp_", source_name)
+        dbWriteTable(con_master, tmp_table, df, overwrite = TRUE, row.names = FALSE)
 
-    cli_progress_update(id = pb, set = which(db_files == db_path))
+        cols <- paste(CANONICAL_COLS, collapse = ", ")
+        insert_sql <- sprintf(
+          "INSERT OR IGNORE INTO %s (%s) SELECT %s FROM %s;",
+          TABLE_NAME, cols, cols, tmp_table
+        )
+        inserted <- dbExecute(con_master, insert_sql)
+        dbExecute(con_master, sprintf("DROP TABLE IF EXISTS %s;", tmp_table))
+
+        log_message(SCRIPT_NAME, sprintf(
+          "Merged %d/%d records from %s", inserted, nrow(df), db_path
+        ))
+      }, error = function(e) {
+        log_message(SCRIPT_NAME, sprintf("Failed for %s: %s", source_name, e$message), "ERROR")
+      })
+
+      cli_progress_update(id = pb, set = i)
+    }
+
+    cli_progress_done(pb)
   }
 
-  cli_progress_done(pb)
-  dbDisconnect(con_master)
+  master_df <- dbReadTable(con_master, TABLE_NAME) %>%
+    align_schema() %>%
+    arrange(source, brand, model, year)
 
-  log_message("merge_data.R", sprintf(
-    "=== Merge complete. Total records in master DB: %d → %s ===",
-    total_records, OUTPUT_DB
+  readr::write_csv(master_df, OUTPUT_CSV, na = "")
+
+  log_message(SCRIPT_NAME, sprintf(
+    "=== Merge complete. %d unique records -> %s and %s ===",
+    nrow(master_df), OUTPUT_DB, OUTPUT_CSV
   ))
+
+  invisible(master_df)
 }
+
+merge_data()

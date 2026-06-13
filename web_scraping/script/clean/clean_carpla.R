@@ -1,5 +1,10 @@
-# Clean Carpla raw data.
-# Output: data/clean/data_carpla_clean.csv
+# ==============================================================================
+# Script: clean_carpla.R
+# Purpose: Clean & standardise scraped raw data from carpla.vn
+# Input : web_scraping/data/raw/data_carpla_raw.csv
+# Output: web_scraping/data/clean/data_carpla_clean.csv
+# Requires: web_scraping/script/utils.R
+# ==============================================================================
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -7,60 +12,84 @@ suppressPackageStartupMessages({
   library(stringr)
 })
 
-source("script/utils.R")
+source("web_scraping/script/utils.R")
 
-SCRIPT_NAME <- "clean_carpla.R"
-INPUT_FILE <- "web_scraping/data/raw/data_carpla_raw.csv"
+SCRIPT_NAME <- "web_scraping/script/clean/clean_carpla.R"
+INPUT_FILE  <- "web_scraping/data/raw/data_carpla_raw.csv"
 OUTPUT_FILE <- "web_scraping/data/clean/data_carpla_clean.csv"
-DISPLAY_NAME <- "Carpla"
 
-clean_carpla <- function() {
-  dir.create("data/clean", showWarnings = FALSE, recursive = TRUE)
-  log_message(SCRIPT_NAME, sprintf("Starting %s cleaning.", DISPLAY_NAME))
+infer_carpla_title_fields <- function(df) {
+  title <- normalize_na(df$brand)
+  words <- str_split(str_squish(ifelse(is.na(title), "", title)), "\\s+")
 
-  if (!file.exists(INPUT_FILE)) {
-    log_message(SCRIPT_NAME, "Input file not found.", "ERROR")
-    return(invisible(NULL))
-  }
+  inferred_brand <- vapply(words, function(w) {
+    if (!length(w) || w[1] == "") return(NA_character_)
+    w[1]
+  }, character(1))
 
-  raw <- readr::read_csv(INPUT_FILE, col_types = cols(.default = "c"), locale = locale(encoding = "UTF-8"))
+  inferred_model <- vapply(words, function(w) {
+    if (length(w) < 2) return(NA_character_)
+    w[2]
+  }, character(1))
 
-  if (nrow(raw) == 0) {
-    log_message(SCRIPT_NAME, "Raw data is empty.", "WARN")
-    return(invisible(NULL))
-  }
+  inferred_year <- str_extract(title, "(?<![0-9])(?:19|20)[0-9]{2}(?![0-9])")
 
-  # -------------------------------------------------------------------
-  # Basic sanitisation & numeric conversion according to clean_rule.md
-  # -------------------------------------------------------------------
-  df_cleaned <- raw %>%
-    # Trim whitespace and normalise empty strings to NA
-    mutate(across(everything(), ~ ifelse(is.na(.x) || str_trim(.x) == "" || str_to_lower(.x) %in% c("na", "n/a", "null", "unknown", "không rõ"), NA_character_, str_squish(.x)))) %>%
-    # Parse price (VND), mileage (km), engine size (L), year, seat count, posted date
+  inferred_trim <- mapply(function(w, yr) {
+    if (length(w) < 3) return(NA_character_)
+    tail_words <- w[3:length(w)]
+    tail_text <- str_squish(paste(tail_words, collapse = " "))
+    if (!is.na(yr)) tail_text <- str_squish(str_remove(tail_text, fixed(yr)))
+    tail_text <- str_remove(tail_text, regex("\\b(màu|color)\\b.*$", ignore_case = TRUE))
+    ifelse(tail_text == "", NA_character_, tail_text)
+  }, words, inferred_year, USE.NAMES = FALSE)
+
+  df %>%
     mutate(
-      # Xử lý giá tiền (Tỷ/Triệu)
-      price = {
-        p <- str_replace_all(price, ",", ".")
-        val_ty <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*t[ỷỉ])"))
-        val_tr <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*triệu)"))
-        coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6
-      },
-      mileage = parse_integer_value(mileage),
-      engine_size = parse_engine_size(engine_size),
-      year = parse_integer_value(year),
-      seat_count = parse_integer_value(seat_count),
-      posted_date = parse_posted_date(posted_date)
-    ) %>%
-    # Apply the global canonical schema helper (adds missing columns, reorders)
-    align_schema()
-
-  # Use the higher‑level standardiser to ensure brand/model uppercase and other text cleaning
-  df_final <- standardize_car_data(df_cleaned)
-
-  safe_write_csv(df_final, OUTPUT_FILE)
-  log_message(SCRIPT_NAME, sprintf("Finished %s cleaning with %s rows.", DISPLAY_NAME, nrow(df_final)))
-  return(df_final)
+      trim = coalesce(normalize_na(trim), inferred_trim),
+      year = coalesce(normalize_na(year), inferred_year),
+      model = coalesce(normalize_na(model), inferred_model),
+      brand = inferred_brand
+    )
 }
 
-# Execute automatically when sourced
-carpla_clean <- clean_carpla()
+clean_carpla <- function() {
+  dir.create(dirname(OUTPUT_FILE), showWarnings = FALSE, recursive = TRUE)
+  log_message(SCRIPT_NAME, "=== Bắt đầu cleaning dữ liệu Carpla ===")
+
+  if (!file.exists(INPUT_FILE)) {
+    log_message(SCRIPT_NAME, paste("Input file not found:", INPUT_FILE), "ERROR")
+    return(invisible(NULL))
+  }
+
+  raw <- readr::read_csv(
+    INPUT_FILE,
+    col_types = cols(.default = "c"),
+    locale = locale(encoding = "UTF-8"),
+    show_col_types = FALSE
+  )
+
+  if (nrow(raw) == 0) {
+    log_message(SCRIPT_NAME, "Raw data rỗng.", "WARN")
+    empty_df <- align_schema(data.frame())
+    safe_write_csv(empty_df, OUTPUT_FILE)
+    return(invisible(empty_df))
+  }
+
+  log_message(SCRIPT_NAME, sprintf("Đọc được %d dòng từ %s", nrow(raw), INPUT_FILE))
+
+  df_clean <- raw %>%
+    infer_carpla_title_fields() %>%
+    standardize_car_data() %>%
+    apply_business_rules()
+
+  safe_write_csv(df_clean, OUTPUT_FILE)
+
+  log_message(SCRIPT_NAME, sprintf(
+    "=== Hoàn thành. %d dòng đã được lưu tại: %s ===",
+    nrow(df_clean), OUTPUT_FILE
+  ))
+
+  invisible(df_clean)
+}
+
+clean_carpla()

@@ -18,7 +18,12 @@ OPTIMAL_K <- 4
 set.seed(42)
 model_kmeans <- kmeans(df_scaled, centers = OPTIMAL_K, nstart = 25, iter.max = 100)
 
-sil          <- silhouette(model_kmeans$cluster, dist(df_scaled))
+sil_idx <- seq_len(nrow(df_scaled))
+if (length(sil_idx) > 5000) {
+  set.seed(42)
+  sil_idx <- sample(sil_idx, 5000)
+}
+sil <- silhouette(model_kmeans$cluster[sil_idx], dist(df_scaled[sil_idx, , drop = FALSE]))
 avg_silhouette <- round(mean(sil[, 3]), 4)
 
 cluster_profiles_raw <- aggregate(

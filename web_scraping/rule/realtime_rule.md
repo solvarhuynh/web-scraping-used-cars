@@ -6,13 +6,13 @@
 
 ## 1. Database Architecture
 
-- **Primary store:** SQLite (`RSQLite`) located at `data/master_data.db`.
+- **Primary store:** SQLite (`RSQLite`) located at `web_scraping/data/master_data.db`.
 - **Schema:** Must contain the canonical 18‑column layout defined in `script/utils.R`.
 - **Uniqueness:** Column `url` is declared `UNIQUE` and indexed (primary key) to enable O(1) look‑ups.
 - **Transactional inserts:** All new rows for a realtime run are wrapped in a single transaction and committed only after the loop finishes or breaks.
 
 ```r
-con <- dbConnect(RSQLite::SQLite(), "data/master_data.db")
+con <- dbConnect(RSQLite::SQLite(), "web_scraping/data/master_data.db")
 
 dbExecute(con, """
 CREATE TABLE IF NOT EXISTS car_listings (
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS car_listings (
 - Scripts in `script/realtime/` **must not duplicate** any HTML parsing, Chromote session handling, or helper utilities.
 - Instead, each realtime script **sources** its corresponding batch scraper:
   ```r
-  source("d:/R program/project/web_scraping/script/scrap/scrap_<site>.R")  # pulls in all helper functions
+  source("web_scraping/script/scrap/scrap_<site>.R")  # pulls in all helper functions
   ```
 - The detail‑scraping function (e.g., `scrape_car()` for Chợ Tốt) lives **only** in the batch scraper. Realtime scripts call that function directly, guaranteeing identical field extraction between batch and realtime pipelines.
 

@@ -49,17 +49,6 @@ clean_banxehoicu <- function() {
   df <- raw %>%
     filter(!brand %in% c("brand", "Brand"))
 
-  # Xử lý giá tiền đặc thù (Tỷ/Triệu) trước khi standardize
-  df <- df %>%
-    mutate(price = {
-      p <- str_replace_all(price, ",", ".")
-      val_ty <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*t[ỷỉ])"))
-      val_tr <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*triệu)"))
-      as.character(coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6)
-      total <- coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6
-      ifelse(total > 0, as.character(total), str_remove_all(price, "[^0-9]"))
-    })
-
   # ── BƯỚC 2: Áp dụng toàn bộ cleaning chung từ utils.R ───────────────────────
   # Bao gồm:
   #   - normalize_na: empty/"NA"/"Đang cập nhật"/"-" → NA
@@ -77,10 +66,8 @@ clean_banxehoicu <- function() {
     filter(!is.na(brand) & brand != "") %>%
     # Xóa các hãng xe tải (brand đã được standardize thành UPPERCASE)
     filter(!brand %in% c("DONGFENG", "HINO", "ISUZU", "JAC", "FAW")) %>%
-    # Chuẩn hóa tên Tp Hồ Chí Minh
-    mutate(city = ifelse(str_detect(city, regex("Hồ Chí Minh|HCM", ignore_case = TRUE)), "Tp Hồ Chí Minh", city)) %>%
-    # Xóa URL trùng (giữ lại dòng đầu tiên)
-    distinct(url, .keep_all = TRUE)
+    # Áp business rule chung: year/price/mileage/url/model hợp lệ và URL duy nhất
+    apply_business_rules()
 
   # ── BƯỚC 3: Ghi output ───────────────────────────────────────────────────────
   safe_write_csv(df_clean, OUTPUT_FILE)
