@@ -7166,3 +7166,13 @@
 [2026-06-13 01:56:57] [merge_data.R] - INFO: Merged 5971 records from web_scraping/data/init_db/data_bonbanh.db
 [2026-06-13 01:56:57] [merge_data.R] - INFO: Merged 18082 records from web_scraping/data/init_db/data_chotot.db
 [2026-06-13 01:56:57] [merge_data.R] - INFO: === Merge complete. Total records in master DB: 26466 → web_scraping/data/master_data.db ===
+[2026-06-13 16:20:46] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-13 16:20:47] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean/data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-13 16:20:47] [init_database.R] - INFO: Imported 5821 records from web_scraping/data/clean/data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-13 16:20:48] [init_database.R] - INFO: Imported 17675 records from web_scraping/data/clean/data_chotot_clean.csv into web_scraping/data/init_db//data_chotot.db
+[2026-06-13 16:20:48] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-13 16:21:04] [merge_data.R] - INFO: Starting merge of individual SQLite databases into master database.
+[2026-06-13 16:21:04] [merge_data.R] - INFO: Merged 2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-13 16:21:04] [merge_data.R] - INFO: Merged 5821 records from web_scraping/data/init_db/data_bonbanh.db
+[2026-06-13 16:21:05] [merge_data.R] - INFO: Merged 17675 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-13 16:21:05] [merge_data.R] - INFO: === Merge complete. Total records in master DB: 25514 → web_scraping/data/master_data.db ===
