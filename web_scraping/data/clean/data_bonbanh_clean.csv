@@ -31,7 +31,6 @@ HYUNDAI,SANTAFE,CAO CẤP HTRAC,2022,SUV,Xăng,Tự động,2.5,7,4WD,985000000,
 HONDA,CIVIC,G,2020,Sedan,Xăng,Tự động,1.8,5,FWD,550000000,45000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-civic-g-1.8-at-2020-6834502
 LEXUS,RX,350 F SPORT,2021,SUV,Xăng,Tự động,3.5,5,4WD,3398000000,58000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-f-sport-2021-6834028
 BMW,7,SERIES 730LI,2018,Sedan,Xăng,Tự động,2,5,RWD,1590000000,110000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-7_series-730li-2018-6711770
-JAGUAR,F,,,SUV,Xăng,Tự động,3,5,4WD,1189000000,58000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jaguar-f-pace-r-sport-2016-6511485
 BMW,5,SERIES 520I,2018,Sedan,Xăng,Tự động,1.6,5,RWD,979000000,46000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-5_series-520i-2018-6784256
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1499000000,49000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6808427
 LEXUS,RX,300,2021,SUV,Xăng,Tự động,2,5,4WD,2789000000,32000,Nhập khẩu,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-300-2021-6783808
@@ -97,7 +96,6 @@ MERCEDES BENZ,C,CLASS C200 AVANTGARDE PLUS,2023,Sedan,Xăng,Tự động,1.5,5,R
 FORD,RANGER,XLS 4X2,2020,Bán tải,Dầu,Tự động,2.2,5,RWD,478000000,109000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2020-6830316
 BENTLEY,FLYING,SPUR V8,2022,Sedan,Xăng,Tự động,4,5,RWD,13500000000,16000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bentley-flying_spur-v8-2022-6801065
 AUDI,Q5,45 TFSI QUATTRO,2021,SUV,Xăng,Tự động,2,5,4WD,1539000000,39000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q5-45-tfsi-quattro-2021-6803263
-ROLLS ROYCE,CULLINAN,V12,2022,SUV,Xăng,Tự động,6.7,4,4WD,33999000000,13999,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-rolls_royce-cullinan-6.75-v12-2022-6795617
 BMW,X3,SDRIVE20I M SPORT,2024,SUV,Xăng,Tự động,2,5,RWD,1868000000,17000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x3-sdrive20i-m-sport-2024-6777430
 PORSCHE,CAYENNE,COUPE,2023,SUV,Xăng,Tự động,3,5,4WD,6499000000,26000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-cayenne-coupe-2023-6768991
 MERCEDES BENZ,ML,CLASS ML400 AMG 4MATIC,2014,SUV,Xăng,Tự động,3,5,4WD,789000000,110000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-ml_class-ml400-amg-4matic-2014-6535370
@@ -122,16 +120,9 @@ BMW,5,SERIES 520I,2018,Sedan,Xăng,Tự động,1.6,5,RWD,959000000,52000,Nhập
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1499000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6829219
 FORD,RANGER,XLS 4X2,2021,Bán tải,Dầu,Tự động,2.2,5,RWD,525000000,36000,Nhập khẩu,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2021-6834490
 TOYOTA,YARIS,CROSS HEV,2026,SUV,Hybrid,Tự động,1.5,5,FWD,684000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-hev-1.5-cvt-2026-6618788
-SUBARU,OUTBACK,I,,SUV,Xăng,Tự động,2.5,5,4WD,1625000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-outback-2.5i-t-eyesight-2025-6691194
-SUBARU,OUTBACK,I,,SUV,Xăng,Tự động,2.5,5,4WD,1625000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-outback-2.5i-t-eyesight-2025-6276143
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2.5,5,FWD,1399000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.5i-s-eyesight-2026-6690764
-SUBARU,CROSSTREK,I,,SUV,Xăng,Tự động,2,5,4WD,899000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-crosstrek-2.0-i-s-eyesight-2024-6030578
-SUBARU,CROSSTREK,I,,SUV,Xăng,Tự động,2,5,4WD,899000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-crosstrek-2.0-i-s-eyesight-2024-6283628
 FORD,RANGER,XLS 4X2,2025,Bán tải,Dầu,Tự động,2,5,RWD,640000000,11000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2025-6808245
 SUBARU,WRX,EYESIGHT,2025,Sedan,Xăng,Tự động,2.4,5,4WD,1799000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-wrx-2.4-cvt-eyesight-2025-6691235
 SUBARU,BRZ,EYESIGHT,2026,Coupe,Xăng,Tự động,2.4,4,RWD,1649000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-brz-2.4-at-eyesight-2026-6691208
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,839000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-l-eyesight-2024-5288981
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,889000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-eyesight-2024-4513961
 VINFAST,LIMO,GREEN,2025,SUV,Điện,Tự động,,7,FWD,675000000,9000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2025-6803464
 TOYOTA,INNOVA,CROSS HEV,2026,Crossover,Hybrid,Tự động,2,7,FWD,921000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-hev-2.0-cvt-2026-6575008
 FORD,RANGER,RAPTOR 4X4,2025,Bán tải,Dầu,Tự động,2,5,4WD,1190000000,2990,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-raptor-2.0l-4x4-at-2025-6822089
@@ -150,7 +141,6 @@ LEXUS,LX,570,2016,SUV,Xăng,Tự động,5.7,7,4WD,5200000000,140000,Nhập kh�
 AUDI,A8,L V6 TFSI,2016,Sedan,Xăng,Tự động,3,5,4WD,1199000000,89000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a8-l-v6-3.0-tfsi-2016-6780181
 MAZDA,CX5,DELUXE,2024,SUV,Xăng,Tự động,2,5,FWD,620000000,47000,Trong nước,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-deluxe-2.0-at-2024-6834464
 KIA,MORNING,SLX,2005,Hatchback,Xăng,Tự động,1,5,FWD,100000000,200000,Nhập khẩu,Màu khác,Thái Nguyên,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-slx-1.0-at-2005-6834461
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,585000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6150444
 HYUNDAI,CRETA,ĐẶC BIỆT,2022,SUV,Xăng,Tự động,1.5,5,FWD,539000000,83000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-creta-dac-biet-1.5-at-2022-6797222
 MERCEDES BENZ,C,CLASS C300 AMG,2022,Sedan,Xăng,Tự động,2,5,RWD,1498000000,59000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2022-6744104
 FORD,RANGER,RAPTOR 4X4,2023,Bán tải,Dầu,Tự động,2,5,4WD,985000000,39000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-raptor-2.0l-4x4-at-2023-6834467
@@ -178,7 +168,6 @@ VINFAST,EC,VAN NÂNG CAO CỬA TRƯỢT,2026,MPV,Điện,Tự động,,2,FWD,283
 MERCEDES BENZ,C,CLASS C300 AMG,2019,Sedan,Xăng,Tự động,2,5,RWD,799000000,65000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2019-6830237
 KIA,CARNIVAL,SIGNATURE D,2022,MPV,Dầu,Tự động,2.2,7,FWD,1079000000,85000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2022-6807798
 MAZDA,3,LUXURY,2022,Sedan,Xăng,Tự động,1.5,5,FWD,505000000,48000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2022-6832565
-NISSAN,NAVARA,PRO,,Bán tải,Dầu,Tự động,2.3,5,4WD,655000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-pro-4x-2.3-at-4wd-2022-6825057
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2021,SUV,Xăng,Tự động,2.5,7,4WD,940000000,13000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2021-6827991
 MERCEDES BENZ,S,CLASS S450 4MATIC LUXURY,2022,Sedan,Xăng,Tự động,3,5,4WD,3488000000,30000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-luxury-2022-6822046
 HONDA,CRV,L,2024,SUV,Xăng,Tự động,1.5,7,FWD,968000000,10000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-l-2024-6833403
@@ -370,7 +359,6 @@ MERCEDES BENZ,E,CLASS E300 AMG,2022,Sedan,Xăng,Tự động,2,5,RWD,1950000000,
 MERCEDES BENZ,GLC,200 4MATIC,2020,SUV,Xăng,Tự động,2,5,4WD,1320000000,25000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2020-6372671
 PORSCHE,MACAN,4 EV,2025,Crossover,Điện,Tự động,,5,4WD,3930000000,6000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-macan-4-ev-2025-6554533
 MERCEDES BENZ,C,CLASS C200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,1020000000,24000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2021-6789997
-DAEWOO,LANOS,BẢN THƯỜNG,2003,Sedan,Xăng,Số sàn,1.5,5,FWD,28000000,180000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-daewoo-lanos-1.5-mt-2003-6727026
 CADILLAC,ESCALADE,ESV PREMIUM,2015,SUV,Xăng,Tự động,6.2,7,4WD,2780000000,48000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-cadillac-escalade-esv-premium-2015-6709725
 MERCEDES BENZ,S,CLASS S450L,2020,Sedan,Xăng,Tự động,3,5,RWD,2450000000,8000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-2020-6369647
 LANDROVER,RANGE,ROVER HSE,2016,SUV,Xăng,Tự động,3,5,4WD,2340000000,22000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-hse-3.0-2016-6773277
@@ -384,7 +372,6 @@ FORD,TERRITORY,TITANIUM,2026,SUV,Xăng,Tự động,1.5,5,FWD,720000000,,Trong n
 LEXUS,ES,250,2019,Sedan,Xăng,Tự động,2.5,5,FWD,1750000000,40000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-es-250-2019-6548390
 MERCEDES BENZ,GLS,450 4MATIC,2023,SUV,Xăng,Tự động,3,7,4WD,4680000000,14000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gls-450-4matic-2023-6691132
 BMW,Z4,SDRIVE30I M SPORT,2021,Mui trần,Xăng,Tự động,2,2,RWD,1990000000,40000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-z4-sdrive30i-m-sport-2021-6792527
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,5090000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-se-2.0-2021-3082618
 KIA,SONET,LUXURY,2022,Crossover,Xăng,Tự động,1.5,5,FWD,478000000,50000,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-luxury-1.5-at-2022-6786102
 DONGFENG,MAGE,HEV E3,2025,SUV,Hybrid,Tự động,1.5,5,FWD,969000000,,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-dongfeng-mage-hev-e3-2025-6504683
 LEXUS,ES,250 F SPORT,2022,Sedan,Xăng,Tự động,2.5,5,FWD,2220000000,10000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-es-250-f-sport-2022-6382511
@@ -526,7 +513,6 @@ MERCEDES BENZ,GLS,450 4MATIC,2025,SUV,Xăng,Tự động,3,7,4WD,5680000000,6000
 BMW,X4,XDRIVE20I M SPORT,2020,SUV,Xăng,Tự động,2,5,4WD,1850000000,25000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x4-xdrive20i-m-sport-2020-6130156
 FORD,ESCAPE,XLS 4X2,2012,SUV,Xăng,Tự động,2.3,5,FWD,250000000,0,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-escape-xls-2.3l-4x2-at-2012-6809448
 LEXUS,RX,350H PREMIUM,2026,SUV,Hybrid,Tự động,2.5,5,4WD,3350000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350h-premium-2026-6763261
-FORD,MUSTANG,MACH,,SUV,Điện,Tự động,,5,4WD,1649000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-mustang-mach-e-premium-awd-2025-6740563
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1550000000,68000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6693076
 VOLKSWAGEN,TOUAREG,ELEGANCE TSI,2024,SUV,Xăng,Tự động,2,5,4WD,2368000000,,Nhập khẩu,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-touareg-elegance-2.0-tsi-2024-6193405
 VOLVO,XC60,ULTIMATE BRIGHT B6 AWD,2024,SUV,Xăng,Tự động,2,5,4WD,1770000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc60-ultimate-bright-b6-awd-2024-6827849
@@ -560,11 +546,9 @@ AUDI,Q7,BẢN THƯỜNG,2007,SUV,Xăng,Tự động,3.6,7,4WD,295000000,0,Nhập
 MERCEDES BENZ,S,CLASS S500L,2011,Sedan,Xăng,Tự động,4.7,5,RWD,595000000,140000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s500l-2011-6634176
 BMW,7,SERIES 730D,2004,Sedan,Dầu,Tự động,3,5,RWD,415000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-7_series-730d-2004-6035786
 MERCEDES BENZ,C,CLASS C250 EXCLUSIVE,2015,Sedan,Xăng,Tự động,2,5,RWD,579000000,72000,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c250-exclusive-2015-6740672
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,2090000000,63000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-2.0-2018-6284247
 MERCEDES BENZ,S,CLASS S450 4MATIC LUXURY,2022,Sedan,Xăng,Tự động,3,5,4WD,3538000000,50000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-luxury-2022-6797215
 VINFAST,FADIL,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,290000000,51000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-2021-6687605
 VINFAST,LIMO,GREEN,2025,SUV,Điện,Tự động,,7,FWD,690000000,,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2025-6652386
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,629000000,,Nhập khẩu,Xanh,Khánh Hòa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6089460
 FORD,TERRITORY,TITANIUM,2026,SUV,Xăng,Tự động,1.5,5,FWD,719000000,,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-1.5-at-2026-6798699
 KIA,MORNING,SLX,2009,Hatchback,Xăng,Tự động,1,5,FWD,155000000,0,Nhập khẩu,Xanh,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-slx-1.0-at-2009-6740128
 BMW,Z4,SDRIVE20I M SPORT,2023,Mui trần,Xăng,Tự động,2,2,RWD,2716000000,,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-z4-sdrive20i-m-sport-2023-6716071
@@ -613,7 +597,6 @@ VOLVO,S90,INSCRIPTION LWB B6 AWD,2022,Sedan,Hybrid,Tự động,2,5,4WD,14380000
 HYUNDAI,I10,GRAND BASE,2017,Hatchback,Xăng,Số sàn,1.2,5,FWD,175000000,80000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-grand-1.2-mt-base-2017-6788333
 TOYOTA,COROLLA,CROSS V,2023,SUV,Xăng,Tự động,1.8,5,FWD,735000000,46000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2023-6833366
 TOYOTA,VIOS,E,2023,Sedan,Xăng,Tự động,1.5,5,FWD,405000000,63000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-e-cvt-2023-6829020
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,639000000,4400,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6832849
 TOYOTA,FORTUNER,G 4X2,2017,SUV,Dầu,Số sàn,2.4,7,RWD,590000000,80000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-mt-2017-6739750
 HYUNDAI,SANTAFE,SLX,2009,SUV,Dầu,Tự động,2,7,FWD,330000000,80000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-slx-2009-6702972
 TOYOTA,CAMRY,G,2004,Sedan,Xăng,Số sàn,2.4,5,FWD,160000000,80000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.4g-2004-6657026
@@ -664,7 +647,6 @@ HONDA,CIVIC,E:HEV RS,2026,Sedan,Hybrid,Tự động,2,5,FWD,944000000,,Nhập kh
 MITSUBISHI,XPANDER,BẢN THƯỜNG,2021,SUV,Xăng,Tự động,1.5,7,FWD,412000000,88000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-1.5-at-2021-6834316
 LANDROVER,RANGE,ROVER AUTOBIOGRAPHY,2014,SUV,Xăng,Tự động,5,4,4WD,2279000000,86000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-autobiography-5.0-2014-6184385
 MERCEDES BENZ,G,CLASS G63 AMG,2015,SUV,Xăng,Tự động,5.5,5,4WD,4989000000,50000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-g_class-g63-amg-2015-5989106
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,623000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-5386648
 KIA,OPTIMA,BẢN THƯỜNG,2016,Sedan,Xăng,Tự động,2,5,FWD,419000000,80000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-optima-2.0-at-2016-6757225
 BMW,X3,XDRIVE20I,2026,SUV,Hybrid,Tự động,2,5,4WD,2169000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x3-xdrive20i-2026-6713570
 BMW,3,SERIES 320I,2018,Sedan,Xăng,Tự động,2,5,RWD,759000000,70000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-3_series-320i-2018-6157847
@@ -717,7 +699,6 @@ HONDA,CRV,E:HEV RS,2023,SUV,Hybrid,Tự động,2,5,FWD,1165000000,34000,Nhập 
 TOYOTA,YARIS,CROSS HEV,2026,SUV,Hybrid,Tự động,1.5,5,FWD,685000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-hev-1.5-cvt-2026-6678212
 FORD,RANGER,WILDTRAK 4X4,2018,Bán tải,Dầu,Tự động,2,5,4WD,550000000,94000,Nhập khẩu,Trắng,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2018-6789212
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,630000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6764016
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,508000000,20000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-dac-biet-2024-6719137
 TOYOTA,PRADO,VX,2018,SUV,Xăng,Tự động,2.7,7,4WD,1780000000,100000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2018-6697272
 MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2022,Sedan,Xăng,Tự động,3,4,4WD,6629000000,20000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-maybach-2022-6694214
 PORSCHE,PANAMERA,4 EXECUTIVE,2018,Sedan,Xăng,Tự động,3,4,RWD,3890000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-panamera-4-executive-2018-6651889
@@ -728,7 +709,6 @@ ISUZU,DMAX,LS 4X2,2019,Bán tải,Dầu,Số sàn,1.9,5,RWD,355000000,66000,Nh�
 VINFAST,LUX,A PREMIUM,2019,Sedan,Xăng,Tự động,2,5,RWD,550000000,37000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_a_2.0-premium-2.0-at-2019-6834296
 MERCEDES BENZ,GLA,CLASS GLA 45 AMG 4MATIC,2014,SUV,Xăng,Tự động,2,5,4WD,545000000,150000,Nhập khẩu,Hồng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gla_class-gla-45-amg-4matic-2014-6417935
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,444000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6823763
-TOYOTA,INNOVA,G,2011,Crossover,Xăng,Số sàn,2,8,RWD,200000000,2050000,Trong nước,Ghi,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-g-2011-6793963
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,690000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6744178
 HYUNDAI,TUCSON,CRDI ĐẶC BIỆT,2021,Crossover,Dầu,Tự động,2,5,FWD,666000000,70000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-crdi-dac-biet-2021-6705090
 HYUNDAI,ACCENT,CAO CẤP,2024,Sedan,Xăng,Tự động,1.5,5,FWD,495000000,26000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-cao-cap-1.5-at-2024-6707373
@@ -739,7 +719,6 @@ VOLVO,S90,INSCRIPTION LWB B6 AWD,2022,Sedan,Xăng,Tự động,2,5,4WD,168900000
 MAZDA,CX5,PREMIUM SPORT,2025,SUV,Xăng,Tự động,2,5,FWD,769000000,,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-sport-2.0-at-2025-6710936
 KIA,SELTOS,LUXURY,2026,Crossover,Xăng,Tự động,1.5,5,FWD,614000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-seltos-luxury-1.5-at-2026-6530886
 HYUNDAI,SANTAFE,SLX,2008,SUV,Dầu,Tự động,2,7,FWD,248000000,180000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-slx-2008-6811422
-TOYOTA,CAMRY,G,2012,Sedan,Xăng,Tự động,2.5,5,FWD,420000000,1200000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.5g-2012-6821317
 HYUNDAI,KONA,TIÊU CHUẨN,2021,SUV,Xăng,Tự động,2,5,FWD,458000000,7000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-kona-tieu-chuan-2.0-at-2021-6811432
 HYUNDAI,TUCSON,ATH,2020,Crossover,Xăng,Tự động,2,5,FWD,618000000,70000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-ath-2020-6811413
 HYUNDAI,SANTAFE,4WD,2018,SUV,Xăng,Tự động,2.4,7,4WD,628000000,45000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-2.4l-4wd-2018-6814829
@@ -768,7 +747,6 @@ MERCEDES BENZ,GLC,200 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,2139000000,30,
 BMW,X6,XDRIVE40I M SPORT,2024,SUV,Xăng,Tự động,3,5,4WD,3789000000,,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x6-xdrive40i-m-sport-2024-5765936
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,630000000,,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6834274
 HONDA,CIVIC,BẢN THƯỜNG,2008,Sedan,Xăng,Tự động,2,5,FWD,199000000,140000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-civic-2.0-at-2008-6834285
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Dầu,Tự động,2,5,FWD,775000000,1,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-2.0d-2022-6819460
 TOYOTA,YARIS,CROSS HEV,2023,SUV,Hybrid,Tự động,1.5,5,FWD,658000000,0,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-hev-1.5-cvt-2023-6770613
 MERCEDES BENZ,GL,400 4MATIC,2015,SUV,Xăng,Tự động,3,7,4WD,899000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gl-400-4matic-2015-6677760
 MERCEDES BENZ,C,CLASS C300 AMG,2021,Sedan,Xăng,Tự động,2,5,RWD,1080000000,0,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2021-6597157
@@ -780,7 +758,6 @@ TOYOTA,CAMRY,Q,2017,Sedan,Xăng,Tự động,2.5,5,FWD,629000000,0,Trong nước
 MERCEDES BENZ,C,CLASS C300 AMG,2016,Sedan,Xăng,Tự động,2,5,RWD,655000000,0,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2016-6774766
 MAZDA,CX5,PREMIUM SPORT,2025,SUV,Xăng,Tự động,2,5,FWD,789000000,4000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-sport-2.0-at-2025-6785469
 MERCEDES BENZ,G,CLASS G63 AMG,2014,SUV,Xăng,Tự động,5.5,5,4WD,4329000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-g_class-g63-amg-2014-6681861
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,588000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6682609
 MERCEDES BENZ,GLE,CLASS GLE 450 4MATIC COUPE,2022,Coupe,Hybrid,Tự động,3,5,4WD,2998000000,32222,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gle_class-gle-450-4matic-coupe-2022-6684429
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,229000000,0,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6778933
 HYUNDAI,CRETA,CAO CẤP,2022,SUV,Xăng,Tự động,1.5,5,FWD,579000000,55000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-creta-cao-cap-1.5-at-2022-6715667
@@ -823,7 +800,6 @@ MG,5,BẢN THƯỜNG,2024,Sedan,Xăng,Số sàn,1.5,5,FWD,295000000,12000,Nhập
 MERCEDES BENZ,GLK,CLASS 280 4MATIC,2009,SUV,Xăng,Tự động,3,5,4WD,348000000,88000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glk_class-280-4matic-2009-6809434
 TOYOTA,LAND,CRUISER V6,2026,SUV,Xăng,Tự động,3.4,7,4WD,4580000000,,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2026-6138984
 HONDA,CRV,E:HEV RS,2026,SUV,Hybrid,Tự động,2,5,FWD,1215000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-e-hev-rs-2026-6785637
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,588000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6757522
 JEEP,WRANGLER,RUBICON 4X4,2022,SUV,Xăng,Tự động,2,5,4WD,2699000000,37000,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jeep-wrangler-rubicon-2.0-4x4-at-2022-6738545
 MAZDA,3,S,2014,Sedan,Xăng,Tự động,1.6,5,FWD,289000000,120000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-s-1.6-at-2014-6738048
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,644000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6510861
@@ -833,7 +809,6 @@ BMW,X3,XDRIVE20I,2017,SUV,Xăng,Tự động,2,5,4WD,739000000,48000,Nhập kh�
 TOYOTA,YARIS,CROSS HEV,2026,SUV,Hybrid,Tự động,1.5,5,FWD,695000000,,Nhập khẩu,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-hev-1.5-cvt-2026-6644767
 TOYOTA,INNOVA,CROSS V,2026,Crossover,Xăng,Tự động,2,8,FWD,805000000,,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0v-cvt-2026-6829708
 MAZDA,CX5,BẢN THƯỜNG,2016,SUV,Xăng,Tự động,2.5,5,FWD,454000000,80000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-at-2016-6790697
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,2090000000,81000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-2.0-2018-6756966
 LEXUS,LM,300H,2021,MPV,Hybrid,Tự động,2.5,7,4WD,4950000000,50000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lm-300h-2021-6605592
 MERCEDES BENZ,G,CLASS G63 AMG,2014,SUV,Xăng,Tự động,5.5,5,4WD,4350000000,140000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-g_class-g63-amg-2014-6206793
 LANDROVER,RANGE,ROVER VOGUE LWB I6,2019,SUV,Xăng,Tự động,3,5,4WD,5180000000,64000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-vogue-lwb-3.0-i6-2019-5911362
@@ -871,7 +846,6 @@ TOYOTA,COROLLA,CROSS HEV,2026,SUV,Hybrid,Tự động,1.8,5,FWD,850000000,,Nhậ
 MERCEDES BENZ,E,CLASS E200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,1300000000,87000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-exclusive-2021-6508287
 VOLKSWAGEN,VILORAN,LUXURY,2025,MPV,Xăng,Tự động,2,7,FWD,2288000000,,Nhập khẩu,Đen,Nghệ An,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-luxury-2025-5304258
 FORD,ECOSPORT,TITANIUM,2020,SUV,Xăng,Tự động,1.5,5,FWD,379000000,86000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ecosport-titanium-1.5l-at-2020-6803075
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,595000000,60000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-eyesight-2019-6810212
 NISSAN,X,TRAIL V SERIES SV LUXURY 4WD,2019,SUV,Xăng,Tự động,2.5,7,4WD,579000000,50000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-x_trail-v-series-2.5-sv-luxury-4wd-2019-6128044
 HYUNDAI,SANTAFE,HTRAC,2018,SUV,Dầu,Tự động,2.2,7,4WD,695000000,69000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-2.2l-htrac-2018-6834266
 MERCEDES BENZ,GLS,450 4MATIC,2022,SUV,Xăng,Tự động,3,7,4WD,3750000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gls-450-4matic-2022-6805260
@@ -884,7 +858,6 @@ HONDA,BR,V G,2025,SUV,Xăng,Tự động,1.5,7,FWD,570000000,39000,Nhập khẩu
 MITSUBISHI,XPANDER,CROSS,2025,SUV,Xăng,Tự động,1.5,7,FWD,638000000,19000,Nhập khẩu,Trắng,Bà Rịa Vũng Tàu,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-cross-1.5-at-2025-6817947
 TOYOTA,FORTUNER,TRD SPORTIVO 4X2,2016,SUV,Xăng,Tự động,2.7,7,RWD,475000000,110000,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-trd-sportivo-4x2-at-2016-6812540
 LEXUS,LX,570 SUPER SPORT,2019,SUV,Xăng,Tự động,5.7,7,4WD,6299000000,103000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-super-sport-2019-6787038
-JAGUAR,F,,,SUV,Xăng,Tự động,2,5,4WD,1199000000,0,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jaguar-f-pace-r-sport-2.0-at-awd-2018-6722979
 MERCEDES BENZ,GLB,35 4MATIC,2022,SUV,Xăng,Tự động,2,7,4WD,1659000000,17777,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glb-35-4matic-2022-6699523
 MAZDA,3,LUXURY,2022,Sedan,Xăng,Tự động,1.5,5,FWD,515000000,47000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2022-6694165
 FORD,RANGER,XLS 4X2,2026,Bán tải,Dầu,Tự động,2,5,RWD,622000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2026-4877188
@@ -897,7 +870,6 @@ HONDA,CRV,L,2026,SUV,Xăng,Tự động,1.5,7,FWD,1044000000,,Trong nước,Đen
 FORD,ECOSPORT,TITANIUM,2016,SUV,Xăng,Tự động,1.5,5,FWD,260000000,0,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ecosport-titanium-1.5l-at-2016-6778357
 MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2019,Sedan,Xăng,Tự động,3,4,4WD,3559000000,54000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-maybach-2019-6777761
 SUZUKI,XL7,HYBRID,2026,SUV,Hybrid,Tự động,1.5,7,FWD,560000000,,Nhập khẩu,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-hybrid-1.5-at-2026-6759358
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,3179000000,30000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-se-2.0-2022-6749165
 KIA,SEDONA,DAT DELUXE,2021,MPV,Dầu,Tự động,2.2,7,FWD,727000000,16000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sedona-2.2-dat-deluxe-2021-6711456
 MERCEDES BENZ,S,CLASS S350,2007,Sedan,Xăng,Tự động,3.5,5,RWD,270000000,195000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s350-2007-6778570
 FORD,RANGER,XLS 4X2,2022,Bán tải,Dầu,Tự động,2.2,5,RWD,519000000,58000,Trong nước,Trắng,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2022-6738566
@@ -948,7 +920,6 @@ HYUNDAI,ACCENT,ĐẶC BIỆT,2024,Sedan,Xăng,Tự động,1.5,5,FWD,449000000,3
 ISUZU,NPR,85KE5 THÙNG KÍN,2026,Truck,Dầu,Số sàn,3,3,RWD,811000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-npr-85ke5-thung-kin-2026-6729913
 VINFAST,VF8,S,2024,SUV,Điện,Tự động,,5,FWD,745000000,26,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-s-2024-6584468
 MERCEDES BENZ,S,CLASS S400L,2016,Sedan,Xăng,Tự động,3,5,RWD,1199000000,105000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s400l-2016-6680005
-VOLVO,XC90,PLUG,,SUV,Hybrid,Tự động,2,7,4WD,4370000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc90-plug-in-hybrid-ultra-t8-awd-2025-3855305
 MERCEDES BENZ,E,CLASS E180,2022,Sedan,Xăng,Tự động,1.5,5,RWD,1299000000,56000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e180-2022-6785029
 BMW,X5,XDRIVE40I M SPORT,2024,SUV,Xăng,Tự động,3,5,4WD,3699000000,5800,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x5-xdrive40i-m-sport-2024-6714714
 LEXUS,GX,460,2016,SUV,Xăng,Tự động,4.6,7,4WD,2390000000,123000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-gx-460-2016-6800478
@@ -977,7 +948,6 @@ KIA,SONET,PREMIUM,2024,Crossover,Xăng,Tự động,1.5,5,FWD,555000000,20000,Tr
 HONDA,HRV,G,2025,Crossover,Xăng,Tự động,1.5,5,FWD,655000000,25000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-hrv-g-2025-6821630
 MAZDA,CX5,LUXURY,2024,SUV,Xăng,Tự động,2,5,FWD,708000000,30000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-luxury-2.0-at-2024-6767228
 MITSUBISHI,PAJERO,SPORT G STD 4X4,2017,SUV,Xăng,Tự động,3,7,4WD,660000000,61000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-pajero-sport-3.0g-std-4x4-at-2017-6834258
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,570000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2024-6834249
 LANDROVER,DEFENDER,110 X P400,2020,SUV,Xăng,Tự động,3,7,4WD,4699000000,33000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-defender-110-x-p400-3.0-at-2020-6812095
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1499000000,40000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6803916
 BMW,7,SERIES 730LI,2018,Sedan,Xăng,Tự động,2,5,RWD,1839000000,26888,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-7_series-730li-2018-6772869
@@ -994,7 +964,6 @@ FORD,TERRITORY,TITANIUM,2023,SUV,Xăng,Tự động,1.5,5,FWD,715000000,20000,Tr
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2021,SUV,Xăng,Tự động,2.5,7,4WD,898000000,81000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2021-6820146
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2023,SUV,Xăng,Tự động,2.5,7,4WD,1110000000,16000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2023-6824078
 LANDROVER,DISCOVERY,HSE LUXURY,2015,SUV,Xăng,Tự động,3,7,4WD,749000000,91000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-discovery-hse-luxury-2015-6763178
-FORD,MUSTANG,MACH,,SUV,Điện,Tự động,,5,4WD,1659000000,,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-mustang-mach-e-premium-awd-2025-6761939
 TOYOTA,FORTUNER,V 4X2,2018,SUV,Xăng,Tự động,2.7,7,RWD,699000000,80000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2018-6819133
 TOYOTA,COROLLA,CROSS V,2022,SUV,Xăng,Tự động,1.8,5,FWD,659000000,63000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2022-6818552
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,447000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6821610
@@ -1132,7 +1101,6 @@ ISUZU,DMAX,LS 4X2,2016,Bán tải,Dầu,Số sàn,2.5,5,RWD,270000000,340000,Nh�
 TOYOTA,PRADO,VX,2019,SUV,Xăng,Tự động,2.7,7,4WD,1860000000,150000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2019-6732744
 LANDROVER,RANGE,ROVER HSE,2016,SUV,Xăng,Tự động,3,5,4WD,2490000000,70000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-hse-3.0-2016-6832813
 TOYOTA,SIENNA,LIMITED,2016,MPV,Xăng,Tự động,3.5,7,FWD,1450000000,80000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-sienna-limited-3.5-2016-6833065
-NISSAN,KICKS,E,,SUV,Hybrid,Tự động,1.2,5,FWD,639000000,32000,Nhập khẩu,Cam,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-kicks-e-power-v-2023-6707973
 MAZDA,3,LUXURY,2022,Sedan,Xăng,Tự động,1.5,5,FWD,528000000,59000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2022-6799697
 HYUNDAI,STARGAZER,CAO CẤP,2022,MPV,Xăng,Tự động,1.5,7,FWD,445000000,72000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-stargazer-cao-cap-1.5-at-2022-6709174
 TOYOTA,INNOVA,E,2023,Crossover,Xăng,Số sàn,2,8,RWD,618000000,74000,Trong nước,Đồng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-e-2.0-mt-2023-6625889
@@ -1158,8 +1126,6 @@ VOLKSWAGEN,TOUAREG,LUXURY TSI,2024,SUV,Xăng,Tự động,2,5,4WD,2768000000,,Nh
 HONDA,JAZZ,RS,2019,Hatchback,Xăng,Tự động,1.5,5,FWD,348000000,60000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-jazz-rs-2019-6820865
 FORD,TERRITORY,TITANIUM X,2025,SUV,Xăng,Tự động,1.5,5,FWD,785000000,10000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2025-6823678
 TOYOTA,PRADO,VX,2018,SUV,Xăng,Tự động,2.7,7,4WD,1720000000,140000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2018-6815485
-VOLVO,S60,T5 R,,Sedan,Xăng,Tự động,2,5,4WD,958000000,24999,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-s60-t5-r-design-awd-2020-6796797
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,588000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6751684
 KIA,CARNIVAL,PREMIUM D 8S,2025,MPV,Dầu,Tự động,2.2,8,FWD,1450000000,2000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-premium-2.2d-8s-2025-6721588
 MERCEDES BENZ,C,CLASS C200 AVANTGARDE,2023,Sedan,Xăng,Tự động,1.5,5,RWD,1258000000,21000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-2023-6799531
 LEXUS,ES,250,2018,Sedan,Xăng,Tự động,2.5,5,FWD,1470000000,80000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-es-250-2018-6817752
@@ -1177,12 +1143,10 @@ BMW,3,SERIES 320I SPORT LINE,2024,Sedan,Xăng,Tự động,2,5,RWD,1379000000,24
 LEXUS,LX,570,2014,SUV,Xăng,Tự động,5.7,7,4WD,2885000000,140000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-2014-6813347
 HYUNDAI,CUSTIN,CAO CẤP T,2025,MPV,Xăng,Tự động,1.5,7,FWD,879000000,6000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-custin-cao-cap-1.5t-2025-6811013
 VINFAST,FADIL,PLUS,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,300000000,60000,Trong nước,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-plus-2021-6780116
-ROLLS ROYCE,CULLINAN,V12,2022,SUV,Xăng,Tự động,6.7,4,4WD,33000000000,10000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-rolls_royce-cullinan-6.75-v12-2022-6707066
 TOYOTA,VELOZ,CROSS,2026,SUV,Xăng,Tự động,1.5,7,FWD,594000000,,Trong nước,Đỏ,Khánh Hòa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-veloz-cross-1.5-cvt-2026-5490856
 ROLLS ROYCE,GHOST,V12,2010,Sedan,Xăng,Tự động,6.6,4,4WD,3680000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-rolls_royce-ghost-6.6-v12-2010-6747305
 MINI,CLUBMAN,COOPER S,2023,Hatchback,Xăng,Tự động,2,5,FWD,1859000000,3000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mini-clubman-cooper-s-2023-6744753
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2022,SUV,Dầu,Tự động,2.2,7,4WD,1068000000,70000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.2l-htrac-2022-6712701
-ISUZU,MU,,,SUV,Dầu,Số sàn,1.9,7,RWD,880000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-1.9-4x2-mt-2025-6681804
 FORD,EVEREST,TITANIUM 4X2,2025,SUV,Dầu,Tự động,2,7,RWD,1259000000,9000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2025-6548866
 LINCOLN,NAVIGATOR,BLACK LABEL,2019,SUV,Xăng,Tự động,3.5,7,4WD,3600000000,120000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lincoln-navigator-black-label-2019-6834214
 TOYOTA,FORTUNER,G,2014,SUV,Dầu,Số sàn,2.5,7,RWD,445000000,180000,Trong nước,Xám,Thanh Hóa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.5g-2014-6782312
@@ -1210,7 +1174,6 @@ ISUZU,DMAX,HI LANDER 4X2,2025,Bán tải,Dầu,Tự động,1.9,5,RWD,746000000,
 NISSAN,SUNNY,XV PREMIUM,2019,Sedan,Xăng,Tự động,1.5,5,FWD,308000000,46000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-sunny-xv-premium-2019-6637353
 HYUNDAI,PALISADE,PRESTIGE HTRAC,2023,SUV,Dầu,Tự động,2.2,6,4WD,1399000000,3800,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-palisade-prestige-2.2-at-htrac-2023-6631566
 HONDA,CITY,RS,2022,Sedan,Xăng,Tự động,1.5,5,FWD,475000000,9000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-city-rs-1.5-at-2022-6554460
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,481000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-2025-5716021
 KIA,K3,LUXURY,2024,Sedan,Xăng,Tự động,1.6,5,FWD,535000000,16000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k3-luxury-1.6-at-2024-6770355
 BMW,5,SERIES 528I GT,2013,Sedan,Xăng,Tự động,2,5,RWD,639000000,72000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-5_series-528i-gt-2013-6833000
 MITSUBISHI,XPANDER,CROSS,2021,SUV,Xăng,Tự động,1.5,7,FWD,488000000,21000,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-cross-1.5-at-2021-6813414
@@ -1237,7 +1200,6 @@ VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,705000000,52000,Trong n
 HYUNDAI,I10,BẢN THƯỜNG,2022,Sedan,Xăng,Tự động,1.2,5,FWD,357000000,27000,Trong nước,Trắng,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-1.2-at-2022-6808881
 VOLKSWAGEN,VILORAN,LUXURY,2025,MPV,Xăng,Tự động,2,7,FWD,2288000000,999,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-luxury-2025-6802258
 MG,ZS,LUXURY 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,490000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-luxury-1.5-at-2wd-2025-6824016
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Dầu,Tự động,2,5,FWD,870000000,17000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-2.0d-2024-6834191
 MERCEDES BENZ,E,CLASS E300 AMG,2022,Sedan,Xăng,Tự động,2,5,RWD,1750000000,70000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e300-amg-2022-6720623
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,692000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6820794
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,632000000,,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6717143
@@ -1245,7 +1207,6 @@ VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,444000000,,Trong nước,X
 MERCEDES BENZ,GLC,300 4MATIC,2020,SUV,Xăng,Tự động,2,5,4WD,1379000000,69000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2020-6832488
 TOYOTA,COROLLA,CROSS V,2024,SUV,Xăng,Tự động,1.8,5,FWD,770000000,30000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2024-6815381
 HYUNDAI,STARGAZER,ĐẶC BIỆT,2026,MPV,Xăng,Tự động,1.5,7,FWD,523000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-stargazer-dac-biet-1.5-at-2026-6800207
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6834194
 LANDROVER,RANGE,ROVER HSE V6,2019,SUV,Xăng,Tự động,3,5,4WD,4699000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-hse-3.0-v6-2019-6728417
 KIA,SONET,LUXURY,2025,SUV,Xăng,Tự động,1.5,5,FWD,545000000,9000,Trong nước,Đỏ,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-luxury-1.5-at-2025-6812634
 MERCEDES BENZ,C,CLASS C200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,898000000,50000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2021-6811731
@@ -1253,7 +1214,6 @@ VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,700000000,44000,Trong 
 FORD,FIESTA,S ECOBOOST,2014,Hatchback,Xăng,Tự động,1,5,FWD,160000000,110000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-fiesta-s-1.0-at-ecoboost-2014-6834175
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,655000000,,Trong nước,Xám,Nam Định,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6791468
 MITSUBISHI,TRITON,ATHLETE 4X2 MIVEC,2021,Bán tải,Dầu,Tự động,2.4,5,RWD,560000000,57000,Nhập khẩu,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-triton-athlete-4x2-at-mivec-2021-6697509
-ISUZU,MU,,,SUV,Dầu,Tự động,1.9,7,RWD,1098000000,,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-prestige-1.9-4x2-at-2025-6683732
 MG,ZS,STANDARD 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,420000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-standard-1.5-at-2wd-2025-6834019
 VINFAST,VF8,PLUS,2026,SUV,Điện,Tự động,,5,FWD,828000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-2026-6833221
 LANDROVER,RANGE,ROVER SPORT HSE,2015,SUV,Xăng,Tự động,3,5,4WD,1255000000,90000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_sport-hse-2015-6831608
@@ -1301,7 +1261,6 @@ FORD,RANGER,XLS 4X2,2026,Bán tải,Dầu,Tự động,2,5,RWD,630000000,,Trong 
 HYUNDAI,CUSTIN,CAO CẤP T,2025,MPV,Xăng,Tự động,1.5,7,FWD,879000000,6000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-custin-cao-cap-1.5t-2025-6808684
 TOYOTA,PRADO,TXL,2016,SUV,Xăng,Tự động,2.7,7,4WD,1280000000,130000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-txl-2.7l-2016-6733208
 MAZDA,3,LUXURY,2020,Sedan,Xăng,Tự động,1.5,5,FWD,505000000,77000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2020-6729259
-AUDI,Q8,55 TFSI S,,SUV,Xăng,Tự động,3,5,4WD,4599000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q8-55-tfsi-s-line-quattro-2025-6694150
 AUDI,Q7,BẢN THƯỜNG,2016,SUV,Xăng,Tự động,2,7,4WD,1050000000,150000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q7-2.0-at-2016-6682952
 VINFAST,FADIL,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,279000000,78000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-2021-6817591
 HYUNDAI,SANTAFE,4WD,2018,SUV,Xăng,Tự động,2.4,7,4WD,628000000,45000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-2.4l-4wd-2018-6813644
@@ -1324,7 +1283,6 @@ MG,5,LUXURY,2023,Sedan,Xăng,Tự động,1.5,5,FWD,399000000,60000,Nhập khẩ
 HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2025,Crossover,Xăng,Tự động,1.6,5,4WD,935000000,13000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-htrac-dac-biet-2025-6780161
 HYUNDAI,TUCSON,CRDI ĐẶC BIỆT,2024,Crossover,Dầu,Tự động,2,5,FWD,899000000,30000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-crdi-dac-biet-2024-6741473
 ISUZU,QKR,QLR77FE5 THÙNG KÍN,2026,Truck,Dầu,Số sàn,3,3,RWD,590000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-qkr-qlr77fe5-thung-kin-2026-6721511
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6834183
 MERCEDES BENZ,C,CLASS C300 AMG,2022,Sedan,Xăng,Tự động,2,5,RWD,1299000000,32000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2022-6823923
 SUZUKI,XL7,BẢN THƯỜNG,2022,SUV,Xăng,Tự động,1.5,7,FWD,385000000,75000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-1.5-at-2022-6834180
 MG,ZS,STANDARD 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,420000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-standard-1.5-at-2wd-2025-6823973
@@ -1340,7 +1298,6 @@ HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2024,Crossover,Xăng,Tự động,1.6,5
 TOYOTA,RAIZE,G,2023,SUV,Xăng,Tự động,1,5,FWD,475000000,55000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-raize-g-1.0-cvt-2023-6829746
 INFINITI,QX80,80 AWD,2014,SUV,Xăng,Tự động,5.6,7,4WD,1199000000,62000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-infiniti-qx80-80-5.6-awd-2014-6823936
 HYUNDAI,SANTAFE,HTRAC,2019,SUV,Dầu,Tự động,2.2,7,4WD,699000000,62000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-2.2l-htrac-2019-6819760
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,588000000,55000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-2019-6773856
 MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2019,Sedan,Xăng,Tự động,3,4,4WD,3868000000,40000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-maybach-2019-6724852
 TOYOTA,YARIS,BẢN THƯỜNG,2008,Hatchback,Xăng,Tự động,1.3,5,FWD,215000000,150000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-1.3-at-2008-6644957
 MERCEDES BENZ,E,CLASS E200 EXCLUSIVE,2026,Sedan,Hybrid,Tự động,2,5,RWD,2489000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-exclusive-2026-6515306
@@ -1351,12 +1308,10 @@ MAZDA,CX5,PREMIUM SPORT,2023,SUV,Xăng,Tự động,2,5,FWD,759000000,19900,Tron
 TOYOTA,LAND,CRUISER V6,2025,SUV,Xăng,Tự động,3.4,7,4WD,4580000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2025-6493546
 KIA,CARENS,G LUXURY,2024,SUV,Xăng,Tự động,1.5,7,FWD,589000000,39800,Trong nước,Trắng,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carens-1.5g-luxury-2024-6827884
 FORD,RANGER,WILDTRAK 4X4,2021,Bán tải,Dầu,Tự động,2,5,4WD,689000000,50000,Nhập khẩu,Trắng,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2021-6819003
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,585000000,25000,Nhập khẩu,Nâu,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-l-2019-6830614
 MITSUBISHI,XPANDER,BẢN THƯỜNG,2023,SUV,Xăng,Số sàn,1.5,7,FWD,425000000,56000,Trong nước,Trắng,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-1.5-mt-2023-6819000
 TOYOTA,COROLLA,ALTIS G,2018,Sedan,Xăng,Tự động,1.8,5,FWD,479000000,71000,Trong nước,Trắng,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_altis-1.8g-at-2018-6818928
 KIA,CARNIVAL,SIGNATURE D,2022,MPV,Dầu,Tự động,2.2,7,FWD,1150000000,46000,Trong nước,Xám,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2022-6818919
 HYUNDAI,CRETA,ĐẶC BIỆT,2022,SUV,Xăng,Tự động,1.5,5,FWD,568000000,58000,Nhập khẩu,Trắng,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-creta-dac-biet-1.5-at-2022-6823663
-VOLVO,S60,T5 R,,Sedan,Xăng,Tự động,2,5,4WD,950000000,39000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-s60-t5-r-design-awd-2020-6788016
 KIA,SELTOS,PREMIUM,2024,Crossover,Xăng,Tự động,1.5,5,FWD,680000000,10000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-seltos-premium-1.5-at-2024-6834164
 TOYOTA,VIOS,E,2018,Sedan,Xăng,Tự động,1.5,5,FWD,305000000,240000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-1.5e-cvt-2018-6834149
 VINFAST,VF3,ECO,2026,Hatchback,Điện,Tự động,,4,RWD,250000000,,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-eco-2026-6791920
@@ -1423,7 +1378,6 @@ MERCEDES BENZ,GLC,200 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1199000000,2299
 TOYOTA,INNOVA,CROSS HEV,2026,Crossover,Hybrid,Tự động,2,7,FWD,942000000,,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-hev-2.0-cvt-2026-5487059
 VOLKSWAGEN,VILORAN,LUXURY,2025,MPV,Xăng,Tự động,2,7,FWD,2288000000,,Nhập khẩu,Trắng,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-luxury-2025-6777484
 BMW,5,SERIES 520I,2016,Sedan,Xăng,Tự động,2,5,RWD,690000000,84000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-5_series-520i-2016-6733814
-VOLKSWAGEN,T,,,Crossover,Xăng,Tự động,1,5,FWD,699000000,9000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-t-cross-luxury-1.0-at-2023-6715355
 SSANGYONG,STAVIC,BẢN THƯỜNG,2008,Crossover,Dầu,Số sàn,2.7,9,RWD,145000000,160000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ssangyong-stavic-2.7-mt-2008-6755686
 HONDA,HRV,RS,2024,Crossover,Xăng,Tự động,1.5,5,FWD,755000000,44000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-hrv-rs-2024-6742646
 FORD,EVEREST,TITANIUM PLUS 4X4,2023,SUV,Dầu,Tự động,2,7,4WD,1220000000,69000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-plus-2.0l-4x4-at-2023-6794980
@@ -1478,11 +1432,9 @@ TOYOTA,VIOS,G,2024,Sedan,Xăng,Tự động,1.5,5,FWD,478000000,25000,Trong nư�
 FORD,RANGER,XLS 4X2,2020,Bán tải,Dầu,Tự động,2.2,5,RWD,480000000,90000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2020-6758582
 FORD,EVEREST,TITANIUM 4X2,2020,SUV,Dầu,Tự động,2,7,RWD,795000000,70000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2020-6823931
 NISSAN,SUNNY,XV PREMIUM,2019,Sedan,Xăng,Tự động,1.5,5,FWD,295000000,80000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-sunny-xv-premium-2019-6832318
-DAEWOO,LACETTI,EX,2004,Sedan,Xăng,Số sàn,1.6,5,FWD,45000000,1000000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-daewoo-lacetti-ex-1.6-mt-2004-6834106
 HYUNDAI,SANTAFE,PREMIUM HTRAC,2020,SUV,Dầu,Tự động,2.2,7,4WD,808000000,90000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-premium-2.2l-htrac-2020-6679009
 TOYOTA,INNOVA,CROSS V,2026,Crossover,Xăng,Tự động,2,8,FWD,779000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0v-cvt-2026-6657041
 MERCEDES BENZ,GLE,CLASS GLE 400 4MATIC COUPE,2016,Coupe,Xăng,Tự động,3,5,4WD,899000000,62000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gle_class-gle-400-4matic-coupe-2016-6649551
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,605000000,,Nhập khẩu,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6556327
 HYUNDAI,PALISADE,PRESTIGE HTRAC,2026,SUV,Dầu,Tự động,2.2,7,4WD,1373000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-palisade-prestige-2.2-at-htrac-2026-6772572
 LANDROVER,RANGE,ROVER AUTOBIOGRAPHY LWB V8,2019,SUV,Xăng,Tự động,5,4,4WD,5750000000,80000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-autobiography-lwb-5.0-v8-2019-6834121
 FORD,FIESTA,S,2012,Hatchback,Xăng,Tự động,1.6,5,FWD,245000000,52000,Trong nước,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-fiesta-s-1.6-at-2012-6702582
@@ -1527,7 +1479,6 @@ MERCEDES BENZ,S,CLASS S300L,2009,Sedan,Xăng,Tự động,3,5,RWD,399000000,1700
 LEXUS,IS,250C,2011,Mui trần,Xăng,Tự động,2.5,4,RWD,1100000000,48000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-is-250c-2011-6566491
 TOYOTA,CROWN,SUPER SALOON,1996,Sedan,Xăng,Số sàn,3,5,RWD,399000000,290000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-crown-super-saloon-3.0-mt-1996-6397346
 KIA,CARNIVAL,SIGNATURE D,2023,MPV,Dầu,Tự động,2.2,7,FWD,1199000000,44000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2023-6790241
-HYUNDAI,ELANTRA,N,,Sedan,Xăng,Tự động,1.6,5,FWD,625000000,17000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-elantra-n-line-1.6-turbo-at-2022-6744298
 VOLKSWAGEN,NEW,BEETLE,2009,Coupe,Xăng,Tự động,1.6,4,FWD,430000000,80000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-new_beetle-1.6-at-2009-6027632
 FORD,EVEREST,TITANIUM 4X2,2018,SUV,Dầu,Tự động,2,7,RWD,735000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2018-6388317
 VINFAST,VF8,ECO,2026,SUV,Điện,Tự động,,5,FWD,768000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-2026-6834105
@@ -1563,7 +1514,6 @@ VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,650000000,40000,Trong n
 MAZDA,CX5,PREMIUM,2021,SUV,Xăng,Tự động,2,5,FWD,679000000,30000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2021-6834088
 JEEP,WRANGLER,RUBICON 4X4,2022,SUV,Xăng,Tự động,2,5,4WD,2339000000,67100,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jeep-wrangler-rubicon-2.0-4x4-at-2022-6786985
 JEEP,WRANGLER,RUBICON 4X4,2023,SUV,Xăng,Tự động,2,5,4WD,2850000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jeep-wrangler-rubicon-2.0-4x4-at-2023-6334493
-RAM,1500,LONGHORN 4X4 2024,1500,Bán tải,Xăng,Tự động,5.7,5,4WD,4688000000,,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ram-1500-longhorn-5.7l-4x4-at-2024-6249684
 JEEP,GRAND,CHEROKEE L LIMITED V6 AWD,2023,SUV,Xăng,Tự động,3.6,6,4WD,3488000000,,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jeep-grand_cherokee-l-limited-3.6-v6-awd-2023-6334341
 JEEP,WRANGLER,RUBICON 4X4,2020,SUV,Xăng,Tự động,2,5,4WD,2339000000,37875,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jeep-wrangler-rubicon-2.0-4x4-at-2020-6734860
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,704000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6723973
@@ -1592,7 +1542,6 @@ LEXUS,LX,600 URBAN,2026,SUV,Xăng,Tự động,3.4,7,4WD,8590000000,,Nhập kh�
 TOYOTA,COROLLA,CROSS V,2024,SUV,Xăng,Tự động,1.8,5,FWD,790000000,28000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2024-6825510
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2024,SUV,Xăng,Tự động,2.5,7,4WD,1155000000,20000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2024-6790430
 FORD,TERRITORY,TITANIUM X,2024,SUV,Xăng,Tự động,1.5,5,FWD,795000000,20000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2024-6706101
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,1.6,5,4WD,899000000,19000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-1.6t-awd-2024-6831200
 HYUNDAI,SANTAFE,4WD,2015,SUV,Dầu,Tự động,2.2,7,4WD,559000000,110000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-2.2l-4wd-2015-6747270
 VINFAST,FADIL,PLUS,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,320000000,36000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-plus-2021-6831025
 LEXUS,LX,600 URBAN,2026,SUV,Xăng,Tự động,3.4,7,4WD,8590000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-600-urban-2026-6804612
@@ -1699,9 +1648,7 @@ TOYOTA,WIGO,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.2,5,FWD,31300000
 MAZDA,CX5,2WD,2019,SUV,Xăng,Tự động,2.5,5,FWD,599000000,80000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-at-2wd-2019-6834023
 MERCEDES BENZ,GLC,250 4MATIC,2018,SUV,Xăng,Tự động,2,5,4WD,999000000,80000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-250-4matic-2018-6606845
 MG,5,STANDARD,2025,Sedan,Xăng,Tự động,1.5,5,FWD,395000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-5-standard-1.5-at-2025-6834038
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,899000000,10000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2025-6833973
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2022,SUV,Xăng,Tự động,2.5,7,4WD,980000000,30000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2022-6817799
-LEXUS,RX,350 F,,SUV,Xăng,Tự động,3.5,5,4WD,1685000000,10000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-f-sport-2016-6833866
 PEUGEOT,2008,GT LINE,2022,Crossover,Xăng,Tự động,1.2,5,FWD,589000000,31300,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-2008-gt-line-1.2-at-2022-6834004
 TOYOTA,CAMRY,Q,2014,Sedan,Xăng,Tự động,2.5,5,FWD,498000000,30000,Trong nước,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.5q-2014-6834007
 MG,ZS,STANDARD 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,420000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-standard-1.5-at-2wd-2025-6823977
@@ -1723,7 +1670,6 @@ VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,705000000,,Trong nước,T
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,454000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6833245
 KIA,SPORTAGE,BẢN THƯỜNG,2014,Crossover,Xăng,Tự động,2,5,FWD,330000000,120000,Nhập khẩu,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-2.0-at-2014-6828050
 PORSCHE,CAYENNE,V6,2018,SUV,Xăng,Tự động,3,5,4WD,2589000000,96000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-cayenne-3.0-v6-2018-6706976
-ISUZU,MU,,,SUV,Dầu,Tự động,1.9,7,RWD,961000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-plus-1.9-4x2-at-2025-6682964
 HONDA,CRV,L,2026,SUV,Xăng,Tự động,1.5,7,FWD,1044000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-l-2026-5262975
 KIA,SONET,LUXURY,2022,Crossover,Xăng,Tự động,1.5,5,FWD,478000000,50000,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-luxury-1.5-at-2022-6787738
 HYUNDAI,ACCENT,ĐẶC BIỆT,2022,Sedan,Xăng,Tự động,1.4,5,FWD,430000000,56000,Trong nước,Đỏ,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-at-dac-biet-2022-6756252
@@ -1734,7 +1680,6 @@ KIA,K3,LUXURY,2021,Sedan,Xăng,Tự động,1.6,5,FWD,503000000,55000,Trong nư�
 MERCEDES BENZ,GLC,200 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,1879000000,8000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2025-6373551
 MERCEDES BENZ,GLC,200 4MATIC,2020,SUV,Xăng,Tự động,2,5,4WD,1099000000,50000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2020-6823899
 KIA,K3,PREMIUM,2022,Sedan,Xăng,Tự động,2,5,FWD,545000000,30000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k3-premium-2.0-at-2022-6624242
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6834010
 MINI,COOPER,S 5 DOOR,2025,Hatchback,Xăng,Tự động,2,5,FWD,2129000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mini-cooper-s-5-door-2025-6063154
 MG,RX5,T LUX,2024,Crossover,Xăng,Tự động,1.5,5,FWD,585000000,29000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-rx5-1.5t-lux-2024-6744070
 TOYOTA,YARIS,CROSS HEV,2026,SUV,Hybrid,Tự động,1.5,5,FWD,691000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-hev-1.5-cvt-2026-6770956
@@ -1754,7 +1699,6 @@ FORD,EVEREST,TITANIUM PLUS 4X4,2023,SUV,Dầu,Tự động,2,7,4WD,1245000000,20
 VOLKSWAGEN,TERAMONT,PRESIDENT,2025,SUV,Xăng,Tự động,2,6,4WD,2379000000,5000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-teramont-president-2.0-at-2025-6789351
 FORD,TERRITORY,TITANIUM X,2025,SUV,Xăng,Tự động,1.5,5,FWD,845000000,6000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2025-6833993
 TOYOTA,CAMRY,Q,2022,Sedan,Xăng,Tự động,2,5,FWD,980000000,14000,Nhập khẩu,Đen,Long An,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.0q-2022-6833998
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,2,5,FWD,855000000,40000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-2.0g-2023-6820662
 HYUNDAI,ACCENT,BẢN THƯỜNG,2023,Sedan,Xăng,Tự động,1.4,5,FWD,440000000,8600,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-at-2023-6833989
 HYUNDAI,I30,BẢN THƯỜNG,2008,Hatchback,Xăng,Số sàn,1.6,5,FWD,140000000,230000,Nhập khẩu,Bạc,Hưng Yên,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i30-1.6-mt-2008-6833972
 MERCEDES BENZ,GLS,450 4MATIC,2022,SUV,Xăng,Tự động,3,7,4WD,3979000000,33000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gls-450-4matic-2022-6828798
@@ -1772,7 +1716,6 @@ TOYOTA,LAND,CRUISER V6,2025,SUV,Xăng,Tự động,3.4,7,4WD,4580000000,,Nhập 
 MERCEDES BENZ,C,CLASS C200 AVANTGARDE PLUS,2022,Sedan,Xăng,Tự động,1.5,5,RWD,1386000000,12000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-plus-2022-6824815
 KIA,SPORTAGE,SIGNATURE D,2022,Crossover,Dầu,Tự động,2,5,FWD,759000000,50000,Trong nước,Tím,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-2.0d-2022-6833979
 BMW,X5,XDRIVE40I M SPORT,2020,SUV,Xăng,Tự động,3,5,4WD,2199000000,63000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x5-xdrive40i-m-sport-2020-6795357
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6833986
 SMART,FORTWO,BẢN THƯỜNG,2008,Hatchback,Xăng,Tự động,1,2,RWD,289000000,52000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-smart-fortwo-1.0-at-2008-6741743
 TOYOTA,LAND,CRUISER V6,2025,SUV,Xăng,Tự động,3.4,7,4WD,5699000000,5000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2025-6698553
 HYUNDAI,KONA,TURBO,2021,SUV,Xăng,Tự động,1.6,5,FWD,475000000,80000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-kona-1.6-turbo-2021-6726720
@@ -1817,7 +1760,6 @@ TOYOTA,VELOZ,CROSS TOP,2026,SUV,Xăng,Tự động,1.5,7,FWD,660000000,,Trong n�
 FORD,EVEREST,SPORT 4X2,2024,SUV,Dầu,Tự động,2,7,RWD,1099000000,10000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-sport-2.0l-4x2-at-2024-6825155
 MITSUBISHI,TRITON,4X2,2019,Bán tải,Dầu,Tự động,2.5,5,RWD,370000000,140000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-triton-4x2-at-2019-6833874
 NISSAN,NAVARA,EL 2WD,2019,Bán tải,Dầu,Tự động,2.5,5,RWD,410000000,90000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-el-2.5-at-2wd-2019-6782516
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,899000000,10000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2025-6833877
 FORD,EVEREST,LIMITED 4X2,2010,SUV,Dầu,Tự động,2.5,7,RWD,190000000,0,Trong nước,Xám,Gia Lai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-limited-2.5l-4x2-at-2010-6833957
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,735000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833956
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,735000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833954
@@ -1844,7 +1786,6 @@ MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1490000000,4800
 SUZUKI,XL7,BẢN THƯỜNG,2022,SUV,Xăng,Tự động,1.5,7,FWD,390000000,70000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-1.5-at-2022-6833939
 FORD,RANGER,XLS 4X2,2023,Bán tải,Dầu,Tự động,2,5,RWD,580000000,17000,Trong nước,Nâu,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2023-6700508
 HYUNDAI,SANTAFE,PREMIUM HTRAC,2020,SUV,Dầu,Tự động,2.2,7,4WD,849000000,50000,Trong nước,Xanh,Long An,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-premium-2.2l-htrac-2020-6807619
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,579000000,70000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2017-6620160
 TOYOTA,PRADO,TXL,2016,SUV,Xăng,Tự động,2.7,7,4WD,1250000000,150000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-txl-2.7l-2016-6811136
 HYUNDAI,CRETA,CAO CẤP,2022,SUV,Xăng,Tự động,1.5,5,FWD,575000000,29000,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-creta-cao-cap-1.5-at-2022-6832528
 FORD,EVEREST,PLATINUM 4X4,2026,SUV,Dầu,Tự động,2,7,4WD,1340000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-platinum-2.0l-4x4-at-2026-6832172
@@ -1875,10 +1816,8 @@ HYUNDAI,ACCENT,ĐẶC BIỆT,2024,Sedan,Xăng,Tự động,1.5,5,FWD,460000000,3
 VINFAST,VF8,PLUS AWD,2022,SUV,Điện,Tự động,,5,4WD,723000000,47000,Trong nước,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2022-6802521
 TOYOTA,HILUX,E 4X2,2019,Bán tải,Dầu,Tự động,2.4,5,RWD,580000000,85000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-hilux-2.4e-4x2-at-2019-6694942
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,659000000,,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6689601
-LEXUS,NX,350 F,,SUV,Xăng,Tự động,2.4,5,4WD,2300000000,53000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-nx-350-f-sport-2022-6687064
 LEXUS,RX,350 PREMIUM,2022,SUV,Xăng,Tự động,2.4,5,4WD,2850000000,45000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-premium-2022-6804919
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,420000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6809339
-RAM,1500,LARAMIE NIGHT EDITION 4X4 2022,1500,Bán tải,Xăng,Tự động,5.7,5,4WD,2999000000,36000,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ram-1500-laramie-night-edition-5.7l-4x4-at-2022-6757142
 FORD,RANGER,XLS 4X2,2026,Bán tải,Dầu,Tự động,2,5,RWD,580000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2026-5662490
 LEXUS,RX,350H LUXURY,2026,SUV,Hybrid,Tự động,2.5,5,4WD,4140000000,,Nhập khẩu,Đồng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350h-luxury-2026-6763317
 TOYOTA,COROLLA,CROSS V,2023,SUV,Xăng,Tự động,1.8,5,FWD,739000000,35000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2023-6833604
@@ -1907,7 +1846,6 @@ HYUNDAI,I10,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.2,5,FWD,34500000
 KIA,CARNIVAL,LUXURY D,2025,MPV,Dầu,Tự động,2.2,8,FWD,1219000000,0,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-luxury-2.2d-2025-6704184
 TOYOTA,LAND,CRUISER VX V8,2011,SUV,Xăng,Tự động,4.6,8,4WD,1539000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-vx-4.6-v8-2011-6681781
 LEXUS,GX,550 LUXURY,2026,SUV,Xăng,Tự động,3.4,7,4WD,6400000000,,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-gx-550-luxury-2026-6740164
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,1.6,5,4WD,899000000,19000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-1.6t-awd-2024-6831302
 TOYOTA,CAMRY,G,2022,Sedan,Xăng,Tự động,2,5,FWD,858000000,27000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.0g-2022-6811946
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,735000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833932
 MERCEDES BENZ,S,CLASS S450L LUXURY,2019,Sedan,Xăng,Tự động,3,5,RWD,2399000000,45000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-luxury-2019-6823996
@@ -1926,7 +1864,6 @@ VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,239000000,5,Trong n�
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,735000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833927
 MITSUBISHI,XPANDER,PREMIUM,2023,SUV,Xăng,Tự động,1.5,7,FWD,515000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-premium-1.5-at-2023-6831893
 HYUNDAI,ACCENT,BẢN THƯỜNG,2023,Sedan,Xăng,Tự động,1.4,5,FWD,386000000,43000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-at-2023-6833926
-NISSAN,NAVARA,EL A,,Bán tải,Dầu,Tự động,2.5,5,RWD,475000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-el-a-ivi-2.5-at-2wd-2020-6757037
 MERCEDES BENZ,S,CLASS S450L,2017,Sedan,Xăng,Tự động,3,5,RWD,1595000000,90000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-2017-6768332
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,637000000,,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6814986
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1380000000,92000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6728518
@@ -2007,7 +1944,6 @@ MERCEDES BENZ,C,CLASS C200,2016,Sedan,Xăng,Tự động,2,5,RWD,555000000,80000
 FORD,RANGER,XLS 4X2,2017,Bán tải,Dầu,Tự động,2.2,5,RWD,385000000,100000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2017-6822105
 PORSCHE,CAYENNE,V6,2016,SUV,Xăng,Tự động,3.6,5,4WD,1499000000,160000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-cayenne-3.6-v6-2016-6819836
 MITSUBISHI,ATTRAGE,PREMIUM,2023,Sedan,Xăng,Tự động,1.2,5,FWD,359000000,51000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-attrage-premium-1.2-cvt-2023-6689341
-LEXUS,NX,350 F,,SUV,Xăng,Tự động,2.4,5,4WD,2290000000,53000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-nx-350-f-sport-2022-6687069
 LEXUS,LX,570 SUPER SPORT,2018,SUV,Xăng,Tự động,5.7,7,4WD,6189000000,90000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-super-sport-2018-6663085
 HONDA,BRIO,RS,2019,Hatchback,Xăng,Tự động,1.2,5,FWD,299000000,80000,Nhập khẩu,Cam,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-brio-rs-2019-6827385
 KIA,K3,PREMIUM,2024,Sedan,Xăng,Tự động,1.6,5,FWD,586000000,19500,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k3-premium-1.6-at-2024-6712333
@@ -2112,8 +2048,6 @@ VINFAST,FADIL,NÂNG CAO,2022,Hatchback,Xăng,Tự động,1.4,5,FWD,330000000,60
 HONDA,ACCORD,BẢN THƯỜNG,2019,Sedan,Xăng,Tự động,1.5,5,FWD,699000000,60000,Nhập khẩu,Đen,Đà Nẵng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-accord-1.5-at-2019-6745647
 VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,700000000,35000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2023-6692945
 FORD,TERRITORY,TITANIUM X,2022,SUV,Xăng,Tự động,1.5,5,FWD,710000000,55000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2022-6769279
-VOLKSWAGEN,T,,,Crossover,Xăng,Tự động,1,5,FWD,735000000,8600,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-t-cross-luxury-1.0-at-2022-6603877
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,658000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6832239
 VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,600000000,36000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-awd-2023-6748002
 HONDA,CITY,L,2022,Sedan,Xăng,Tự động,1.5,5,FWD,410000000,120000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-city-l-1.5-at-2022-6640813
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,430000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6705375
@@ -2164,7 +2098,6 @@ FORD,RANGER,RAPTOR 4X4,2022,Bán tải,Dầu,Tự động,2,5,4WD,835000000,4500
 FORD,EVEREST,TITANIUM PLUS 4X4,2023,SUV,Dầu,Tự động,2,7,4WD,1245000000,20000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-plus-2.0l-4x4-at-2023-6833894
 TOYOTA,WIGO,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.2,5,FWD,322000000,42550,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-wigo-1.2-at-2021-6804540
 PEUGEOT,5008,ALLURE 2021,2022,SUV,Xăng,Tự động,1.6,7,FWD,725000000,17000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-5008-allure-1.6-at-2021-6730162
-KIA,SOLUTO,DELUXE,2020,Sedan,Xăng,Số sàn,1.4,5,FWD,245000000,1500000,Trong nước,Đỏ,Hà Giang,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-soluto-1.4-mt-deluxe-2020-6712051
 TOYOTA,VIOS,E,2026,Sedan,Xăng,Số sàn,1.5,5,FWD,418000000,,Trong nước,Cát,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-e-1.5-mt-2026-6698497
 VINFAST,VF7,PLUS AWD,2026,SUV,Điện,Tự động,,5,4WD,764000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf7-plus-awd-2026-6811172
 HYUNDAI,SANTAFE,PREMIUM HTRAC,2019,SUV,Xăng,Tự động,2.4,7,4WD,758000000,59000,Trong nước,Trắng,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-premium-2.4l-htrac-2019-6814269
@@ -2280,7 +2213,6 @@ HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2024,Crossover,Xăng,Tự động,1.6,5
 FORD,TERRITORY,TITANIUM X,2024,SUV,Xăng,Tự động,1.5,5,FWD,790000000,28000,Trong nước,Trắng,Quảng Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2024-6767014
 TOYOTA,LAND,CRUISER V6,2023,SUV,Xăng,Tự động,3.4,7,4WD,4880000000,58000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2023-6809523
 FORD,TERRITORY,TITANIUM X,2026,SUV,Xăng,Tự động,1.5,5,FWD,760000000,,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2026-6751668
-NISSAN,NAVARA,PRO,,Bán tải,Dầu,Tự động,2.3,5,4WD,830000000,17000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-pro-4x-2.3-at-4wd-2023-6623804
 LEXUS,RX,350 PREMIUM,2024,SUV,Xăng,Tự động,2.4,5,4WD,3199000000,19000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-premium-2024-6831508
 TOYOTA,FORTUNER,G 4X2,2018,SUV,Dầu,Tự động,2.4,7,RWD,760000000,70000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-at-2018-6828190
 MITSUBISHI,XFORCE,GLX,2024,SUV,Xăng,Tự động,1.5,5,FWD,560000000,22000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xforce-glx-2024-6828205
@@ -2294,7 +2226,6 @@ VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,239000000,5,Trong n�
 KIA,CARNIVAL,PREMIUM D 7S,2025,MPV,Dầu,Tự động,2.2,7,FWD,1439000000,10000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-premium-2.2d-7s-2025-6790273
 MERCEDES BENZ,GLS,450 4MATIC,2021,SUV,Xăng,Tự động,3,7,4WD,3690000000,46000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gls-450-4matic-2021-6644145
 TOYOTA,SIENNA,LIMITED AWD,2014,MPV,Xăng,Tự động,3.5,7,4WD,1290000000,130000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-sienna-limited-3.5-awd-2014-6625737
-ISUZU,MU,,,SUV,Dầu,Tự động,1.9,7,RWD,930000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-plus-1.9-4x2-at-2025-6449316
 MG,ZS,LUXURY 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,490000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-luxury-1.5-at-2wd-2025-6477457
 MAZDA,3,PREMIUM,2022,Sedan,Xăng,Tự động,1.5,5,FWD,545000000,5000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-premium-2022-6745755
 MERCEDES BENZ,GLC,300 4MATIC,2019,SUV,Xăng,Tự động,2,5,4WD,1350000000,120800,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2019-6778870
@@ -2307,7 +2238,6 @@ TOYOTA,INNOVA,E,2017,Crossover,Xăng,Số sàn,2,8,RWD,380000000,0,Trong nước
 VINFAST,VF8,S,2024,SUV,Điện,Tự động,,5,FWD,740000000,24000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-s-2024-6761819
 VINFAST,HERIO,GREEN,2026,SUV,Điện,Tự động,,5,FWD,435000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-herio-green-at-2026-6821023
 VINFAST,LIMO,GREEN,2025,SUV,Điện,Tự động,,7,FWD,749000000,,Trong nước,Bạc,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2025-6168739
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,3,5,4WD,1999000000,40000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-3.0-2017-6651932
 KIA,MORNING,SPORT,2013,Hatchback,Xăng,Tự động,1,5,FWD,239000000,100000,Nhập khẩu,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-1.0-at-sport-2013-6661126
 MERCEDES BENZ,GLC,200 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,1949000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2025-6713856
 SMART,FORTWO,BẢN THƯỜNG,2008,Hatchback,Xăng,Tự động,1,2,RWD,450000000,0,Nhập khẩu,Cam,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-smart-fortwo-1.0-at-2008-6607643
@@ -2356,8 +2286,6 @@ BMW,3,SERIES 320I,2016,Sedan,Xăng,Tự động,2,5,RWD,515000000,70000,Nhập k
 FORD,FIESTA,S,2011,Hatchback,Xăng,Tự động,1.6,5,FWD,175000000,60000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-fiesta-s-1.6-at-2011-6761851
 VINFAST,VF5,PLUS,2025,SUV,Điện,Tự động,,5,FWD,412000000,62800,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2025-6705073
 VINFAST,VF3,PLUS,2024,Hatchback,Điện,Tự động,,4,RWD,222000000,20000,Trong nước,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2024-6767805
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,655000000,10000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6823945
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,838000000,16000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-eyesight-2023-6813196
 TOYOTA,CAMRY,G,2009,Sedan,Xăng,Tự động,2.4,5,FWD,320000000,0,Trong nước,Bạc,Quảng Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.4g-2009-6833839
 HYUNDAI,SANTAFE,PREMIUM HTRAC,2019,SUV,Dầu,Tự động,2.2,7,4WD,809000000,50000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-premium-2.2l-htrac-2019-6830608
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1499000000,58000,Trong nước,Đen,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6831225
@@ -2439,7 +2367,6 @@ MERCEDES BENZ,GLC,200 4MATIC,2022,SUV,Xăng,Tự động,2,5,4WD,1459000000,4200
 KIA,CARNIVAL,SIGNATURE D,2022,MPV,Dầu,Tự động,2.2,7,FWD,1195000000,38000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2022-6771161
 HYUNDAI,GETZ,BẢN THƯỜNG,2010,Hatchback,Xăng,Số sàn,1.1,5,FWD,110000000,0,Nhập khẩu,Bạc,Cần Thơ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-getz-1.1-mt-2010-6813683
 LEXUS,LX,570,2008,SUV,Xăng,Tự động,5.7,7,4WD,1579000000,120000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-2008-6774902
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,630000000,,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-5310348
 LEXUS,ES,350,2006,Sedan,Xăng,Tự động,3.5,5,FWD,370000000,126000,Nhập khẩu,Trắng,An Giang,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-es-350-2006-6745562
 SUZUKI,XL7,BẢN THƯỜNG,2021,SUV,Xăng,Tự động,1.5,7,FWD,395000000,80000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-1.5-at-2021-6805495
 MERCEDES BENZ,C,CLASS C200 AVANTGARDE PLUS,2025,Sedan,Xăng,Tự động,1.5,5,RWD,1859000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-plus-2025-6444543
@@ -2449,7 +2376,6 @@ BYD,ATTO,2,2026,SUV,Điện,Tự động,,5,FWD,669000000,,Nhập khẩu,Xanh,H�
 MITSUBISHI,XPANDER,BẢN THƯỜNG,2019,SUV,Xăng,Tự động,1.5,7,FWD,399000000,110000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-1.5-at-2019-6777623
 SUZUKI,XL7,BẢN THƯỜNG,2023,SUV,Xăng,Tự động,1.5,7,FWD,465000000,0,Nhập khẩu,Trắng,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-1.5-at-2023-6808652
 AUDI,A7,55 TFSI QUATTRO,2021,Sedan,Xăng,Tự động,3,5,4WD,1950000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a7-55-tfsi-quattro-2021-6750202
-ISUZU,MU,,,SUV,Dầu,Tự động,3,7,RWD,500000000,150000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-3.0-4x2-at-2017-6649893
 VINFAST,VF8,PLUS AWD,2022,SUV,Điện,Tự động,,5,4WD,699000000,50000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2022-6706967
 SKODA,KAROQ,PREMIUM,2025,Crossover,Xăng,Tự động,1.4,5,FWD,989000000,,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-skoda-karoq-premium-1.4-at-2025-6749806
 MERCEDES BENZ,E,CLASS E200,2017,Sedan,Xăng,Tự động,2,5,RWD,790000000,100000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-2017-6614142
@@ -2549,7 +2475,6 @@ KIA,SEDONA,DAT LUXURY,2019,MPV,Dầu,Tự động,2.2,7,FWD,655000000,0,Trong n�
 AUDI,Q2,TFSI,2018,Crossover,Xăng,Tự động,1.4,5,FWD,799000000,65600,Nhập khẩu,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q2-1.4-tfsi-2018-6121164
 MERCEDES BENZ,GLC,300 4MATIC,2020,SUV,Xăng,Tự động,2,5,4WD,1399000000,62000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2020-6648048
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2021,SUV,Dầu,Tự động,2.2,7,4WD,1019000000,0,Trong nước,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.2l-htrac-2021-6641715
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,660000000,32000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6807859
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2023,SUV,Dầu,Tự động,2.2,7,4WD,1170000000,34000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.2l-htrac-2023-6713725
 FORD,RANGER,XLS 4X2,2021,Bán tải,Dầu,Tự động,2.2,5,RWD,545000000,83000,Nhập khẩu,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2021-6726585
 MERCEDES BENZ,GLC,300 4MATIC COUPE,2021,SUV,Xăng,Tự động,2,5,4WD,1950000000,70000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-coupe-2021-6746177
@@ -2574,9 +2499,7 @@ VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,680000000,50000,Trong 
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,420000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6809319
 KIA,SONET,PREMIUM,2022,Crossover,Xăng,Tự động,1.5,5,FWD,510000000,39500,Trong nước,Trắng,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-premium-1.5-at-2022-6809749
 VOLKSWAGEN,TERAMONT,BẢN THƯỜNG,2024,SUV,Xăng,Tự động,2,7,4WD,1788000000,,Nhập khẩu,Xám,Nghệ An,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-teramont-2.0-at-2024-6500073
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,699000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6833814
 NISSAN,ALMERA,EL,2022,Sedan,Xăng,Tự động,1,5,FWD,399000000,50000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-almera-el-1.0-cvt-2022-6788455
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,521000000,,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-dac-biet-2026-6382270
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,704000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833306
 TOYOTA,INNOVA,CROSS G,2026,Crossover,Xăng,Tự động,2,8,FWD,715000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0g-cvt-2026-6830236
 FORD,RANGER,RAPTOR 4X4,2026,Bán tải,Xăng,Tự động,3,5,4WD,1400000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-raptor-3.0l-4x4-at-2026-6796555
@@ -2652,7 +2575,6 @@ VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,725000000,53000,Trong 
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,239000000,5,Trong nước,Đỏ,Vĩnh Phúc,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6633813
 TOYOTA,INNOVA,E,2016,Crossover,Xăng,Số sàn,2,8,RWD,315000000,139636,Trong nước,Trắng,Đồng Tháp,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-2.0e-2016-6833796
 MG,ZS,LUXURY 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,490000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-luxury-1.5-at-2wd-2025-6477471
-ISUZU,MU,,,SUV,Dầu,Số sàn,1.9,7,RWD,845000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-1.9-4x2-mt-2025-6449313
 LEXUS,LX,570 SUPER SPORT,2018,SUV,Xăng,Tự động,5.7,7,4WD,5650000000,82000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-super-sport-2018-6803390
 MAZDA,3,SPORT LUXURY,2020,Hatchback,Xăng,Tự động,1.5,5,FWD,495000000,65000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-sport-luxury-2020-6735181
 TOYOTA,VIOS,G,2022,Sedan,Xăng,Tự động,1.5,5,FWD,430000000,80000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-g-1.5-cvt-2022-6818127
@@ -2676,7 +2598,6 @@ MAZDA,CX5,PREMIUM,2020,SUV,Xăng,Tự động,2,5,FWD,645000000,78000,Trong nư�
 BMW,5,SERIES 520I,2015,Sedan,Xăng,Tự động,2,5,RWD,599000000,11000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-5_series-520i-2015-6730674
 MAZDA,3,LUXURY,2024,Sedan,Xăng,Tự động,1.5,5,FWD,562000000,30000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2024-6713878
 MAZDA,3,PREMIUM,2023,Sedan,Xăng,Tự động,1.5,5,FWD,610000000,20000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-premium-2023-6606885
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,658000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6832236
 VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,600000000,36000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-awd-2023-6692534
 FORD,EVEREST,TITANIUM 4X2,2026,SUV,Dầu,Tự động,2,7,RWD,1150000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2026-6622035
 TOYOTA,PRADO,VX,2018,SUV,Xăng,Tự động,2.7,7,4WD,1720000000,141000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2018-6812593
@@ -2686,7 +2607,6 @@ VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,660000000,32000,Trong n
 HYUNDAI,TUCSON,ĐẶC BIỆT,2022,Crossover,Xăng,Tự động,2,5,FWD,750000000,61000,Trong nước,Đỏ,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-dac-biet-2022-6704021
 TOYOTA,VIOS,E,2022,Sedan,Xăng,Tự động,1.5,5,FWD,389000000,69000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-e-cvt-2022-6777865
 HYUNDAI,ACCENT,BẢN THƯỜNG,2025,Sedan,Xăng,Tự động,1.5,5,FWD,458000000,18000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.5-at-2025-6706061
-NISSAN,NAVARA,EL A,,Bán tải,Dầu,Tự động,2.5,5,RWD,459000000,90000,Nhập khẩu,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-el-a-ivi-2.5-at-2wd-2020-6727125
 MITSUBISHI,ATTRAGE,BẢN THƯỜNG,2021,Sedan,Xăng,Tự động,1.2,5,FWD,280000000,100000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-attrage-1.2-cvt-2021-6772378
 VOLVO,S90,ULTIMATE LWB B6 AWD,2022,Sedan,Hybrid,Tự động,2,5,4WD,1379000000,50000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-s90-ultimate-lwb-b6-awd-2022-6833820
 LEXUS,RX,350 PREMIUM,2024,SUV,Xăng,Tự động,2.4,5,4WD,3299000000,23000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-premium-2024-6830246
@@ -2804,7 +2724,6 @@ VOLKSWAGEN,GOLF,ETSI STYLE,2025,Hatchback,Hybrid,Tự động,1.5,5,FWD,79900000
 MAZDA,3,PREMIUM,2021,Sedan,Xăng,Tự động,1.5,5,FWD,535000000,67000,Trong nước,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-premium-2021-6809782
 KIA,CARNIVAL,SIGNATURE D,2024,MPV,Dầu,Tự động,2.2,7,FWD,1439000000,0,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2024-6785553
 HYUNDAI,TUCSON,ĐẶC BIỆT,2026,Crossover,Xăng,Tự động,2,5,FWD,775000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-dac-biet-2026-6607715
-FORD,MUSTANG,MACH,,SUV,Điện,Tự động,,5,4WD,1699000000,,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-mustang-mach-e-premium-awd-2025-6801882
 FORD,RANGER,WILDTRAK 4X4,2018,Bán tải,Dầu,Tự động,2,5,4WD,515000000,92000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2018-6821041
 HYUNDAI,TUCSON,CRDI ĐẶC BIỆT,2022,Crossover,Dầu,Tự động,2,5,FWD,799000000,90000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-crdi-dac-biet-2022-6687261
 FORD,RANGER,XLS 4X2,2024,Bán tải,Dầu,Tự động,2,5,RWD,599000000,60000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2024-6792573
@@ -2937,7 +2856,6 @@ KIA,SORENTO,DATH,2017,SUV,Dầu,Tự động,2.2,7,FWD,560000000,150000,Trong n�
 TOYOTA,PRADO,GX,2008,SUV,Xăng,Tự động,2.7,7,4WD,395000000,190000,Nhập khẩu,Đen,Quảng Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-gx-2.7-at-2008-6725971
 HONDA,ACCORD,BẢN THƯỜNG,2009,Sedan,Xăng,Tự động,2,5,FWD,260000000,110000,Nhập khẩu,Đen,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-accord-2.0-at-2009-6819698
 HYUNDAI,KONA,ĐẶC BIỆT,2020,SUV,Xăng,Tự động,2,5,FWD,465000000,100000,Trong nước,Đỏ,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-kona-dac-biet-2.0-at-2020-6696959
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,650000000,4000,Nhập khẩu,Trắng,Bắc Giang,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6738466
 HONDA,CITY,L,2026,Sedan,Xăng,Tự động,1.5,5,FWD,539000000,,Trong nước,Trắng,Đồng Nai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-city-l-1.5-at-2026-5926059
 PORSCHE,PANAMERA,V6,2018,Sedan,Xăng,Tự động,3,4,RWD,3298000000,12000,Nhập khẩu,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-panamera-3.0-v6-2018-6833764
 BMW,7,SERIES 735I M SPORT,2026,Sedan,Hybrid,Tự động,3,5,RWD,5299000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-7_series-735i-m-sport-2026-6609482
@@ -2949,7 +2867,6 @@ MERCEDES BENZ,C,CLASS C300 AMG,2019,Sedan,Xăng,Tự động,2,5,RWD,968000000,7
 NISSAN,NAVARA,EL PREMIUM Z,2019,Bán tải,Dầu,Tự động,2.5,5,RWD,430000000,88000,Nhập khẩu,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-el-premium-z-2019-6795458
 HYUNDAI,KONA,ĐẶC BIỆT,2021,SUV,Xăng,Tự động,2,5,FWD,539000000,71000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-kona-dac-biet-2.0-at-2021-6780932
 TOYOTA,INNOVA,G,2022,Crossover,Xăng,Tự động,2,8,RWD,660000000,78903,Trong nước,Đồng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-g-2.0-at-2022-6828886
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,659000000,30000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6813559
 HYUNDAI,TUCSON,CRDI,2017,Crossover,Dầu,Tự động,2,5,FWD,555000000,110000,Trong nước,Đỏ,Tuyên Quang,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-crdi-2017-6809674
 AUDI,Q7,45 TFSI QUATTRO S LINE,2025,SUV,Xăng,Tự động,2,7,4WD,3799000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q7-45-tfsi-quattro-s-line-2025-6826869
 MG,7,T LUXURY,2024,Sedan,Xăng,Tự động,1.5,5,FWD,670000000,7000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-7-1.5t-luxury-2024-6692531
@@ -2993,11 +2910,9 @@ MITSUBISHI,XPANDER,CROSS,2023,SUV,Xăng,Tự động,1.5,7,FWD,575000000,18000,N
 MERCEDES BENZ,GLC,300 4MATIC,2024,SUV,Hybrid,Tự động,2,5,4WD,2399000000,12000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2024-6738569
 KIA,SONET,PREMIUM,2024,Crossover,Xăng,Tự động,1.5,5,FWD,580000000,0,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-premium-1.5-at-2024-6641042
 MITSUBISHI,TRITON,PREMIUM 2WD,2026,Bán tải,Dầu,Tự động,2.4,5,RWD,705000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-triton-premium-2wd-at-2026-6474654
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,720000000,44000,Trong nước,Ghi,Lâm Đồng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6749129
 VOLKSWAGEN,PASSAT,BLUEMOTION,2017,Sedan,Xăng,Tự động,1.8,5,FWD,599000000,47000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-passat-1.8-bluemotion-2017-6731492
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,229000000,0,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6766573
 FORD,EVEREST,SPORT 4X2,2021,SUV,Dầu,Tự động,2,7,RWD,720000000,120000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-sport-2.0l-4x2-at-2021-6778108
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,658000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-5552179
 TOYOTA,ALPHARD,BẢN THƯỜNG,2025,MPV,Xăng,Tự động,2.4,7,FWD,4500000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-alphard-2.4-at-2025-6367348
 VINFAST,LUX,A PREMIUM,2019,Sedan,Xăng,Tự động,2,5,RWD,510000000,68000,Trong nước,Hồng,Đà Nẵng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_a_2.0-premium-2.0-at-2019-6745529
 FORD,FOCUS,SPORT,2016,Hatchback,Xăng,Tự động,1.5,5,FWD,360000000,100000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-focus-sport-1.5l-2016-6718005
@@ -3010,7 +2925,6 @@ KIA,CARNIVAL,PREMIUM D 8S,2024,MPV,Dầu,Tự động,2.2,8,FWD,1200000000,27000
 LEXUS,RX,350,2021,SUV,Xăng,Tự động,3.5,5,4WD,3080000000,38000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-2021-6810608
 MERCEDES BENZ,EQS,500 4MATIC,2023,SUV,Điện,Tự động,,5,4WD,4229000000,5752,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-eqs-500-4matic-2023-6635029
 MAZDA,3,LUXURY,2023,Sedan,Xăng,Tự động,1.5,5,FWD,555000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2023-6759512
-KIA,MORNING,X,,Hatchback,Xăng,Tự động,1.25,5,FWD,345000000,55555,Trong nước,Đỏ,Thái Nguyên,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-x-line-2022-6591932
 AUDI,A6,S LINE,2026,Sedan,Xăng,Tự động,2,5,FWD,2749000000,,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a6-s-line-2026-6734324
 MAZDA,CX5,PREMIUM EXCLUSIVE,2025,SUV,Xăng,Tự động,2,5,FWD,845000000,778,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-exclusive-2.0-at-2025-6712386
 KIA,CARNIVAL,SIGNATURE D,2025,MPV,Dầu,Tự động,2.2,7,FWD,1425000000,29000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2025-6831695
@@ -3058,7 +2972,6 @@ HYUNDAI,ELANTRA,ĐẶC BIỆT,2024,Sedan,Xăng,Tự động,1.6,5,FWD,579000000,
 FORD,EVEREST,TITANIUM PLUS 4X4,2023,SUV,Dầu,Tự động,2,7,4WD,1320000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-plus-2.0l-4x4-at-2023-6702066
 AUDI,Q5,BẢN THƯỜNG,2010,SUV,Xăng,Tự động,2,5,4WD,315000000,180000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q5-2.0-at-2010-6707458
 VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,680000000,28000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2023-6727208
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,492000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-2025-6448496
 VINFAST,LUX,A TIÊU CHUẨN,2022,Sedan,Xăng,Tự động,2,5,RWD,470000000,83648,Trong nước,Đỏ,Ninh Bình,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_a_2.0-tieu-chuan-2022-6830559
 MAZDA,3,BẢN THƯỜNG,2017,Sedan,Xăng,Tự động,1.5,5,FWD,355000000,90000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5-at-2017-6830823
 LEXUS,RX,300,2021,SUV,Xăng,Tự động,2,5,4WD,2799000000,40000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-300-2021-6690490
@@ -3081,14 +2994,12 @@ HYUNDAI,SANTAFE,CAO CẤP HTRAC,2022,SUV,Dầu,Tự động,2.2,7,4WD,1120000000
 MAZDA,2,BẢN THƯỜNG,2026,Sedan,Xăng,Tự động,1.5,5,FWD,404000000,,Nhập khẩu,Trắng,Thanh Hóa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-2-1.5-at-2026-6755320
 FORD,EVEREST,TITANIUM 4X4,2020,SUV,Dầu,Tự động,2,7,4WD,860000000,59000,Nhập khẩu,Xám,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x4-at-2020-6748994
 TOYOTA,CAMRY,E,2018,Sedan,Xăng,Tự động,2,5,FWD,568000000,94000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.0e-2018-6792568
-ISUZU,MU,,,SUV,Dầu,Số sàn,1.9,7,RWD,450000000,90000,Nhập khẩu,Bạc,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-1.9-4x2-mt-2019-6737801
 KIA,SEDONA,DAT LUXURY,2019,MPV,Dầu,Tự động,2.2,7,FWD,610000000,90000,Trong nước,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sedona-2.2-dat-luxury-2019-6769833
 TOYOTA,VIOS,E,2026,Sedan,Xăng,Tự động,1.5,5,FWD,460000000,,Trong nước,Cát,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-e-cvt-2026-4983818
 MITSUBISHI,XPANDER,PREMIUM,2026,SUV,Xăng,Tự động,1.5,7,FWD,552000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-premium-1.5-at-2026-6787148
 KIA,SONET,PREMIUM,2022,Crossover,Xăng,Tự động,1.5,5,FWD,495000000,46000,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-premium-1.5-at-2022-6766803
 KIA,SEDONA,DAT LUXURY,2019,MPV,Dầu,Tự động,2.2,7,FWD,679000000,69000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sedona-2.2-dat-luxury-2019-6786811
 LEXUS,RX,350 AWD,2010,SUV,Xăng,Tự động,3.5,5,4WD,790000000,93000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-awd-2010-6742190
-VOLKSWAGEN,GOLF,ETSI R,,Hatchback,Hybrid,Tự động,1.5,5,FWD,998000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-golf-1.5-etsi-r-line-2024-6707650
 FORD,EVEREST,PLATINUM 4X4,2024,SUV,Dầu,Tự động,2,7,4WD,1417000000,41000,Nhập khẩu,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-platinum-2.0l-4x4-at-2024-6814438
 TOYOTA,COROLLA,CROSS V,2025,SUV,Xăng,Tự động,1.8,5,FWD,835000000,8000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2025-6811451
 FORD,TRANSIT,VAN,2017,MPV,Dầu,Số sàn,2.4,6,RWD,330000000,190786,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-transit-van-2017-6733630
@@ -3101,7 +3012,6 @@ MERCEDES BENZ,C,CLASS C200 AVANTGARDE PLUS,2026,Sedan,Xăng,Tự động,1.5,5,R
 MERCEDES BENZ,GLC,250 4MATIC,2018,SUV,Xăng,Tự động,2,5,4WD,989000000,80000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-250-4matic-2018-6606835
 BYD,M6,STANDARD,2026,MPV,Điện,Tự động,,7,FWD,756000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-byd-m6-standard-2026-6833759
 PORSCHE,MACAN,S,2019,SUV,Xăng,Tự động,3,5,4WD,2180000000,54000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-macan-s-2019-6826176
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6796506
 MAZDA,3,LUXURY,2019,Sedan,Xăng,Tự động,1.5,5,FWD,389000000,11800,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2019-6762556
 MAZDA,6,PREMIUM,2017,Sedan,Xăng,Tự động,2.5,5,FWD,458000000,70000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-6-premium-2.5-at-2017-6833758
 TOYOTA,LAND,CRUISER VX V8,2017,SUV,Xăng,Tự động,4.6,8,4WD,3190000000,0,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-vx-4.6-v8-2017-6633127
@@ -3143,7 +3053,6 @@ KIA,CERATO,BẢN THƯỜNG,2018,Sedan,Xăng,Số sàn,1.6,5,FWD,340000000,100000
 HYUNDAI,ACCENT,BẢN THƯỜNG,2020,Sedan,Xăng,Tự động,1.4,5,FWD,325000000,0,Trong nước,Trắng,Đồng Nai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-at-2020-6833728
 MAZDA,CX8,PREMIUM,2025,SUV,Xăng,Tự động,2.5,7,FWD,989000000,22000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx8-premium-2.5-at-2025-6775585
 FORD,RANGER,WILDTRAK 4X4,2026,Bán tải,Dầu,Tự động,2,5,4WD,850000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2026-6812698
-BYD,SEAL,5 DM,,Sedan,Hybrid,Tự động,1.5,5,FWD,626000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-byd-seal-5-dm-i-premium-2026-6833721
 TOYOTA,INNOVA,E,2014,Crossover,Xăng,Số sàn,2,8,RWD,246000000,103000,Trong nước,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-2.0e-2014-6833755
 HYUNDAI,ACCENT,BẢN THƯỜNG,2020,Sedan,Xăng,Tự động,1.4,5,FWD,330000000,100,Trong nước,Đen,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-at-2020-6833737
 BYD,M6,STANDARD,2026,MPV,Điện,Tự động,,7,FWD,756000000,,Nhập khẩu,Ghi,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-byd-m6-standard-2026-6833753
@@ -3200,7 +3109,6 @@ MERCEDES BENZ,C,CLASS C200 AVANTGARDE,2026,Sedan,Xăng,Tự động,1.5,5,RWD,13
 MAZDA,2,BẢN THƯỜNG,2026,Sedan,Xăng,Tự động,1.5,5,FWD,399000000,,Nhập khẩu,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-2-1.5-at-2026-6567966
 MAZDA,CX5,BẢN THƯỜNG,2016,SUV,Xăng,Tự động,2,5,FWD,430000000,88000,Trong nước,Vàng,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.0-at-2016-6731167
 MERCEDES BENZ,E,CLASS E200 EXCLUSIVE,2026,Sedan,Hybrid,Tự động,2,5,RWD,2540000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-exclusive-2026-6760449
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Dầu,Tự động,2,5,FWD,766000000,66000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-2.0d-2023-6833736
 KIA,SEDONA,PLATINUM D,2018,MPV,Dầu,Tự động,2.2,7,FWD,679000000,0,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sedona-platinum-d-2018-6773944
 MERCEDES BENZ,C,CLASS C200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,939000000,63000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2021-6806317
 LEXUS,RX,300,2021,SUV,Xăng,Tự động,2,5,4WD,2449000000,23200,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-300-2021-6826960
@@ -3332,7 +3240,6 @@ FORD,EVEREST,PLATINUM 4X2,2026,SUV,Dầu,Tự động,2,7,RWD,1235000000,,Nhập
 MG,5,BẢN THƯỜNG,2024,Sedan,Xăng,Số sàn,1.5,5,FWD,315000000,50000,Nhập khẩu,Trắng,Gia Lai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-5-1.5-mt-2024-6833720
 PORSCHE,MACAN,BẢN THƯỜNG,2023,SUV,Xăng,Tự động,2,5,4WD,3399000000,14000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-macan-2.0-2023-6830141
 HONDA,HRV,E:HEV RS,2026,Crossover,Hybrid,Tự động,1.5,5,FWD,805000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-hrv-e-hev-rs-2026-6819761
-BYD,SEAL,5 DM,,Sedan,Hybrid,Tự động,1.5,5,FWD,626000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-byd-seal-5-dm-i-premium-2026-6833729
 LEXUS,RX,350L,2018,SUV,Xăng,Tự động,3.5,7,4WD,2480000000,127000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350l-2018-6833730
 KIA,SEDONA,DATH,2016,MPV,Dầu,Tự động,2.2,7,FWD,555000000,100000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sedona-2.2l-dath-2016-6833719
 HYUNDAI,I10,GRAND,2020,Hatchback,Xăng,Tự động,1.2,5,FWD,340000000,80000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-grand-1.2-at-2020-6733636
@@ -3343,7 +3250,6 @@ KIA,SELTOS,PREMIUM,2021,Crossover,Xăng,Tự động,1.4,5,FWD,539000000,63000,T
 AUDI,Q7,TFSI 55,2018,SUV,Xăng,Tự động,3,7,4WD,1280000000,140000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q7-3.0-tfsi-55-2018-6819518
 BMW,X3,XDRIVE30I M SPORT,2019,SUV,Xăng,Tự động,2,5,4WD,1060000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x3-xdrive30i-m-sport-2019-6717154
 MITSUBISHI,OUTLANDER,BẢN THƯỜNG,2023,SUV,Xăng,Tự động,2,7,FWD,679000000,56465,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-outlander-2.0-cvt-2023-6778112
-MAZDA,CX5,SIGNATURE PREMIUM AWD I,,SUV,Xăng,Tự động,2.5,5,4WD,638000000,95000,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-signature-premium-awd-i-activ-2020-6801642
 VINFAST,LUX,A PLUS,2020,Sedan,Xăng,Tự động,2,5,RWD,529000000,54000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_a_2.0-plus-2.0-at-2020-6824317
 PEUGEOT,5008,GT,2022,SUV,Xăng,Tự động,1.6,7,FWD,869000000,60000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-5008-gt-1.6-at-2022-6716473
 HONDA,CIVIC,RS,2020,Sedan,Xăng,Tự động,1.5,5,FWD,550000000,82000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-civic-rs-1.5-at-2020-6717503
@@ -3353,7 +3259,6 @@ MERCEDES BENZ,GLC,300 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,2879000000,299
 SMART,FORTWO,BẢN THƯỜNG,2008,Hatchback,Xăng,Tự động,1,2,RWD,350000000,0,Nhập khẩu,Vàng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-smart-fortwo-1.0-at-2008-6607648
 LEXUS,GX,460,2014,SUV,Xăng,Tự động,4.6,7,4WD,1689000000,123456,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-gx-460-2014-6590336
 VINFAST,LIMO,GREEN,2025,SUV,Điện,Tự động,,7,FWD,749000000,,Trong nước,Đỏ,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2025-6168735
-HYUNDAI,ELANTRA,N,,Sedan,Xăng,Tự động,1.6,5,FWD,639000000,46000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-elantra-n-line-1.6-turbo-at-2023-6785596
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,770000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6795009
 KIA,K5,PREMIUM,2022,Sedan,Xăng,Tự động,2,5,FWD,679000000,56000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-premium-2.0-at-2022-6744679
 VINFAST,VF8,ECO,2026,SUV,Điện,Tự động,,5,FWD,999000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-2026-6820683
@@ -3362,7 +3267,6 @@ VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,659000000,,Trong nước
 HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2024,Crossover,Xăng,Tự động,1.6,5,4WD,875000000,30000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-htrac-dac-biet-2024-6811037
 LEXUS,RX,350H PREMIUM,2026,SUV,Hybrid,Tự động,2.5,5,4WD,3350000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350h-premium-2026-6492578
 KIA,CERATO,BẢN THƯỜNG,2009,Sedan,Xăng,Tự động,1.6,5,FWD,210000000,140000,Nhập khẩu,Trắng,Đồng Nai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-cerato-1.6-at-2009-6833698
-LEXUS,LX,600 F,,SUV,Xăng,Tự động,3.4,5,4WD,8840000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-600-f-sport-2026-6477942
 LEXUS,LX,600 VIP,2026,SUV,Xăng,Tự động,3.4,4,4WD,9700000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-600-vip-2026-6477945
 LEXUS,RX,350H PREMIUM,2026,SUV,Hybrid,Tự động,2.5,5,4WD,3350000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350h-premium-2026-6466454
 LEXUS,GX,550 LUXURY,2026,SUV,Xăng,Tự động,3.4,7,4WD,6400000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-gx-550-luxury-2026-6488847
@@ -3391,7 +3295,6 @@ VINFAST,VF7,ECO,2025,SUV,Điện,Tự động,,5,FWD,690000000,1900,Trong nướ
 MITSUBISHI,DESTINATOR,PREMIUM,2026,SUV,Xăng,Tự động,1.5,7,FWD,720000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-destinator-premium-2026-6556351
 TOYOTA,PRADO,VX,2018,SUV,Xăng,Tự động,2.7,7,4WD,1720000000,15100,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2018-6812608
 HYUNDAI,I10,GRAND,2015,Hatchback,Xăng,Tự động,1,5,FWD,255000000,66000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-grand-1.0-at-2015-6738374
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,535000000,90000,Trong nước,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2017-6693934
 MERCEDES BENZ,GLA,CLASS GLA 250 4MATIC,2016,SUV,Xăng,Tự động,2,5,4WD,550000000,0,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gla_class-gla-250-4matic-2016-6764349
 VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,650000000,0,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2023-6810438
 INFINITI,QX60,AWD,2015,SUV,Xăng,Tự động,3.5,7,4WD,698000000,94000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-infiniti-qx60-3.5-awd-2015-6679146
@@ -3419,7 +3322,6 @@ HYUNDAI,TUCSON,CRDI,2020,Crossover,Dầu,Tự động,2,5,FWD,699000000,80000,Tr
 KIA,K3,PREMIUM,2023,Sedan,Xăng,Tự động,1.6,5,FWD,570000000,14000,Trong nước,Đỏ,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k3-premium-1.6-at-2023-6709605
 MINI,CONVERTIBLE,COOPER S,2024,Mui trần,Xăng,Tự động,2,2,FWD,2619000000,,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mini-convertible-cooper-s-2024-6405648
 FORD,RANGER,XLS 4X2,2016,Bán tải,Dầu,Tự động,2.2,5,RWD,399000000,140000,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2016-6774612
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,838000000,16000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-eyesight-2023-6810993
 HONDA,CRV,L,2018,SUV,Xăng,Tự động,1.5,7,FWD,755000000,55000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-l-2018-6703736
 MAZDA,3,LUXURY,2025,Sedan,Xăng,Tự động,1.5,5,FWD,605000000,10000,Trong nước,Xanh,Đà Nẵng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2025-6727568
 JAGUAR,XF,BẢN THƯỜNG,2014,Sedan,Xăng,Tự động,2,5,RWD,576000000,0,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jaguar-xf-2.0-at-2014-6830668
@@ -3561,7 +3463,6 @@ TOYOTA,VELOZ,CROSS TOP,2022,SUV,Xăng,Tự động,1.5,7,FWD,475000000,80000,Nh�
 MERCEDES BENZ,E,CLASS E200 AVANTGARDE,2026,Sedan,Hybrid,Tự động,2,5,RWD,2349000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-avantgarde-2026-6515232
 TOYOTA,VIOS,G,2023,Sedan,Xăng,Tự động,1.5,5,FWD,450000000,40000,Trong nước,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-g-1.5-cvt-2023-6807072
 MERCEDES BENZ,GLC,200,2020,SUV,Xăng,Tự động,2,5,RWD,1030000000,120000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-2020-6752055
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,658000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6832233
 AUDI,Q5,SLINE 45 TFSI QUATTRO,2023,SUV,Xăng,Tự động,2,5,4WD,1699000000,59000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q5-sline-45-tfsi-quattro-2023-6815646
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,230000000,11000,Trong nước,Hồng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6725586
 VOLKSWAGEN,TIGUAN,BẢN THƯỜNG,2011,SUV,Xăng,Tự động,2,5,4WD,225000000,0,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-tiguan-2.0-at-2011-6730069
@@ -3599,7 +3500,6 @@ KIA,CERATO,BẢN THƯỜNG,2018,Sedan,Xăng,Tự động,1.6,5,FWD,395000000,110
 BMW,7,SERIES 730LI,2011,Sedan,Xăng,Tự động,3,5,RWD,580000000,58000,Nhập khẩu,Đen,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-7_series-730li-2011-6568190
 MITSUBISHI,ATTRAGE,BẢN THƯỜNG,2024,Sedan,Xăng,Số sàn,1.2,5,FWD,289000000,30000,Nhập khẩu,Trắng,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-attrage-1.2-mt-2024-6721362
 TOYOTA,COROLLA,CROSS V,2021,SUV,Xăng,Tự động,1.8,5,FWD,665000000,70000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2021-6772398
-NISSAN,NAVARA,EL A,,Bán tải,Dầu,Tự động,2.5,5,RWD,469000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-el-a-ivi-2.5-at-2wd-2020-6807997
 MERCEDES BENZ,C,CLASS C200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,939000000,65000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2021-6655432
 KIA,CARENS,G LUXURY,2024,SUV,Xăng,Tự động,1.5,7,FWD,595000000,0,Trong nước,Đỏ,Gia Lai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carens-1.5g-luxury-2024-6810350
 TOYOTA,PRADO,VX,2021,SUV,Xăng,Tự động,2.7,7,4WD,2380000000,90000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2021-6821562
@@ -3615,7 +3515,6 @@ MAZDA,3,LUXURY,2020,Sedan,Xăng,Tự động,1.5,5,FWD,475000000,50000,Trong nư
 FORD,RANGER,XLS 4X4,2023,Bán tải,Dầu,Tự động,2,5,4WD,660000000,25000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x4-at-2023-6785712
 TOYOTA,LAND,CRUISER V6,2022,SUV,Xăng,Tự động,3.4,7,4WD,4550000000,61000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2022-6833687
 KIA,SORENTO,SIGNATURE AWD,2022,SUV,Xăng,Tự động,2.5,7,4WD,860000000,5,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sorento-signature-2.5-at-awd-2022-6833654
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,695000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6833673
 MERCEDES BENZ,EQS,500 4MATIC SUV,2026,SUV,Điện,Tự động,,5,4WD,4699000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-eqs-500-4matic-suv-2026-6829831
 MITSUBISHI,PAJERO,SPORT G 4X4 PREMIUM,2024,SUV,Xăng,Tự động,3,7,4WD,1300000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-pajero-sport-3.0g-4x4-at-premium-2024-6286403
 TOYOTA,PRADO,VX,2021,SUV,Xăng,Tự động,2.7,7,4WD,2189000000,110000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2021-6806619
@@ -3664,7 +3563,6 @@ HYUNDAI,SANTAFE,4WD,2008,SUV,Dầu,Tự động,2.2,7,4WD,241000000,170000,Nhậ
 FORD,TERRITORY,TITANIUM X,2025,SUV,Xăng,Tự động,1.5,5,FWD,810000000,20000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2025-6800596
 VINFAST,VF,MPV 7,2026,MPV,Điện,Tự động,,7,FWD,705000000,,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf-mpv-7-at-2026-6833594
 HONDA,CIVIC,BẢN THƯỜNG,2007,Sedan,Xăng,Tự động,1.8,5,FWD,195000000,115000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-civic-1.8-at-2007-6833669
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,530000000,6000,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-dac-biet-2025-6632272
 MAZDA,3,LUXURY,2024,Sedan,Xăng,Tự động,1.5,5,FWD,599000000,10000,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-luxury-2024-6741410
 SUZUKI,SWIFT,GLX,2020,Hatchback,Xăng,Tự động,1.2,5,FWD,386000000,0,Nhập khẩu,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-swift-glx-1.2-at-2020-6824553
 PEUGEOT,3008,GT,2022,Crossover,Xăng,Tự động,1.6,5,FWD,769000000,15000,Trong nước,Xanh,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-3008-gt-2022-6831005
@@ -3736,7 +3634,6 @@ MAZDA,3,SPORT LUXURY,2022,Hatchback,Xăng,Tự động,1.5,5,FWD,499000000,39000
 MERCEDES BENZ,C,CLASS C200,2018,Sedan,Xăng,Tự động,2,5,RWD,679000000,77000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-2018-6812041
 BMW,5,SERIES 520I,2025,Sedan,Xăng,Tự động,2,5,RWD,2579000000,6800,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-5_series-520i-2025-6833402
 MITSUBISHI,XPANDER,BẢN THƯỜNG,2019,SUV,Xăng,Tự động,1.5,7,FWD,389000000,79000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-1.5-at-2019-6833655
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,599000000,70000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-l-2020-6804349
 LEXUS,LX,570,2020,SUV,Xăng,Tự động,5.7,7,4WD,6950000000,110000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-2020-6803397
 MERCEDES BENZ,C,CLASS C200,2018,Sedan,Xăng,Tự động,2,5,RWD,665000000,100000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-2018-6788813
 MG,ZS,STANDARD 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,415000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-standard-1.5-at-2wd-2025-6477524
@@ -3824,7 +3721,6 @@ MERCEDES BENZ,EQS,680 MAYBACH SUV,2026,SUV,Điện,Tự động,,4,4WD,774000000
 MERCEDES BENZ,GLC,300 4MATIC,2026,SUV,Hybrid,Tự động,2,5,4WD,2450000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2026-6740040
 TOYOTA,CAMRY,Q,2015,Sedan,Xăng,Tự động,2.5,5,FWD,535000000,110000,Trong nước,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.5q-2015-6822533
 MERCEDES BENZ,E,CLASS E200,2015,Sedan,Xăng,Tự động,2,5,RWD,425000000,0,Trong nước,Đen,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-2015-6822545
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,530000000,105000,Trong nước,Trắng,Hưng Yên,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2017-6833365
 KIA,MORNING,SI,2016,Hatchback,Xăng,Tự động,1.25,5,FWD,239000000,0,Trong nước,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-si-at-2016-6828201
 KIA,CARNIVAL,SIGNATURE D,2024,MPV,Dầu,Tự động,2.2,7,FWD,1219000000,26000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2024-6772199
 FORD,RANGER,WILDTRAK 4X4,2020,Bán tải,Dầu,Tự động,2,5,4WD,595000000,103000,Nhập khẩu,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2020-6828310
@@ -3914,7 +3810,6 @@ VINFAST,VF3,PLUS,2026,Hatchback,Điện,Tự động,,4,RWD,250000000,,Trong nư
 HYUNDAI,ELANTRA,BẢN THƯỜNG,2021,Sedan,Xăng,Tự động,2,5,FWD,495000000,20000,Trong nước,Đỏ,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-elantra-2.0-at-2021-6750760
 BMW,3,SERIES 330I M SPORT,2024,Sedan,Xăng,Tự động,2,5,RWD,1698000000,20000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-3_series-330i-m-sport-2024-6724774
 MG,ZS,STANDARD 2WD,2023,Crossover,Xăng,Tự động,1.5,5,FWD,435000000,35000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-standard-1.5-at-2wd-2023-6620125
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,610000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6830326
 FORD,EVEREST,TITANIUM PLUS 4X4,2025,SUV,Dầu,Tự động,2,7,4WD,1250000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-plus-2.0l-4x4-at-2025-6475854
 AUDI,A4,TFSI,2016,Sedan,Xăng,Tự động,2,5,FWD,599000000,80000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a4-2.0-tfsi-2016-6823274
 PORSCHE,PANAMERA,V6,2010,Sedan,Xăng,Tự động,3.6,4,RWD,790000000,0,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-panamera-3.6-v6-2010-6809352
@@ -3931,7 +3826,6 @@ KIA,CARNIVAL,PREMIUM D 7S,2024,MPV,Dầu,Tự động,2.2,7,FWD,1185000000,56000
 VINFAST,VF6,ECO,2026,SUV,Điện,Tự động,,5,FWD,625000000,,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf6-eco-2026-6122664
 MERCEDES BENZ,GLK,CLASS GLK300 4MATIC,2012,SUV,Xăng,Tự động,3,5,4WD,450000000,110000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glk_class-glk300-4matic-2012-6713592
 TOYOTA,FORTUNER,V 4X2,2015,SUV,Xăng,Tự động,2.7,7,RWD,398000000,91000,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2015-6833630
-DAEWOO,MATIZ,SE,2002,Hatchback,Xăng,Số sàn,0.8,5,FWD,39000000,212000,Trong nước,Nâu,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-daewoo-matiz-se-0.8-mt-2002-6833610
 LANDROVER,RANGE,ROVER FIRST EDITION SWB V8 AWD,2023,SUV,Xăng,Tự động,4.4,5,4WD,11800000000,49000,Nhập khẩu,Đồng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-first-edition-swb-4.4-v8-awd-2023-6600284
 MERCEDES BENZ,S,CLASS S450L,2019,Sedan,Xăng,Tự động,3,5,RWD,2280000000,92123,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-2019-6653398
 BMW,3,SERIES 320I M SPORT,2026,Sedan,Xăng,Tự động,2,5,RWD,1899000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-3_series-320i-m-sport-2026-5242098
@@ -3960,7 +3854,6 @@ KIA,SELTOS,PREMIUM,2022,Crossover,Xăng,Tự động,1.6,5,FWD,599000000,0,Trong
 VOLVO,S90,ULTRA B6 AWD,2025,Sedan,Xăng,Tự động,2,5,4WD,2079000000,10000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-s90-ultra-b6-awd-2025-6633728
 VOLVO,XC60,RECHARGE ULTIMATE T8 AWD,2023,SUV,Hybrid,Tự động,2,5,4WD,2199000000,40000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc60-recharge-ultimate-t8-awd-2023-6831735
 VOLVO,XC60,ULTRA B5 AWD,2025,SUV,Hybrid,Tự động,2,5,4WD,2199000000,1000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc60-ultra-b5-awd-2025-6822582
-VOLVO,XC90,PLUG,,SUV,Hybrid,Tự động,2,7,4WD,3789000000,30000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc90-plug-in-hybrid-ultra-t8-awd-2025-6831501
 TOYOTA,CAMRY,E,2014,Sedan,Xăng,Tự động,2,5,FWD,475000000,0,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.0e-2014-6802449
 TOYOTA,PRADO,VX,2022,SUV,Xăng,Tự động,2.7,7,4WD,2550000000,72000,Nhập khẩu,Đồng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2022-6833626
 FORD,TERRITORY,TITANIUM X,2023,SUV,Xăng,Tự động,1.5,5,FWD,699000000,50000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2023-6760415
@@ -3976,7 +3869,6 @@ LEXUS,RC,200T,2016,Coupe,Xăng,Tự động,2,5,RWD,1250000000,64000,Nhập kh�
 MITSUBISHI,ATTRAGE,BẢN THƯỜNG,2026,Sedan,Xăng,Số sàn,1.2,5,FWD,330000000,,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-attrage-1.2-mt-2026-6551635
 FORD,RANGER,XLS 4X2,2021,Bán tải,Dầu,Tự động,2.2,5,RWD,540000000,50000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2021-6745687
 HONDA,CRV,E:HEV RS,2026,SUV,Hybrid,Tự động,2,5,FWD,1215000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-e-hev-rs-2026-6785629
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,615000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-3491696
 FORD,TERRITORY,TITANIUM,2026,SUV,Xăng,Tự động,1.5,5,FWD,732000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-1.5-at-2026-6747511
 TOYOTA,VIOS,G,2023,Sedan,Xăng,Tự động,1.5,5,FWD,435000000,70000,Trong nước,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-g-1.5-cvt-2023-6819463
 HAVAL,H6,HEV,2023,SUV,Hybrid,Tự động,1.5,5,FWD,690000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-haval-h6-hev-2023-6822554
@@ -3988,7 +3880,6 @@ MERCEDES BENZ,S,CLASS S450L LUXURY,2018,Sedan,Xăng,Tự động,3,5,RWD,2099000
 MERCEDES BENZ,C,CLASS C200,2016,Sedan,Xăng,Tự động,2,5,RWD,579000000,90000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-2016-6720074
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,637000000,,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6819253
 TOYOTA,FORTUNER,G 4X2,2018,SUV,Dầu,Tự động,2.4,7,RWD,760000000,100000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-at-2018-6815477
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,1.6,5,4WD,825000000,27000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-1.6t-awd-2022-6804343
 MERCEDES BENZ,S,CLASS S450,2022,Sedan,Xăng,Tự động,3,5,RWD,3499000000,30000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-2022-6769293
 LANDROVER,RANGE,ROVER AUTOBIOGRAPHY LWB I6,2020,SUV,Xăng,Tự động,3,5,4WD,5990000000,50000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover-autobiography-lwb-3.0-i6-2020-6724496
 MERCEDES BENZ,E,CLASS E200,2017,Sedan,Xăng,Tự động,2,5,RWD,789000000,84000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-2017-6822590
@@ -4062,17 +3953,14 @@ LEXUS,RX,300,2019,SUV,Xăng,Tự động,2,5,4WD,2345000000,65000,Nhập khẩu,
 TOYOTA,PRADO,VX,2018,SUV,Xăng,Tự động,2.7,7,4WD,1830000000,130000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2018-6738764
 MG,5,LUXURY,2022,Sedan,Xăng,Tự động,1.5,5,FWD,370000000,50000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-5-luxury-1.5-at-2022-6786923
 HYUNDAI,SANTAFE,TIÊU CHUẨN,2022,SUV,Xăng,Tự động,2.5,7,FWD,850000000,63000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-tieu-chuan-2.5l-2022-6797271
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,2990000000,40000,Nhập khẩu,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-se-2.0-2022-6813717
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2023,SUV,Dầu,Tự động,2.2,7,4WD,1170000000,11000,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.2l-htrac-2023-6566231
 TOYOTA,FORTUNER,G 4X2 LEGENDER,2021,SUV,Dầu,Tự động,2.4,7,RWD,940000000,111852,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-at-legender-2021-6726240
-HYUNDAI,VENUE,T,,SUV,Xăng,Tự động,1,5,FWD,492000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-venue-1.0-t-gdi-2025-6448492
 TOYOTA,LAND,CRUISER V6,2022,SUV,Xăng,Tự động,3.4,7,4WD,4560000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2022-6831603
 TOYOTA,PRADO,VX,2021,SUV,Xăng,Tự động,2.7,7,4WD,2480000000,60000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2021-6744981
 MERCEDES BENZ,GLE,CLASS GLE 400 E 4MATIC,2026,SUV,Hybrid,Tự động,2,5,4WD,4669000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gle_class-gle-400-e-4matic-2026-6695620
 AUDI,A6,45 TFSI,2022,Sedan,Xăng,Tự động,2,5,FWD,1390000000,20000,Nhập khẩu,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a6-45-tfsi-2022-6828751
 TOYOTA,COROLLA,CROSS HV,2022,SUV,Hybrid,Tự động,1.8,5,FWD,730000000,65000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8hv-2022-6833609
 TOYOTA,FORTUNER,V 4X2,2016,SUV,Xăng,Tự động,2.7,7,RWD,430000000,92000,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2016-6833134
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,2,5,FWD,869000000,26000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-2.0g-2023-6747246
 VINFAST,VF9,PLUS 7S,2026,SUV,Điện,Tự động,,7,4WD,1465000000,,Trong nước,Đen,Nam Định,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf9-plus-7s-2026-6819414
 HYUNDAI,TUCSON,ĐẶC BIỆT,2026,Crossover,Xăng,Tự động,2,5,FWD,779000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-dac-biet-2026-6167796
 VINFAST,VF3,ECO,2026,Hatchback,Điện,Tự động,,4,RWD,263000000,,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-eco-2026-6820998
@@ -4172,7 +4060,6 @@ PEUGEOT,3008,AL,2021,Crossover,Xăng,Tự động,1.6,5,FWD,590000000,52000,Tron
 MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2022,Sedan,Xăng,Tự động,3,4,4WD,6500000000,25000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-maybach-2022-6808086
 TOYOTA,VELOZ,CROSS TOP,2025,SUV,Xăng,Tự động,1.5,7,FWD,575000000,33000,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-veloz-cross-top-1.5-cvt-2025-6804555
 MAZDA,CX5,PREMIUM,2023,SUV,Xăng,Tự động,2,5,FWD,715000000,49000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2023-6807684
-NISSAN,KICKS,E,,SUV,Hybrid,Tự động,1.2,5,FWD,550000000,60000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-kicks-e-power-v-2022-6734620
 MERCEDES BENZ,GLC,300 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,2440000000,,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2025-6796634
 FORD,EVEREST,TITANIUM 4X2,2020,SUV,Dầu,Tự động,2,7,RWD,815000000,80000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2020-6812047
 LEXUS,RX,300,2021,SUV,Xăng,Tự động,2,5,4WD,2486000000,90000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-300-2021-6823139
@@ -4239,7 +4126,6 @@ VOLKSWAGEN,TERAMONT,PRO,2025,SUV,Xăng,Tự động,2,7,4WD,2799000000,,Nhập k
 MERCEDES BENZ,C,CLASS C300 AMG,2016,Sedan,Xăng,Tự động,2,5,RWD,680000000,70000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2016-6511871
 KIA,CARNIVAL,SIGNATURE D,2024,MPV,Dầu,Tự động,2.2,7,FWD,1439000000,29000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2024-6753825
 TOYOTA,ALPHARD,BẢN THƯỜNG,2026,MPV,Xăng,Tự động,2.4,7,FWD,4510000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-alphard-2.4-at-2026-6477391
-KIA,SPORTAGE,SIGNATURE X,,Crossover,Xăng,Tự động,1.6,5,4WD,899000000,19000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sportage-signature-x-line-1.6t-awd-2024-6833261
 HYUNDAI,SANTAFE,MLX 4WD,2010,SUV,Xăng,Số sàn,2.4,5,4WD,195000000,70000,Nhập khẩu,Xám,Thừa Thiên Huế,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-mlx-2.4l-4wd-2010-6787818
 TOYOTA,INNOVA,CROSS V,2026,Crossover,Xăng,Tự động,2,8,FWD,810000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0v-cvt-2026-6446446
 HAVAL,JOLION,HEV,2025,SUV,Hybrid,Tự động,1.5,5,FWD,569000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-haval-jolion-hev-2025-6819994
@@ -4275,7 +4161,6 @@ TOYOTA,FORTUNER,V 4X2,2021,SUV,Xăng,Tự động,2.7,7,RWD,950000000,8600,Nhậ
 FORD,EVEREST,TITANIUM 4X2,2021,SUV,Dầu,Tự động,2,7,RWD,839000000,79000,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2021-6618886
 VOLKSWAGEN,TERAMONT,PRO,2025,SUV,Xăng,Tự động,2,7,4WD,2799000000,,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-teramont-pro-2.0-at-2025-6689036
 PORSCHE,MACAN,BẢN THƯỜNG,2021,SUV,Xăng,Tự động,2,5,4WD,2599000000,39000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-macan-2.0-2021-6766182
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,610000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6258800
 TOYOTA,WIGO,G,2024,Hatchback,Xăng,Tự động,1.2,5,FWD,389000000,30000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-wigo-g-1.2-at-2024-6786162
 MERCEDES BENZ,C,CLASS C250 AMG,2015,Sedan,Xăng,Tự động,2,5,RWD,520000000,80000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c250-amg-2015-6278798
 TOYOTA,INNOVA,CROSS V,2026,Crossover,Xăng,Tự động,2,8,FWD,825000000,,Nhập khẩu,Nâu,Nam Định,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0v-cvt-2026-5853163
@@ -4293,7 +4178,6 @@ HYUNDAI,SONATA,BẢN THƯỜNG,2010,Sedan,Xăng,Tự động,2,5,FWD,320000000,0
 TOYOTA,VIOS,G,2026,Sedan,Xăng,Tự động,1.5,5,FWD,493000000,,Trong nước,Đen,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-g-1.5-cvt-2026-6698480
 MERCEDES BENZ,S,CLASS S450 LUXURY,2022,Sedan,Xăng,Tự động,3,5,RWD,3550000000,40000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-luxury-2022-6832937
 AUDI,Q5,SLINE 45 TFSI QUATTRO,2024,SUV,Xăng,Tự động,2,5,4WD,1890000000,19000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q5-sline-45-tfsi-quattro-2024-6588502
-AUDI,Q8,55 TFSI S,,SUV,Xăng,Tự động,3,5,4WD,2420000000,0,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q8-55-tfsi-s-line-quattro-2020-6647392
 HYUNDAI,I10,GRAND,2017,Hatchback,Xăng,Tự động,1.2,5,FWD,295000000,73000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-grand-1.2-at-2017-6733504
 HYUNDAI,I10,GRAND BASE,2021,Hatchback,Xăng,Số sàn,1.2,5,FWD,235000000,46000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-grand-1.2-mt-base-2021-6722836
 FORD,ECOSPORT,TITANIUM,2021,SUV,Xăng,Tự động,1.5,5,FWD,425000000,95000,Trong nước,Đỏ,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ecosport-titanium-1.5-at-2021-6640406
@@ -4402,7 +4286,6 @@ KIA,RONDO,GAT DELUXE,2020,SUV,Xăng,Tự động,2,7,FWD,409000000,65000,Trong n
 FORD,RANGER,WILDTRAK 4X4,2026,Bán tải,Dầu,Tự động,2,5,4WD,790000000,,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2026-6830441
 PORSCHE,PANAMERA,4 EXECUTIVE,2018,Sedan,Xăng,Tự động,3,4,RWD,3499000000,96000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-panamera-4-executive-2018-6766041
 FORD,EVEREST,TITANIUM 4X2,2026,SUV,Dầu,Tự động,2,7,RWD,1150000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2026-6790871
-MAZDA,CX5,SIGNATURE PREMIUM AWD I,,SUV,Xăng,Tự động,2.5,5,4WD,705000000,70000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-signature-premium-awd-i-activ-2020-6698476
 MAZDA,CX5,PREMIUM,2023,SUV,Xăng,Tự động,2,5,FWD,730000000,50000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2023-6769434
 TOYOTA,INNOVA,G,2017,Crossover,Xăng,Tự động,2,8,RWD,459000000,18000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-2.0g-2017-6741288
 FORD,EVEREST,SPORT 4X2,2023,SUV,Dầu,Tự động,2,7,RWD,999000000,53000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-sport-2.0l-4x2-at-2023-6833257
@@ -4635,7 +4518,6 @@ FORD,RANGER,WILDTRAK 4X2,2016,Bán tải,Dầu,Tự động,2.2,5,RWD,480000000,
 KIA,SELTOS,LUXURY,2020,Crossover,Xăng,Tự động,1.4,5,FWD,525000000,95000,Trong nước,Cam,Lâm Đồng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-seltos-luxury-1.4-at-2020-6779909
 TOYOTA,YARIS,BẢN THƯỜNG,2007,Hatchback,Xăng,Tự động,1.3,5,FWD,179000000,10000,Nhập khẩu,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-1.3-at-2007-6813001
 TOYOTA,INNOVA,G,2023,Crossover,Xăng,Tự động,2,8,RWD,705000000,97000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-g-2.0-at-2023-6796291
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,630000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-5167800
 SUZUKI,SWIFT,GLX,2021,Hatchback,Xăng,Tự động,1.2,5,FWD,445000000,57000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-swift-glx-1.2-at-2021-6692550
 FORD,RANGER,XLS 4X2,2017,Bán tải,Dầu,Tự động,2.2,5,RWD,365000000,149999,Nhập khẩu,Trắng,Lạng Sơn,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2017-6791957
 TOYOTA,VELOZ,CROSS TOP,2023,SUV,Xăng,Tự động,1.5,7,FWD,545000000,86000,Trong nước,Trắng,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-veloz-cross-top-1.5-cvt-2023-6790292
@@ -4679,7 +4561,6 @@ VINFAST,LUX,SA BASE,2020,SUV,Xăng,Tự động,2,7,RWD,615000000,70000,Trong n�
 MITSUBISHI,XPANDER,BẢN THƯỜNG,2022,SUV,Xăng,Tự động,1.5,7,FWD,450000000,67000,Nhập khẩu,Trắng,Lâm Đồng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-1.5-at-2022-6760382
 VOLVO,EC40,ULTRA,2024,Crossover,Điện,Tự động,,5,4WD,1549000000,15500,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-ec40-ultra-2024-6693014
 TOYOTA,VELOZ,CROSS TOP,2025,SUV,Xăng,Tự động,1.5,7,FWD,585000000,17177,Trong nước,Trắng,Tây Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-veloz-cross-top-1.5-cvt-2025-6828445
-AUDI,Q8,55 TFSI S,,SUV,Xăng,Tự động,3,5,4WD,4199000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q8-55-tfsi-s-line-quattro-2026-5776032
 HYUNDAI,STARGAZER,ĐẶC BIỆT,2022,MPV,Xăng,Tự động,1.5,7,FWD,415000000,120000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-stargazer-dac-biet-1.5-at-2022-6762459
 VOLKSWAGEN,VILORAN,PREMIUM,2024,MPV,Xăng,Tự động,2,7,FWD,1889000000,22000,Nhập khẩu,Đen,Hà Tĩnh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-premium-2024-6828268
 VINFAST,FADIL,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,289000000,60000,Trong nước,Trắng,Thái Nguyên,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-2021-6766833
@@ -4698,7 +4579,6 @@ VINFAST,VF8,PLUS AWD,2026,SUV,Điện,Tự động,,5,4WD,970000000,,Trong nư�
 TOYOTA,VELOZ,CROSS TOP,2025,SUV,Xăng,Tự động,1.5,7,FWD,580000000,0,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-veloz-cross-top-1.5-cvt-2025-6710391
 SUZUKI,XL7,BẢN THƯỜNG,2022,SUV,Xăng,Tự động,1.5,7,FWD,420000000,60000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-xl7-1.5-at-2022-6805315
 CADILLAC,ESCALADE,V8,2014,SUV,Xăng,Tự động,6.2,7,4WD,2550000000,63000,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-cadillac-escalade-6.2-v8-2014-6716231
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,550000000,152000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2017-6763594
 KIA,SELTOS,LUXURY,2022,Crossover,Xăng,Tự động,1.4,5,FWD,560000000,67000,Trong nước,Trắng,Thanh Hóa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-seltos-luxury-1.4-at-2022-6829943
 MERCEDES BENZ,E,CLASS E200,2011,Sedan,Xăng,Tự động,1.8,5,RWD,309000000,100000,Trong nước,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-2011-6598561
 FORD,RANGER,XLS 4X2,2024,Bán tải,Dầu,Tự động,2,5,RWD,619000000,15000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2024-6832710
@@ -4807,7 +4687,6 @@ TOYOTA,VIOS,G,2022,Sedan,Xăng,Tự động,1.5,5,FWD,445000000,96000,Trong nư�
 MAZDA,3,BẢN THƯỜNG,2015,Sedan,Xăng,Tự động,2,5,FWD,333000000,100000,Trong nước,Trắng,Thái Bình,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-2.0-at-2015-6764603
 MERCEDES BENZ,GLC,300 4MATIC,2026,SUV,Hybrid,Tự động,2,5,4WD,2389000000,,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2026-6759745
 TOYOTA,INNOVA,CROSS V,2026,Crossover,Xăng,Tự động,2,8,FWD,815000000,,Nhập khẩu,Trắng,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-2.0v-cvt-2026-6654354
-VOLVO,S60,T5 R,,Sedan,Xăng,Tự động,2,5,4WD,959000000,38000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-s60-t5-r-design-awd-2020-6796950
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,230000000,13000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6725548
 SUZUKI,JIMNY,4X4,2024,SUV,Xăng,Tự động,1.5,4,4WD,625000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-suzuki-jimny-1.5l-4x4-at-2024-6573818
 HYUNDAI,PALISADE,PRESTIGE HTRAC,2026,SUV,Dầu,Tự động,2.2,6,4WD,1365000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-palisade-prestige-2.2-at-htrac-2026-6828856
@@ -4860,7 +4739,6 @@ TOYOTA,INNOVA,E,2016,Crossover,Xăng,Số sàn,2,8,RWD,359000000,110000,Trong n�
 MAZDA,CX5,PREMIUM,2023,SUV,Xăng,Tự động,2,5,FWD,768000000,40000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2023-6741394
 PEUGEOT,203,CABRIOLET TRƯỚC,1990,Mui trần,Xăng,Số sàn,1.3,4,FWD,1200000000,0,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-203-cabriolet-1.3-mt-1989-6565284
 MITSUBISHI,DESTINATOR,ULTIMATE,2026,SUV,Xăng,Tự động,1.5,7,FWD,808000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-destinator-ultimate-2026-6552756
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,750000000,28000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6746307
 KIA,CARNIVAL,LUXURY D,2024,MPV,Dầu,Tự động,2.2,8,FWD,1159000000,26000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-luxury-2.2d-2024-6833537
 MERCEDES BENZ,S,CLASS S450,2021,Sedan,Xăng,Tự động,3,5,RWD,3688000000,15000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-2021-6809423
 MINI,COOPER,5 DOOR,2022,Hatchback,Xăng,Tự động,1.5,5,FWD,1390000000,12000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mini-cooper-5-door-2022-6768507
@@ -4869,7 +4747,6 @@ TOYOTA,CAMRY,LE,2010,Sedan,Xăng,Tự động,2.5,5,FWD,389000000,109000,Nhập 
 TOYOTA,INNOVA,CROSS HEV,2023,Crossover,Hybrid,Tự động,2,7,FWD,890000000,67000,Nhập khẩu,Trắng,Bắc Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-innova-cross-hev-2.0-cvt-2023-6829987
 MERCEDES BENZ,GLC,300 4MATIC,2020,SUV,Xăng,Tự động,2,5,4WD,1335000000,64000,Trong nước,Xanh,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2020-6775409
 VOLKSWAGEN,TERAMONT,PRESIDENT,2025,SUV,Xăng,Tự động,2,6,4WD,2488000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-teramont-president-2.0-at-2025-5873877
-OMODA,C5,SHS,,SUV,Hybrid,Tự động,1.5,5,FWD,599000000,,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-omoda-c5-shs-h-premium-2026-6733614
 TOYOTA,COROLLA,ALTIS V,2014,Sedan,Xăng,Tự động,2,5,FWD,345000000,115000,Trong nước,Đen,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_altis-2.0v-2014-6825284
 CADILLAC,ESCALADE,ESV PREMIUM,2015,SUV,Xăng,Tự động,6.2,7,4WD,2699000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-cadillac-escalade-esv-premium-2015-6744218
 HYUNDAI,TUCSON,ATH,2019,Crossover,Xăng,Tự động,2,5,FWD,585000000,86000,Trong nước,Đen,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-ath-2019-6697381
@@ -4877,7 +4754,6 @@ VINFAST,VF3,PLUS,2026,Hatchback,Điện,Tự động,,4,RWD,260000000,,Trong nư
 FORD,RANGER,XLS 4X2,2024,Bán tải,Dầu,Tự động,2,5,RWD,610000000,26000,Trong nước,Cam,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2024-6714145
 KIA,CARNIVAL,SIGNATURE D,2024,MPV,Dầu,Tự động,2.2,7,FWD,1435000000,0,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2024-6831906
 MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2017,Sedan,Xăng,Tự động,3,4,4WD,2900000000,60000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-4matic-maybach-2017-6679252
-TOYOTA,VIOS,GR,,Sedan,Xăng,Tự động,1.5,5,FWD,458000000,60000,Trong nước,Đỏ,Hải Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-gr-s-1.5-cvt-2021-6813791
 MERCEDES BENZ,S,CLASS S450L LUXURY,2019,Sedan,Xăng,Tự động,3,5,RWD,2190000000,50000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-luxury-2019-6814179
 TOYOTA,VIOS,E,2019,Sedan,Xăng,Số sàn,1.5,5,FWD,290000000,90000,Trong nước,Cát,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-1.5e-mt-2019-6816231
 FORD,RANGER,XLS 4X4,2023,Bán tải,Dầu,Tự động,2,5,4WD,629000000,65000,Trong nước,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x4-at-2023-6814076
@@ -4937,11 +4813,9 @@ JAGUAR,XF,BẢN THƯỜNG,2014,Sedan,Xăng,Tự động,2,5,RWD,579000000,120000
 BMW,3,SERIES 320I,2012,Sedan,Xăng,Tự động,2,5,RWD,379000000,113000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-3_series-320i-2012-6832162
 TOYOTA,VIOS,G,2011,Sedan,Xăng,Tự động,1.5,5,FWD,220000000,0,Trong nước,Cát,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-vios-1.5g-2011-6731337
 KIA,CARNIVAL,SIGNATURE D,2026,MPV,Dầu,Tự động,2.2,7,FWD,1499000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2026-5834350
-KIA,MORNING,X,,Hatchback,Xăng,Tự động,1.25,5,FWD,345000000,60000,Trong nước,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-x-line-2021-6716558
 KIA,CARNIVAL,SIGNATURE D,2025,MPV,Dầu,Tự động,2.2,7,FWD,1490000000,28000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2025-6791556
 CITROEN,DS3,BẢN THƯỜNG,2011,Hatchback,Xăng,Tự động,1.6,4,FWD,290000000,110000,Nhập khẩu,Nâu,Bình Dương,05-06-2026,bonbanh.com,https://bonbanh.com/xe-citroen-ds3-1.6-at-2011-6750880
 MERCEDES BENZ,S,CLASS S450,2022,Sedan,Xăng,Tự động,3,5,RWD,3299000000,38000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-2022-6756836
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,610000000,,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6830323
 MG,5,LUXURY,2022,Sedan,Xăng,Tự động,1.5,5,FWD,375000000,49000,Nhập khẩu,Vàng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-5-luxury-1.5-at-2022-6793800
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,640000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6769779
 MERCEDES BENZ,GLC,300 4MATIC,2021,SUV,Xăng,Tự động,2,5,4WD,1450000000,90000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2021-6772267
@@ -4965,7 +4839,6 @@ FORD,RANGER,XLS 4X2,2021,Bán tải,Dầu,Tự động,2.2,5,RWD,495000000,75000
 MERCEDES BENZ,GLC,200 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,2089000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2025-6141527
 TOYOTA,AVANZA,PREMIO,2023,SUV,Xăng,Tự động,1.5,7,FWD,485000000,0,Trong nước,Trắng,Gia Lai,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-avanza-premio-1.5-at-2023-6799800
 TOYOTA,COROLLA,CROSS V,2021,SUV,Xăng,Tự động,1.8,5,FWD,655000000,6500,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8v-2021-6773220
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,630000000,,Nhập khẩu,Trắng,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6068733
 PEUGEOT,2008,GT LINE,2022,Crossover,Xăng,Tự động,1.2,5,FWD,545000000,0,Trong nước,Đen,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-2008-gt-line-1.2-at-2022-6732750
 MAZDA,CX3,LUXURY,2022,Crossover,Xăng,Tự động,1.5,5,FWD,488000000,9700,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx3-luxury-1.5-at-2022-6822523
 FORD,EVEREST,TITANIUM 4X2,2021,SUV,Dầu,Tự động,2,7,RWD,888000000,36000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-2.0l-4x2-at-2021-6831747
@@ -4975,7 +4848,6 @@ FORD,EVEREST,4X4,2010,SUV,Xăng,Số sàn,2.6,5,4WD,155000000,10000,Nhập khẩ
 TOYOTA,CAMRY,Q,2019,Sedan,Xăng,Tự động,2.5,5,FWD,799000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.5q-2019-6757769
 TOYOTA,FORTUNER,G 4X2,2019,SUV,Dầu,Số sàn,2.4,7,RWD,749000000,55000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-mt-2019-6832697
 FORD,EVEREST,SPORT 4X2,2026,SUV,Dầu,Tự động,2,7,RWD,1149000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-sport-2.0l-4x2-at-2026-5175744
-HAIMA,7X,,,MPV,Điện,Tự động,,7,FWD,1100000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-haima-7x-e-premium-2025-6504725
 MAZDA,CX5,PREMIUM,2022,SUV,Xăng,Tự động,2,5,FWD,695000000,29000,Trong nước,Đỏ,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2022-6675913
 HYUNDAI,ACCENT,ĐẶC BIỆT,2026,Sedan,Xăng,Tự động,1.5,5,FWD,488000000,,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-dac-biet-1.5-at-2026-6244636
 LANDROVER,RANGE,ROVER SPORT HSE,2015,SUV,Xăng,Tự động,3,5,4WD,1430000000,75000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_sport-hse-2015-6748006
@@ -4989,7 +4861,6 @@ FORD,EVEREST,4X2,2009,SUV,Dầu,Tự động,2.5,7,RWD,210000000,200000,Trong n�
 MAZDA,CX5,SIGNATURE PREMIUM 2WD,2020,SUV,Xăng,Tự động,2.5,5,FWD,639000000,69000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-signature-premium-2wd-2020-6641221
 TOYOTA,RAIZE,G,2024,SUV,Xăng,Tự động,1,5,FWD,486000000,46000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-raize-g-1.0-cvt-2024-6762588
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2024,SUV,Xăng,Tự động,2.5,7,4WD,1168000000,29000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.5l-htrac-2024-6818287
-LEXUS,IS,250 F,,Sedan,Xăng,Tự động,2.5,5,RWD,999000000,65000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-is-250-f-sport-2015-6763172
 MERCEDES BENZ,GLS,450 4MATIC,2025,SUV,Xăng,Tự động,3,7,4WD,5689000000,,Nhập khẩu,Đen,Nghệ An,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gls-450-4matic-2025-6363456
 TOYOTA,FORTUNER,G 4X2,2019,SUV,Dầu,Tự động,2.4,7,RWD,765000000,10600,Nhập khẩu,Đen,Đăk Lăk,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-at-2019-6810059
 FORD,RANGER,XLS 4X2,2020,Bán tải,Dầu,Tự động,2.2,5,RWD,490000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.2l-4x2-at-2020-6770220
@@ -5012,7 +4883,6 @@ HONDA,CRV,BẢN THƯỜNG,2015,SUV,Xăng,Tự động,2,5,FWD,455000000,76000,Tr
 PORSCHE,CAYENNE,V6,2018,SUV,Xăng,Tự động,3,5,4WD,2480000000,96000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-cayenne-3.0-v6-2018-6826054
 HONDA,CRV,G,2021,SUV,Xăng,Tự động,1.5,7,FWD,735000000,36000,Trong nước,Đỏ,Đà Nẵng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-g-2021-6823074
 FORD,RANGER,WILDTRAK 4X4,2019,Bán tải,Dầu,Tự động,2,5,4WD,550000000,26000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2019-6758533
-ISUZU,MU,,,SUV,Dầu,Tự động,1.9,7,RWD,495000000,76000,Nhập khẩu,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-1.9-4x2-at-2018-6804648
 TOYOTA,FORTUNER,G 4X2,2020,SUV,Dầu,Tự động,2.4,7,RWD,735000000,108000,Trong nước,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.4g-4x2-at-2020-6761791
 MERCEDES BENZ,S,CLASS S450L LUXURY,2020,Sedan,Xăng,Tự động,3,5,RWD,2390000000,70000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-luxury-2020-6778086
 FORD,RANGER,XLS 4X2,2026,Bán tải,Dầu,Tự động,2,5,RWD,580000000,,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-xls-2.0l-4x2-at-2026-6830419
@@ -5060,14 +4930,12 @@ VINFAST,VF9,ECO,2025,SUV,Điện,Tự động,,7,4WD,1105000000,5000,Trong nư�
 VINFAST,LIMO,GREEN,2026,SUV,Điện,Tự động,,7,FWD,704000000,,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2026-6736945
 MERCEDES BENZ,C,CLASS C300 AMG,2026,Sedan,Xăng,Tự động,2,5,RWD,1929000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c300-amg-2026-6566246
 HYUNDAI,TUCSON,TURBO,2018,Crossover,Xăng,Tự động,1.6,5,FWD,575000000,120000,Trong nước,Đen,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-2018-6813635
-GEELY,EX5,EM,,SUV,Hybrid,Tự động,1.5,5,FWD,789000000,,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-geely-ex5-em-i-pro-2026-6772473
 KIA,CARNIVAL,SIGNATURE D,2022,MPV,Dầu,Tự động,2.2,7,FWD,1095000000,70000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-signature-2.2d-2022-6778139
 VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,540000000,0,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-awd-2023-6810472
 LEXUS,RX,350,2010,SUV,Xăng,Tự động,3.5,5,FWD,699000000,169000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-2010-6592415
 LEXUS,RX,350,2018,SUV,Xăng,Tự động,3.5,5,4WD,2390000000,85000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-2018-6815267
 MAZDA,CX5,BẢN THƯỜNG,2015,SUV,Xăng,Tự động,2,5,FWD,439000000,120000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.0-at-2015-6591808
 AUDI,A6,45 TFSI,2020,Sedan,Xăng,Tự động,2,5,FWD,1179000000,45000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-a6-45-tfsi-2020-6759044
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,615000000,28500,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2024-6832690
 MITSUBISHI,ATTRAGE,PREMIUM,2022,Sedan,Xăng,Tự động,1.2,5,FWD,330000000,80000,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-attrage-premium-1.2-cvt-2022-6833518
 MAZDA,3,SPORT LUXURY,2026,Hatchback,Xăng,Tự động,1.5,5,FWD,629000000,,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-3-1.5l-sport-luxury-2026-6567959
 MERCEDES BENZ,GLB,200 AMG,2025,SUV,Xăng,Tự động,1.3,7,RWD,1659000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glb-200-amg-2025-6443335
@@ -5155,14 +5023,12 @@ LEXUS,GX,460,2016,SUV,Xăng,Tự động,4.6,7,4WD,2750000000,0,Nhập khẩu,Đ
 AUDI,Q5,45 TFSI QUATTRO,2025,SUV,Hybrid,Tự động,2,5,4WD,2079000000,7000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q5-45-tfsi-quattro-2025-6564044
 TOYOTA,CAMRY,E,2018,Sedan,Xăng,Tự động,2,5,FWD,585000000,150000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-camry-2.0e-2018-6749099
 CHEVROLET,CRUZE,LTZ,2017,Sedan,Xăng,Tự động,1.8,5,FWD,225000000,96,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-chevrolet-cruze-ltz-1.8l-2017-6806368
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,659000000,7700,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2025-6832684
 MERCEDES BENZ,E,CLASS E200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,1368000000,49000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-exclusive-2021-6727192
 FORD,EVEREST,TITANIUM PLUS 4X4,2025,SUV,Dầu,Tự động,2,7,4WD,1250000000,,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-titanium-plus-2.0l-4x4-at-2025-6475837
 FORD,EVEREST,PLATINUM 4X4,2024,SUV,Dầu,Tự động,2,7,4WD,1450000000,41000,Nhập khẩu,Nâu,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-everest-platinum-2.0l-4x4-at-2024-6782626
 LANDROVER,DEFENDER,110 X P400,2023,SUV,Xăng,Tự động,3,4,4WD,6399000000,9000,Nhập khẩu,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-defender-110-x-p400-3.0-at-2023-6810055
 PORSCHE,MACAN,BẢN THƯỜNG,2023,SUV,Xăng,Tự động,2,5,4WD,3099000000,22000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-porsche-macan-2.0-2023-6808312
 FORD,ECOSPORT,TITANIUM,2016,SUV,Xăng,Tự động,1.5,5,FWD,265000000,83000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ecosport-titanium-1.5l-at-2016-6723145
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,480000000,120000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2016-6793829
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,230000000,12000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6725516
 MG,ZS,LUXURY 2WD,2025,Crossover,Xăng,Tự động,1.5,5,FWD,490000000,10000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mg-zs-luxury-1.5-at-2wd-2025-6790373
 VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,585000000,45000,Trong nước,Cam,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2023-6692496
@@ -5196,7 +5062,6 @@ LEXUS,GX,460,2015,SUV,Xăng,Tự động,4.6,7,4WD,2190000000,118000,Nhập kh�
 TOYOTA,FORTUNER,V 4X2,2018,SUV,Xăng,Tự động,2.7,7,RWD,695000000,0,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2018-6766380
 MAZDA,BT50,4X4,2016,Bán tải,Dầu,Số sàn,2.2,5,4WD,339000000,130000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-bt50-2.2l-4x4-mt-2016-6745901
 VINFAST,VF8,ECO AWD,2023,SUV,Điện,Tự động,,5,4WD,630000000,44000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-eco-awd-2023-6787381
-KIA,MORNING,X,,Hatchback,Xăng,Tự động,1.25,5,FWD,346000000,35000,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-x-line-2022-6796860
 HYUNDAI,TUCSON,TURBO,2018,Crossover,Xăng,Tự động,1.6,5,FWD,590000000,90000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-2018-6704983
 ACURA,MDX,BẢN THƯỜNG,2008,SUV,Xăng,Tự động,3.7,7,4WD,280000000,98600,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-acura-mdx-3.7l-2008-6805340
 VINFAST,VF3,PLUS,2025,Hatchback,Điện,Tự động,,4,RWD,269000000,5000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-plus-2025-6609763
@@ -5262,7 +5127,6 @@ VINFAST,VF9,ECO,2026,SUV,Điện,Tự động,,7,4WD,999000000,,Trong nước,Đ
 VINFAST,LUX,SA PLUS,2019,SUV,Xăng,Tự động,2,7,RWD,560000000,50000,Trong nước,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_sa_2.0-plus-2.0-at-2019-6786030
 FORD,RANGER,WILDTRAK 4X4,2026,Bán tải,Dầu,Tự động,2,5,4WD,790000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2026-6790826
 BMW,4,SERIES 430I CONVERTIBLE M SPORT,2025,Mui trần,Xăng,Tự động,2,4,RWD,3399000000,,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-4_series-430i-convertible-m-sport-2025-6830075
-VOLVO,XC90,PLUG,,SUV,Hybrid,Tự động,2,7,4WD,3870000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc90-plug-in-hybrid-ultra-t8-awd-2025-5076790
 MITSUBISHI,XFORCE,GLX,2026,SUV,Xăng,Tự động,1.5,5,FWD,540000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xforce-glx-2026-6655300
 MERCEDES BENZ,GLC,300 4MATIC,2023,SUV,Hybrid,Tự động,2,5,4WD,2339000000,39,Trong nước,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2023-6188380
 MERCEDES BENZ,GLC,300 4MATIC,2023,SUV,Xăng,Tự động,2,5,4WD,2389000000,1500,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2023-6139785
@@ -5294,7 +5158,6 @@ TOYOTA,COROLLA,ALTIS G,2016,Sedan,Xăng,Tự động,1.8,5,FWD,455000000,100000,
 FORD,TERRITORY,TITANIUM X,2025,SUV,Xăng,Tự động,1.5,5,FWD,830000000,10000,Trong nước,Đỏ,Quảng Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2025-6826503
 HONDA,CITY,RS,2022,Sedan,Xăng,Tự động,1.5,5,FWD,435000000,100000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-city-rs-1.5-at-2022-6768124
 MAZDA,CX5,PREMIUM EXCLUSIVE,2025,SUV,Xăng,Tự động,2,5,FWD,810000000,15000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-exclusive-2.0-at-2025-6696099
-LEXUS,RX,350 F,,SUV,Xăng,Tự động,3.5,5,4WD,1685000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-rx-350-f-sport-2016-6833498
 HYUNDAI,ACCENT,ATH,2020,Sedan,Xăng,Tự động,1.4,5,FWD,395000000,29000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-accent-1.4-ath-2020-6804331
 BMW,3,SERIES 320I SPORT LINE,2024,Sedan,Xăng,Tự động,2,5,RWD,1450000000,12000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-3_series-320i-sport-line-2024-6653927
 MERCEDES BENZ,GLC,300 4MATIC,2019,SUV,Xăng,Tự động,2,5,4WD,950000000,68000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2019-6830690
@@ -5330,7 +5193,6 @@ KIA,SORENTO,GAT 2WD,2013,SUV,Xăng,Tự động,2.4,7,FWD,350000000,0,Trong nư�
 MERCEDES BENZ,C,CLASS C200 EXCLUSIVE,2021,Sedan,Xăng,Tự động,2,5,RWD,899000000,50000,Trong nước,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2021-6825453
 VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,765000000,40000,Trong nước,Trắng,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2023-6612786
 ISUZU,DMAX,PRESTIGE 4X2,2025,Bán tải,Dầu,Tự động,1.9,5,RWD,610000000,,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-dmax-prestige-1.9l-4x2-at-2025-6449468
-KIA,MORNING,X,,Hatchback,Xăng,Tự động,1.25,5,FWD,345000000,44000,Trong nước,Xanh,Đà Nẵng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-morning-x-line-2022-6787646
 HYUNDAI,I10,BẢN THƯỜNG,2024,Hatchback,Xăng,Tự động,1.2,5,FWD,389000000,40000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-i10-1.2-at-2024-6825343
 CHEVROLET,CAPTIVA,LTZ,2015,SUV,Xăng,Tự động,2.4,7,FWD,299000000,96000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-chevrolet-captiva-ltz-2.4-at-2015-6795452
 VOLVO,XC90,T6 INSCRIPTION,2017,SUV,Xăng,Tự động,2,7,4WD,1420000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc90-t6-inscription-2017-6738016
@@ -5346,7 +5208,6 @@ TOYOTA,FORTUNER,4X2,2022,SUV,Dầu,Tự động,2.4,7,RWD,915000000,54389,Trong 
 KIA,CERATO,PREMIUM,2019,Sedan,Xăng,Tự động,2,5,FWD,445000000,86000,Trong nước,Trắng,Hà Nam,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-cerato-2.0-at-premium-2019-6733251
 MERCEDES BENZ,GLC,300 4MATIC,2019,SUV,Xăng,Tự động,2,5,4WD,1380000000,37000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-300-4matic-2019-6755099
 HONDA,CRV,L,2019,SUV,Xăng,Tự động,1.5,7,FWD,690000000,150000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-l-2019-6705239
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,730000000,36000,Nhập khẩu,Xám,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2024-6830683
 BENTLEY,BENTAYGA,W12,2016,SUV,Xăng,Tự động,6,5,4WD,3900000000,85000,Nhập khẩu,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bentley-bentayga-w12-2016-6642799
 KIA,SONET,PREMIUM,2022,Crossover,Xăng,Tự động,1.5,5,FWD,539000000,20000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-sonet-premium-1.5-at-2022-6588688
 VINFAST,LIMO,GREEN,2025,SUV,Điện,Tự động,,7,FWD,710000000,15000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-limo-green-at-2025-6827950
@@ -5510,7 +5371,6 @@ MAZDA,CX8,LUXURY,2026,SUV,Xăng,Tự động,2.5,7,FWD,955000000,5000,Trong nư�
 PEUGEOT,3008,ALLURE,2025,Crossover,Xăng,Tự động,1.6,5,FWD,795000000,30000,Trong nước,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-peugeot-3008-allure-2025-6790973
 MERCEDES BENZ,C,CLASS C200 AVANTGARDE PLUS,2023,Sedan,Xăng,Tự động,1.5,5,RWD,1350000000,2000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-plus-2023-6641539
 FORD,RANGER,WILDTRAK 4X4,2026,Bán tải,Dầu,Tự động,2,5,4WD,790000000,,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-ranger-wildtrak-2.0l-4x4-at-2026-6790818
-KIA,K5,GT,,Sedan,Xăng,Tự động,2.5,5,FWD,750000000,28000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-k5-gt-line-2.5-at-2022-6746301
 MAZDA,CX5,PREMIUM,2023,SUV,Xăng,Tự động,2,5,FWD,745000000,50000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-premium-2.0-at-2023-6749779
 TOYOTA,SIENNA,LIMITED AWD,2014,MPV,Xăng,Tự động,3.5,7,4WD,1350000000,13000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-sienna-limited-3.5-awd-2014-6624217
 MERCEDES BENZ,GL,450 4MATIC,2011,SUV,Xăng,Tự động,4.7,7,4WD,545000000,15000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-gl-450-4matic-2011-6764483
@@ -5526,7 +5386,6 @@ VINFAST,VF8,PLUS AWD,2023,SUV,Điện,Tự động,,5,4WD,665000000,68000,Trong 
 VINFAST,VF3,ECO,2026,Hatchback,Điện,Tự động,,4,RWD,260000000,,Trong nước,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf3-eco-2026-6713987
 VINFAST,VF8,PLUS AWD,2024,SUV,Điện,Tự động,,5,4WD,880000000,40000,Trong nước,Trắng,Phú Thọ,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf8-plus-awd-2024-6612776
 VINFAST,LUX,A TIÊU CHUẨN,2022,Sedan,Xăng,Tự động,2,5,RWD,570000000,37000,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-lux_a_2.0-tieu-chuan-2022-6771758
-ISUZU,MU,,,SUV,Dầu,Tự động,1.9,7,RWD,930000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-plus-1.9-4x2-at-2025-6449463
 LANDROVER,RANGE,ROVER SPORT HSE,2015,SUV,Xăng,Tự động,3,5,4WD,1397000000,90000,Nhập khẩu,,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_sport-hse-2015-6832123
 MERCEDES BENZ,E,CLASS E250,2014,Sedan,Xăng,Tự động,2,5,RWD,475000000,100000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e250-2014-6624067
 TOYOTA,RAIZE,G,2026,SUV,Xăng,Tự động,1,5,FWD,485000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-raize-g-1.0-cvt-2026-6828720
@@ -5537,7 +5396,6 @@ MERCEDES BENZ,S,CLASS S450 4MATIC MAYBACH,2019,Sedan,Xăng,Tự động,3,4,4WD,
 HYUNDAI,SANTAFE,CAO CẤP HTRAC,2021,SUV,Dầu,Tự động,2.2,7,4WD,988000000,80000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-cao-cap-2.2l-htrac-2021-6796375
 MERCEDES BENZ,E,CLASS E200 AVANTGARDE,2025,Sedan,Hybrid,Tự động,2,5,RWD,2289000000,300,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-e_class-e200-avantgarde-2025-6737279
 MASERATI,QUATTROPORTE,V6,2016,Sedan,Xăng,Tự động,3,5,RWD,1999000000,57000,Nhập khẩu,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-maserati-quattroporte-3.0-v6-2016-5233037
-SUBARU,FORESTER,I,,SUV,Xăng,Tự động,2,5,4WD,587000000,59000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-subaru-forester-2.0i-s-2019-6514073
 TOYOTA,HILUX,PRO 4X2,2026,Bán tải,Dầu,Tự động,2.8,5,RWD,706000000,,Nhập khẩu,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-hilux-pro-2.8l-4x2-at-2026-6761659
 KIA,CARNIVAL,PREMIUM D 8S,2024,MPV,Dầu,Tự động,2.2,8,FWD,1265000000,30000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-carnival-premium-2.2d-8s-2024-6688469
 VOLVO,XC40,ULTRA B5 AWD,2025,SUV,Xăng,Tự động,2,5,4WD,1405000000,0,Nhập khẩu,Bạc,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc40-ultra-b5-awd-2025-6804207
@@ -5574,7 +5432,6 @@ HYUNDAI,ELANTRA,BẢN THƯỜNG,2018,Sedan,Xăng,Tự động,2,5,FWD,410000000,
 HYUNDAI,SANTAFE,PREMIUM HTRAC,2020,SUV,Dầu,Tự động,2.2,7,4WD,825000000,90000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-santafe-premium-2.2l-htrac-2020-6633257
 TOYOTA,FORTUNER,V 4X2,2017,SUV,Xăng,Tự động,2.7,7,RWD,600000000,115000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2017-6822465
 TOYOTA,YARIS,G,2014,Hatchback,Xăng,Tự động,1.3,5,FWD,335000000,70000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-1.3g-2014-6700414
-TOYOTA,YARIS,CROSS D,,SUV,Xăng,Tự động,1.5,5,FWD,610000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-yaris-cross-1.5-d-cvt-2026-6830320
 TOYOTA,ALPHARD,HEV,2024,MPV,Hybrid,Tự động,2.5,7,FWD,4739000000,10000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-alphard-hev-2.5-at-2024-6665608
 HYUNDAI,STARGAZER,TIÊU CHUẨN,2025,MPV,Xăng,Tự động,1.5,7,FWD,440000000,,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-stargazer-tieu-chuan-1.5-at-2025-5715783
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,466000000,,Trong nước,Xám,Thanh Hóa,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6796674
@@ -5609,7 +5466,6 @@ TOYOTA,FORTUNER,4X2,2025,SUV,Dầu,Tự động,2.4,7,RWD,1075000000,35000,Trong
 HYUNDAI,TUCSON,CRDI ĐẶC BIỆT,2022,Crossover,Dầu,Tự động,2,5,FWD,780000000,88000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-2.0-at-crdi-dac-biet-2022-6690059
 TOYOTA,COROLLA,CROSS G,2022,SUV,Xăng,Tự động,1.8,5,FWD,580000000,88000,Nhập khẩu,Đỏ,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_cross-1.8g-2022-6770175
 ISUZU,QKR,QMR77HE5A COOL EXPRESS,2026,Truck,Dầu,Số sàn,3,3,RWD,945000000,,Trong nước,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-qkr-qmr77he5a-cool-express-2026-6822051
-ISUZU,MU,,,SUV,Dầu,Số sàn,1.9,7,RWD,880000000,,Nhập khẩu,Bạc,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-mu-x-b7-1.9-4x2-mt-2025-6635522
 ISUZU,DMAX,UTZ 4X4,2026,Bán tải,Dầu,Số sàn,1.9,5,4WD,587000000,,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-isuzu-dmax-utz-1.9l-4x4-mt-2026-6772456
 TOYOTA,LAND,CRUISER V6,2023,SUV,Xăng,Tự động,3.4,7,4WD,4990000000,58000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-land_cruiser-3.5-v6-2023-6810921
 HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2024,Crossover,Xăng,Tự động,1.6,5,4WD,849000000,29000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-htrac-dac-biet-2024-6808976
@@ -5780,8 +5636,6 @@ VOLVO,XC90,T6 INSCRIPTION,2017,SUV,Xăng,Tự động,2,7,4WD,1399000000,90000,N
 TOYOTA,FORTUNER,V 4X2,2017,SUV,Xăng,Tự động,2.7,7,RWD,620000000,90000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.7v-4x2-at-2017-6820911
 JAGUAR,XF,BẢN THƯỜNG,2016,Sedan,Xăng,Tự động,2,5,RWD,759000000,64000,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-jaguar-xf-2.0-at-2016-6710651
 MERCEDES BENZ,GLC,200 4MATIC,2025,SUV,Hybrid,Tự động,2,5,4WD,1939000000,5000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-glc-200-4matic-2025-6772374
-NISSAN,NAVARA,PRO,,Bán tải,Dầu,Tự động,2.3,5,4WD,660000000,54013,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-nissan-navara-pro-4x-2.3-at-4wd-2022-6819871
-LANDROVER,RANGE,ROVER VELAR R,,SUV,Xăng,Tự động,2,5,4WD,2550000000,0,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_velar-r-dynamic-se-2.0-2021-6799944
 VOLKSWAGEN,VILORAN,LUXURY,2024,MPV,Xăng,Tự động,2,7,FWD,2079000000,22400,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-luxury-2024-6721667
 MAZDA,CX5,BẢN THƯỜNG,2016,SUV,Xăng,Tự động,2.5,5,FWD,435000000,75000,Trong nước,Xám,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-cx5-2.5-at-2016-6757812
 VOLKSWAGEN,VILORAN,LUXURY,2025,MPV,Xăng,Tự động,2,7,FWD,2288000000,,Nhập khẩu,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-viloran-luxury-2025-6734640
@@ -5798,7 +5652,6 @@ TOYOTA,COROLLA,CROSS HV,2022,SUV,Hybrid,Tự động,1.8,5,FWD,755000000,45000,N
 LEXUS,LX,570 SUPER SPORT,2019,SUV,Xăng,Tự động,5.7,7,4WD,6180000000,0,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-lexus-lx-570-super-sport-2019-6739557
 HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2024,Crossover,Xăng,Tự động,1.6,5,4WD,848000000,29000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-hyundai-tucson-1.6-at-turbo-htrac-dac-biet-2024-6808936
 KIA,SELTOS,PREMIUM,2023,Crossover,Xăng,Tự động,1.4,5,FWD,629000000,16000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-seltos-premium-1.4-at-2023-6772632
-HONDA,CRV,BẢN THƯỜNG,,SUV,Xăng,Tự động,2.4,5,FWD,535000000,100000,Trong nước,Nâu,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-2.4-at---tg-2017-6724057
 TOYOTA,FORTUNER,V 4X4,2019,SUV,Dầu,Tự động,2.8,7,4WD,915000000,52000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-fortuner-2.8v-4x4-at-2019-6704619
 TOYOTA,COROLLA,ALTIS V,2022,Sedan,Xăng,Tự động,1.8,5,FWD,610000000,63000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-corolla_altis-1.8v-2022-6812666
 VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,458000000,0,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-plus-2026-6725748
@@ -5920,7 +5773,6 @@ FORD,RANGER,XLS 4X2,2021,Bán tải,Dầu,Tự động,2.2,5,RWD,485000000,82000
 LANDROVER,RANGE,ROVER EVOQUE DYNAMIC,2014,SUV,Xăng,Tự động,2,5,4WD,519000000,0,Nhập khẩu,Trắng,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-landrover-range_rover_evoque-dynamic-2014-6830741
 MERCEDES BENZ,S,CLASS S450 LUXURY,2022,Sedan,Xăng,Tự động,3,5,RWD,3488000000,30000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450-luxury-2022-6821465
 HONDA,CIVIC,RS,2023,Sedan,Xăng,Tự động,1.5,5,FWD,768000000,38000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-civic-rs-1.5-at-2023-6805060
-VOLVO,XC90,PLUG,,SUV,Hybrid,Tự động,2,7,4WD,3789000000,21000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volvo-xc90-plug-in-hybrid-ultra-t8-awd-2025-6833404
 MAZDA,6,LUXURY,2020,Sedan,Xăng,Tự động,2,5,FWD,529000000,50000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mazda-6-luxury-2.0-at-2020-6802314
 BMW,X3,SDRIVE20I M SPORT,2024,SUV,Xăng,Tự động,2,5,RWD,1779000000,7000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-bmw-x3-sdrive20i-m-sport-2024-6636724
 HONDA,CRV,L,2021,SUV,Xăng,Tự động,1.5,7,FWD,819000000,60000,Trong nước,Xanh,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-honda-crv-l-2021-6817372
@@ -5933,7 +5785,6 @@ HYUNDAI,TUCSON,TURBO HTRAC ĐẶC BIỆT,2025,Crossover,Xăng,Tự động,1.6,5
 VOLKSWAGEN,TIGUAN,LUXURY S,2022,SUV,Xăng,Tự động,2,7,4WD,1209000000,16000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-volkswagen-tiguan-luxury-s-2022-6600684
 KIA,CERATO,BẢN THƯỜNG,2020,Sedan,Xăng,Số sàn,1.6,5,FWD,358000000,80000,Trong nước,Đen,Vĩnh Phúc,05-06-2026,bonbanh.com,https://bonbanh.com/xe-kia-cerato-1.6-mt-2020-6719016
 VINFAST,FADIL,BẢN THƯỜNG,2021,Hatchback,Xăng,Tự động,1.4,5,FWD,299000000,60000,Trong nước,Trắng,Hải Phòng,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-fadil-1.4-at-2021-6831584
-AUDI,Q8,55 TFSI S,,SUV,Xăng,Tự động,3,5,4WD,4099000000,,Nhập khẩu,Đen,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-q8-55-tfsi-s-line-quattro-2025-6780864
 VINFAST,VF9,PLUS 7S,2025,SUV,Điện,Tự động,,7,4WD,1290000000,12000,Trong nước,Đỏ,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf9-plus-7s-2025-6833391
 MERCEDES BENZ,G,CLASS G63 AMG,2022,SUV,Xăng,Tự động,4,5,4WD,8997000000,3800,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-g_class-g63-amg-2022-6617918
 FORD,TERRITORY,TITANIUM X,2023,SUV,Xăng,Tự động,1.5,5,FWD,770000000,48000,Trong nước,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-ford-territory-titanium-x-1.5-at-2023-6777942
@@ -5962,7 +5813,6 @@ VINFAST,VF5,PLUS,2026,SUV,Điện,Tự động,,5,FWD,447000000,,Trong nước,X
 MASERATI,QUATTROPORTE,GTS GRANLUSSO V8,2019,Sedan,Xăng,Tự động,3.8,4,RWD,4879000000,9000,Nhập khẩu,Xanh,Tp Hồ Chí Minh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-maserati-quattroporte-gts-granlusso-3.8-v8-2019-6707174
 MERCEDES BENZ,S,CLASS S450L,2020,Sedan,Xăng,Tự động,3,5,RWD,2185000000,42000,Trong nước,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s450l-2020-6799388
 MERCEDES BENZ,S,CLASS S400 MAYBACH,2016,Sedan,Xăng,Tự động,3,4,RWD,2799000000,20000,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mercedes_benz-s_class-s400-maybach-2016-6753106
-AUDI,S6,SPORTBACK E,,Sedan,Điện,Tự động,,5,4WD,4199000000,,Nhập khẩu,Trắng,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-audi-s6-sportback-e-tron-quattro-2026-6798684
 VINFAST,VF5,S,2024,SUV,Điện,Tự động,,5,FWD,418000000,10000,Trong nước,Trắng,Vĩnh Phúc,05-06-2026,bonbanh.com,https://bonbanh.com/xe-vinfast-vf5-s-2024-6761132
 MITSUBISHI,XPANDER,CROSS,2024,SUV,Xăng,Tự động,1.5,7,FWD,575000000,88000,Nhập khẩu,Trắng,Quảng Ninh,05-06-2026,bonbanh.com,https://bonbanh.com/xe-mitsubishi-xpander-cross-1.5-at-2024-6703050
 TOYOTA,PRADO,VX,2021,SUV,Xăng,Tự động,2.7,7,4WD,2190000000,110000,Nhập khẩu,Đen,Hà Nội,05-06-2026,bonbanh.com,https://bonbanh.com/xe-toyota-prado-vx-2.7l-2021-6796268

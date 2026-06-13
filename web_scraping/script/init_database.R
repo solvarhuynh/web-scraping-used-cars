@@ -42,8 +42,7 @@ if (length(clean_files) == 0) {
 
     tryCatch({
       # Đọc CSV bằng dạng chuỗi để tránh lỗi đoán kiểu, đặc biệt với file rỗng
-      data_df <- readr::read_csv(csv_path, col_types = cols(.default = "c"),
-                                 locale = locale(encoding = "UTF-8")) %>%
+      data_df <- read_clean_csv(csv_path) %>%
         mutate(
           year = as.integer(year),
           engine_size = as.numeric(engine_size),
@@ -69,7 +68,7 @@ if (length(clean_files) == 0) {
         engine_size  = "REAL",
         seat_count   = "INTEGER",
         drivetrain   = "TEXT",
-        price        = "INTEGER",
+        price        = "REAL",
         mileage      = "INTEGER",
         origin       = "TEXT",
         color        = "TEXT",
@@ -79,7 +78,7 @@ if (length(clean_files) == 0) {
         url          = "TEXT"
       )
       
-      data_df <- data_df %>% select(any_of(names(schema_types)))
+      data_df <- data_df %>% align_schema() %>% select(all_of(names(schema_types)))
 
       # Ghi vào SQLite và ép kiểu (field.types)
       con <- dbConnect(SQLite(), dbname = db_path)

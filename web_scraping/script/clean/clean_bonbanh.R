@@ -50,15 +50,6 @@ clean_bonbanh <- function() {
       # Sửa lỗi: Chuyển "Số tay" thành "Số sàn" theo yêu cầu
       transmission = ifelse(str_detect(tolower(transmission), "tay"), "Số sàn", transmission),
 
-      # Xử lý giá tiền: Định nghĩa tiền tỷ và triệu
-      price = {
-        p <- str_replace_all(price, ",", ".")
-        val_ty <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*t[ỷỉ])"))
-        val_tr <- as.numeric(str_extract(p, "[0-9.]+(?=\\s*triệu)"))
-        total <- coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6
-        ifelse(total > 0, as.character(total), str_remove_all(price, "[^0-9]"))
-      },
-
       # Drivetrain: bỏ phần mô tả dài, chỉ giữ mã chuẩn (FWD / RWD / 4WD / AWD)
       # VD: "FWD - Dẫn động cầu trước"  → "FWD"
       #     "RFD - Dẫn động cầu sau"     → "RWD"  (note: BonBanh viết "RFD", sửa lại)
@@ -122,10 +113,8 @@ clean_bonbanh <- function() {
   df_clean <- standardize_car_data(df) %>%
     # Xóa các dòng lỗi (không có brand)
     filter(!is.na(brand) & brand != "") %>%
-    # Chuẩn hóa tên Tp Hồ Chí Minh
-    mutate(city = ifelse(str_detect(city, regex("Hồ Chí Minh|HCM", ignore_case = TRUE)), "Tp Hồ Chí Minh", city)) %>%
-    # Xóa URL trùng (giữ lại dòng đầu tiên)
-    distinct(url, .keep_all = TRUE)
+    # Áp business rule chung: year/price/mileage/url/model hợp lệ và URL duy nhất
+    apply_business_rules()
 
   # ── BƯỚC 3: Ghi output ───────────────────────────────────────────────────────
   safe_write_csv(df_clean, OUTPUT_FILE)

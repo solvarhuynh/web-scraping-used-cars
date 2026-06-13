@@ -28,20 +28,20 @@ suppressPackageStartupMessages({
 # chúng ta chỉ cần accept rằng batch sẽ in vài dòng log khi được source.
 # Cách sạch nhất: batch script tự kiểm tra biến môi trường SOURCED_AS_LIB.
 # Source helpers from shared utils and the batch scraper
-source("script/utils.R")
+source("web_scraping/script/utils.R")
 
 # Đặt flag trước khi source để batch script biết nó đang được source, không chạy main loop.
 .rt_bxhc_sourcing <- TRUE
 # Set a flag to prevent the batch script's main loop from running when sourced
 .is_realtime_sourcing <- TRUE
-source("script/scrap/scrap_banxehoicu.R")
+source("web_scraping/script/scrap/scrap_banxehoicu.R")
 rm(.rt_bxhc_sourcing)
 rm(.is_realtime_sourcing)
 
 # ── 2. Constants ─────────────────────────────────────────────────────────────
 RT_SCRIPT_NAME   <- "realtime_banxehoicu.R"
 RT_TABLE         <- "car_listings"
-RT_LOG_FILE      <- file.path(getwd(), "log.txt")
+RT_LOG_FILE      <- LOG_FILE
 RT_SLEEP_DETAIL  <- c(0.8, 1.8)   # giây giữa mỗi lần cào trang chi tiết
 # --- Constants ---
 SCRIPT_NAME <- "realtime_banxehoicu.R"
@@ -116,6 +116,11 @@ run_realtime_banxehoicu <- function(con) {
       })
     if (is.null(detail_row) || nrow(detail_row) == 0) {
       rt_warn_bxhc(sprintf("Empty result for %s – skipping insert.", url))
+      next
+    }
+    detail_row <- standardize_car_data(detail_row) %>% apply_business_rules()
+    if (nrow(detail_row) == 0) {
+      rt_warn_bxhc(sprintf("Record failed clean business rules for %s – skipping insert.", url))
       next
     }
 

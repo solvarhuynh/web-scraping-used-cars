@@ -20,6 +20,23 @@ CANONICAL_COLS <- c(
 
 LOG_FILE <- "web_scraping/log.txt"
 
+# ── Paths ─────────────────────────────────────────────────────────────────────
+project_path <- function(...) {
+  file.path(...)
+}
+
+ensure_directories <- function() {
+  dirs <- c(
+    "web_scraping/data/raw",
+    "web_scraping/data/clean",
+    "web_scraping/data/init_db",
+    "web_scraping/data/quality_report",
+    "insights/visualization/plots",
+    "machine_learning"
+  )
+  invisible(lapply(dirs, dir.create, recursive = TRUE, showWarnings = FALSE))
+}
+
 # ── Logging ───────────────────────────────────────────────────────────────────
 log_message <- function(script_name, msg, level = "INFO") {
   dir.create(dirname(LOG_FILE), recursive = TRUE, showWarnings = FALSE)
@@ -40,7 +57,8 @@ normalize_na <- function(x) {
 }
 
 # ── Price → numeric VND ───────────────────────────────────────────────────────
-# Xử lý: "340.000.000 đ", "300 triệu", "1.5 tỷ", "300,000,000"
+# Xử lý: "340.000.000 đ", "300 triệu", "1.5 tỷ", "1 tỷ 250 triệu",
+#         "300,000,000", "8.49e+08"
 # Dùng numeric (double) thay vì integer để chứa được giá trị > 2.1 tỷ
 clean_price <- function(x) {
   x <- normalize_na(x)
@@ -52,11 +70,20 @@ clean_price <- function(x) {
     v <- str_remove_all(v, "[đ$]")
     v <- str_trim(v)
 
-    # "1.5 tỷ" hoặc "1,5 tỷ"
+    # Giá đã ở dạng số hoặc scientific notation, ví dụ "849000000", "8.49e+08"
+    direct_num <- suppressWarnings(as.numeric(v))
+    if (!is.na(direct_num) && direct_num > 0 && !str_detect(v, "tỷ|ty|triệu|trieu|tr\\b")) {
+      return(direct_num)
+    }
+
+    # "1.5 tỷ", "1,5 tỷ", "1 tỷ 250 triệu"
     if (str_detect(v, "tỷ|ty")) {
-      num <- suppressWarnings(as.numeric(str_replace_all(
-        str_extract(v, "[0-9]+[.,]?[0-9]*"), ",", ".")))
-      return(round(num * 1e9))
+      val_ty <- suppressWarnings(as.numeric(str_replace_all(
+        str_extract(v, "[0-9]+[.,]?[0-9]*(?=\\s*(tỷ|ty))"), ",", ".")))
+      val_tr <- suppressWarnings(as.numeric(str_replace_all(
+        str_extract(v, "[0-9]+[.,]?[0-9]*(?=\\s*(triệu|trieu|tr\\b))"), ",", ".")))
+      total <- coalesce(val_ty, 0) * 1e9 + coalesce(val_tr, 0) * 1e6
+      if (total > 0) return(round(total))
     }
 
     # "300 triệu" hoặc "300tr"
@@ -280,8 +307,25 @@ clean_model <- function(x) {
   toupper(x)
 }
 
+align_schema <- function(df) {
+  for (col in CANONICAL_COLS) {
+    if (!col %in% names(df)) df[[col]] <- rep(NA_character_, nrow(df))
+  }
+  df[, CANONICAL_COLS]
+}
+
+normalize_city_name <- function(x) {
+  x <- normalize_na(x)
+  dplyr::case_when(
+    str_detect(x, regex("hồ chí minh|ho chi minh|hcm|tp hcm|tp\\. hcm", ignore_case = TRUE)) ~ "Tp Hồ Chí Minh",
+    TRUE ~ x
+  )
+}
+
 # ── Áp dụng toàn bộ cleaning chung cho dataframe ──────────────────────────────
 standardize_car_data <- function(df) {
+  df <- align_schema(df)
+
   df %>%
     mutate(
       # NA normalisation trước cho tất cả cột ký tự
@@ -305,7 +349,7 @@ standardize_car_data <- function(df) {
       origin       = clean_origin(origin),
 
       # City: lấy tỉnh/thành cuối cùng
-      city = clean_city(city),
+      city = normalize_city_name(clean_city(city)),
 
       # Text casing
       brand = clean_brand(brand),
@@ -315,14 +359,50 @@ standardize_car_data <- function(df) {
       trim  = normalize_na(trim),
       color = normalize_na(color)
     ) %>%
-    # Đảm bảo đúng 18 cột canonical, thêm NA nếu thiếu
-    {
-      df_out <- .
-      for (col in CANONICAL_COLS) {
-        if (!col %in% names(df_out)) df_out[[col]] <- NA
-      }
-      df_out[, CANONICAL_COLS]
-    }
+    align_schema()
+}
+
+apply_business_rules <- function(df,
+                                 min_year = 1990L,
+                                 max_year = as.integer(format(Sys.Date(), "%Y")),
+                                 min_price = 5e7,
+                                 max_price = 1.5e10,
+                                 max_mileage = 1e6) {
+  df %>%
+    filter(
+      !is.na(brand), brand != "",
+      !is.na(model), model != "",
+      !is.na(url), url != "",
+      !is.na(year), year >= min_year, year <= max_year,
+      !is.na(price), price >= min_price, price <= max_price,
+      is.na(mileage) | (mileage >= 0 & mileage <= max_mileage)
+    ) %>%
+    distinct(url, .keep_all = TRUE) %>%
+    align_schema()
+}
+
+read_clean_csv <- function(path) {
+  readr::read_csv(
+    path,
+    col_types = cols(.default = "c"),
+    locale = locale(encoding = "UTF-8"),
+    show_col_types = FALSE
+  ) %>%
+    align_schema()
+}
+
+read_master_data <- function(master_file = "web_scraping/data/master_data.csv",
+                             clean_dir = "web_scraping/data/clean") {
+  if (file.exists(master_file)) {
+    return(read_clean_csv(master_file))
+  }
+
+  clean_files <- list.files(clean_dir, pattern = "^data_.*_clean\\.csv$", full.names = TRUE)
+  if (!length(clean_files)) {
+    stop("No master_data.csv or clean CSV files found.")
+  }
+
+  bind_rows(lapply(clean_files, read_clean_csv))
 }
 
 # ── Safe write CSV ─────────────────────────────────────────────────────────────

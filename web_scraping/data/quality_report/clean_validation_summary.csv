@@ -1,0 +1,5 @@
+file,source_name,rows,schema_ok,missing_cols,extra_cols,duplicate_url,missing_brand,missing_model,missing_url,bad_year,bad_price,bad_mileage,total_issues,status
+web_scraping/data/clean/data_banxehoicu_clean.csv,banxehoicu,2018,TRUE,,,0,0,0,0,0,0,0,0,OK
+web_scraping/data/clean/data_bonbanh_clean.csv,bonbanh,5821,TRUE,,,0,0,0,0,0,0,0,0,OK
+web_scraping/data/clean/data_carpla_clean.csv,carpla,0,TRUE,,,0,0,0,0,0,0,0,0,OK
+web_scraping/data/clean/data_chotot_clean.csv,chotot,17675,TRUE,,,0,0,0,0,0,0,0,0,OK

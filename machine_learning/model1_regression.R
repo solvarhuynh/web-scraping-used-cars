@@ -1,11 +1,9 @@
-suppressPackageStartupMessages(library(caret))
-
 df_reg <- df[complete.cases(df[, c("log_price", "car_age", "mileage_k",
                                     "engine_size", "is_auto", "is_imported",
                                     "seat_count")]), ]
 
 set.seed(42)
-idx_reg   <- createDataPartition(df_reg$log_price, p = 0.8, list = FALSE)
+idx_reg   <- sample(seq_len(nrow(df_reg)), size = floor(0.8 * nrow(df_reg)))
 train_reg <- df_reg[idx_reg, ]
 test_reg  <- df_reg[-idx_reg, ]
 

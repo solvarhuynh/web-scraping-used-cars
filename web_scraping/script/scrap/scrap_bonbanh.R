@@ -156,6 +156,7 @@ for (j in 1:nrow(df_links)) {
 }
 
 # LƯU FILE
-duong_dan <- "D:/Huy/DAHO/Nam2/Hk2/Dot_2/LT_R/project/data_bonbanh_raw.csv"
+duong_dan <- "web_scraping/data/raw/data_bonbanh_raw.csv"
+dir.create(dirname(duong_dan), recursive = TRUE, showWarnings = FALSE)
 write.csv(data_18_cols, duong_dan, row.names = FALSE, fileEncoding = "UTF-8")
 cat("\nHOÀN TẤT! Dữ liệu đã lưu tại:", duong_dan, "\n")

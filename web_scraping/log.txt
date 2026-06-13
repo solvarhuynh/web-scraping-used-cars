@@ -7166,3 +7166,35 @@
 [2026-06-13 01:56:57] [merge_data.R] - INFO: Merged 5971 records from web_scraping/data/init_db/data_bonbanh.db
 [2026-06-13 01:56:57] [merge_data.R] - INFO: Merged 18082 records from web_scraping/data/init_db/data_chotot.db
 [2026-06-13 01:56:57] [merge_data.R] - INFO: === Merge complete. Total records in master DB: 26466 → web_scraping/data/master_data.db ===
+[2026-06-13 13:38:30] [web_scraping/run_pipeline.R] - INFO: Starting full pipeline. RUN_SCRAPE=FALSE
+[2026-06-13 13:38:30] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-13 13:38:30] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 18079 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-13 13:38:42] [utils.R] - INFO: Written 17675 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. 17675 dòng đã được lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_carpla.R] - INFO: === Bắt đầu cleaning dữ liệu Carpla ===
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_carpla.R] - INFO: Đọc được 15 dòng từ web_scraping/data/raw/data_carpla_raw.csv
+[2026-06-13 13:38:42] [utils.R] - INFO: Written 0 rows to: web_scraping/data/clean/data_carpla_clean.csv
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_carpla.R] - INFO: === Hoàn thành. 0 dòng đã được lưu tại: web_scraping/data/clean/data_carpla_clean.csv ===
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: === Bắt đầu cleaning dữ liệu Bán Xe Hơi Cũ ===
+[2026-06-13 13:38:42] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: Đọc được 2522 dòng từ web_scraping/data/raw/data_banxehoicu_raw.csv
+[2026-06-13 13:38:47] [utils.R] - INFO: Written 2018 rows to: web_scraping/data/clean/data_banxehoicu_clean.csv
+[2026-06-13 13:38:47] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: === Hoàn thành. 2018 dòng đã được lưu tại: web_scraping/data/clean/data_banxehoicu_clean.csv ===
+[2026-06-13 13:38:47] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Bắt đầu cleaning dữ liệu BonBanh ===
+[2026-06-13 13:38:47] [web_scraping/script/clean/clean_bonbanh.R] - INFO: Đọc được 5971 dòng từ web_scraping/data/raw/data_bonbanh_raw.csv
+[2026-06-13 13:39:01] [utils.R] - INFO: Written 5821 rows to: web_scraping/data/clean/data_bonbanh_clean.csv
+[2026-06-13 13:39:01] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Hoàn thành. 5821 dòng đã được lưu tại: web_scraping/data/clean/data_bonbanh_clean.csv ===
+[2026-06-13 13:39:01] [web_scraping/script/validate_clean_data.R] - INFO: === Bắt đầu validation dữ liệu clean ===
+[2026-06-13 13:39:01] [web_scraping/script/validate_clean_data.R] - INFO: === Validation hoàn thành. 25514 dòng clean, report tại web_scraping/data/quality_report ===
+[2026-06-13 13:39:02] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-13 13:39:02] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean//data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-13 13:39:02] [init_database.R] - INFO: Imported 5821 records from web_scraping/data/clean//data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-13 13:39:02] [init_database.R] - INFO: Imported 0 records from web_scraping/data/clean//data_carpla_clean.csv into web_scraping/data/init_db//data_carpla.db
+[2026-06-13 13:39:02] [init_database.R] - INFO: Imported 17675 records from web_scraping/data/clean//data_chotot_clean.csv into web_scraping/data/init_db//data_chotot.db
+[2026-06-13 13:39:02] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: Starting merge of individual SQLite databases into master outputs.
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: Merged 2018/2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: Merged 5821/5821 records from web_scraping/data/init_db/data_bonbanh.db
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: Merged 0/0 records from web_scraping/data/init_db/data_carpla.db
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: Merged 17675/17675 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-13 13:39:02] [web_scraping/script/merge_data.R] - INFO: === Merge complete. 25514 unique records -> web_scraping/data/master_data.db and web_scraping/data/master_data.csv ===
+[2026-06-13 13:39:02] [web_scraping/run_pipeline.R] - INFO: Full pipeline completed successfully.

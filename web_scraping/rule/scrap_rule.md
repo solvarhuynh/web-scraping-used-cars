@@ -6,7 +6,7 @@ This document outlines the requirements for scraping used car data from various 
 
 ### Handling Timeout Errors with Chromote
 
-**Checkpointing Mechanism**: Never run the scraper continuously from the first page to the last in a single go. Save the last successfully scraped page number to a tracking file located in the raw data directory (e.g., `d:/R program/project/web_scraping/data/raw/checkpoint_{website_name}.txt`). If the process is interrupted, your script must automatically read this file and resume from the last saved page.
+**Checkpointing Mechanism**: Never run the scraper continuously from the first page to the last in a single go. Save the last successfully scraped page number to a tracking file located in the raw data directory (e.g., `web_scraping/data/raw/meta/checkpoint_{website_name}.txt`). If the process is interrupted, your script must automatically read this file and resume from the last saved page.
     **Logical Workflow for "Resuming" Tasks**:
     1. **Initialization**: When the script runs, it checks the output tracking file (e.g., `data.csv` where the scraped results are stored).
     2. **Read State**: The script reads the maximum page number (`last_page`) that has already been saved in the file.
@@ -82,7 +82,7 @@ Each scraped record must be structured into a data frame with the following 18 c
 
 1.  **File & Directory Structure**:
     -   Each website must have its own scraping script: `script/scrap/scrap_{website_name}.R`.
-    -   The output must be a CSV file saved to the `d:/R program/project/web_scraping/data/raw/` directory.
+    -   The output must be a CSV file saved to the `web_scraping/data/raw/` directory.
     -   The output filename must be: `data_{website_name}_raw.csv` (e.g., `data_chotot_raw.csv`).
 
 2.  **Data Handling**:
@@ -98,5 +98,5 @@ Each scraped record must be structured into a data frame with the following 18 c
 
 ### General Rule: Logging
 
--   **File**: All process notifications and events must be appended to the `log.txt` file located at `d:/R program/project/web_scraping/log.txt`.
+-   **File**: All process notifications and events must be appended to `web_scraping/log.txt`.
 -   **Format**: Each log entry should be timestamped and include the script name and a descriptive message (e.g., `[YYYY-MM-DD HH:MM:SS] [scrap_chotot.R] - INFO: Successfully scraped 520 records.`).

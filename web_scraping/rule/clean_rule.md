@@ -23,14 +23,14 @@ This document defines the rules for cleaning and standardizing the raw scraped d
 
 -   The cleaned data must strictly follow the 18 columns defined in the schema (`scrap_rule.md`).
 -   Any column that does not exist in the raw data from a specific website must be added and filled with `NA`.
--   Export the final cleaned file as `data_{website_name}_clean.csv` in the `d:/R program/project/web_scraping/data/clean/` directory.
+-   Export the final cleaned file as `data_{website_name}_clean.csv` in the `web_scraping/data/clean/` directory.
 
-### 4. Utilizing `d:/R program/project/web_scraping/script/utils.R` for Cleaning and Standardization
+### 4. Utilizing `web_scraping/script/utils.R` for Cleaning and Standardization
 
 To maintain consistency and promote code reuse, all cleaning scripts (`clean_{website_name}.R`) must leverage the shared utility functions defined in `script/utils.R`.
 
 -   **Shared Cleaning Functions**: `script/utils.R` will house common cleaning and standardization logic. This includes functions for:
-    Individual cleaning scripts should call these shared functions from `d:/R program/project/web_scraping/script/utils.R`.
+    Individual cleaning scripts should call these shared functions from `web_scraping/script/utils.R`.
     -   Handling missing values and empty strings.
     -   Trimming whitespace.
     -   Standardizing `price`, `mileage`, `engine_size`, `year`, `seat_count` to their correct data types and formats.
