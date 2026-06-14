@@ -160,6 +160,14 @@ if (!is.null(MODEL_FILE) && file.exists(MODEL_FILE)) {
   load(MODEL_FILE, envir = ml_artifacts)
 }
 
+artifact <- function(name, default = NULL) {
+  if (exists(name, envir = ml_artifacts)) get(name, envir = ml_artifacts) else default
+}
+
+model_available <- function(name) {
+  exists(name, envir = ml_artifacts)
+}
+
 prepare_master_data <- function(raw) {
   raw %>%
     mutate(
@@ -330,14 +338,6 @@ kpis <- function(df = data_clean) {
     topRegion = top_one(df, "region"),
     automaticRatio = if (total) auto / total else 0
   )
-}
-
-artifact <- function(name, default = NULL) {
-  if (exists(name, envir = ml_artifacts)) get(name, envir = ml_artifacts) else default
-}
-
-model_available <- function(name) {
-  exists(name, envir = ml_artifacts)
 }
 
 median_lookup <- function(brand, model, col, default = 0) {
