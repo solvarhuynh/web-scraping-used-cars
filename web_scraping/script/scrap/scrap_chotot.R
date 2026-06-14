@@ -22,7 +22,7 @@ OUTPUT_FILE      <- file.path(OUTPUT_DIR, "data_chotot_raw.csv")
 CHECKPOINT_FILE  <- file.path(OUTPUT_DIR, "meta", "checkpoint_chotot.txt")
 URLS_FILE        <- file.path(OUTPUT_DIR, "meta", "urls_chotot.txt")
 URLNUM_FILE      <- file.path(OUTPUT_DIR, "meta", "urlnum_chotot.txt")
-MAX_PAGES        <- 893     # giới hạn tối đa mỗi session
+MAX_PAGES        <- 900     # giới hạn tối đa mỗi session
 SLEEP_INTERVAL   <- 20       # số trang giữa các lần nghỉ
 SLEEP_DURATION   <- c(2, 5) # khoảng nghỉ (giây)
 
@@ -142,6 +142,9 @@ safe_navigate <- function(sess, url, timeout = 25000) {
   })
   result
 }
+
+# ── Guard: nếu được source từ realtime_chotot.R thì chỉ load hàm/config, không chạy Step A/B ──
+if (!exists("REALTIME_MODE") || !isTRUE(REALTIME_MODE)) {
 
 # ── 3. Launch headless browser ────────────────────────────────────────────────
 log_msg("INFO", "Launching headless Chrome browser")
@@ -359,8 +362,13 @@ scrape_car <- function(url) {
     )
 
     # ── Engine size
-    engine_raw  <- get_by_label(pg, "dung tích|động cơ")
-    engine_size <- suppressWarnings(as.numeric(str_extract(engine_raw %||% "", "[0-9]+\\.?[0-9]*")))
+    # Ưu tiên itemprop="engine_capacity" (chính xác nhất, tránh nhầm "Công suất động cơ")
+    engine_raw <- get_itemprop(pg, "engine_capacity")
+    if (is.na(engine_raw)) engine_raw <- get_by_label(pg, "dung tích")
+    engine_size <- tryCatch({
+      num <- suppressWarnings(as.numeric(str_extract(engine_raw %||% "", "[0-9]+\\.?[0-9]*")))
+      if (!is.na(num) && num > 20) num / 1000 else num
+    }, error = function(e) NA_real_)
 
     # ── Seat count
     seat_raw   <- get_by_label(pg, "số chỗ|số ghế|chỗ ngồi")
@@ -593,3 +601,5 @@ log_msg("INFO", sprintf("Session scraped %d new records. Appended directly to: %
 log_msg("INFO", "=== Scrape complete ===")
 
 close_session(b)
+
+} # end REALTIME_MODE guard
