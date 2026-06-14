@@ -7597,3 +7597,8 @@
 [2026-06-14 18:56:37] [scrap_chotot.R] - INFO: Session scraped 0 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
 [2026-06-14 18:56:37] [scrap_chotot.R] - INFO: === Scrape complete ===
 [2026-06-14 18:56:37] [realtime_chotot.R] - INFO: === Bắt đầu realtime Chợ Tốt ===
+[2026-06-15 00:55:32] [web_scraping/script/merge_data.R] - INFO: Starting merge of individual SQLite databases into master outputs.
+[2026-06-15 00:55:32] [web_scraping/script/merge_data.R] - INFO: Merged 2018/2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-15 00:55:33] [web_scraping/script/merge_data.R] - INFO: Merged 6065/6065 records from web_scraping/data/init_db/data_bonbanh.db
+[2026-06-15 00:55:33] [web_scraping/script/merge_data.R] - INFO: Merged 18999/18999 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-15 00:55:34] [web_scraping/script/merge_data.R] - INFO: === Merge complete. 27082 unique records -> web_scraping/data/master_data.db and web_scraping/data/master_data.csv ===
