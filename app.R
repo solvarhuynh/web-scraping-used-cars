@@ -12,6 +12,29 @@ suppressPackageStartupMessages({
 # HCMUTE AutoInsight - Shiny port of auto-insight-hub-main
 # -------------------------------------------------------------------------
 
+# Tu dong xac dinh thu muc chua file app.R va chuyen working directory ve do,
+# de cac duong dan tuong doi (web_scraping/..., machine_learning/...) luon dung
+# du chay bang source(), Run App, hay Rscript.
+.get_script_dir <- function() {
+  # Truong hop chay qua source(): lay duong dan tu sys.frames
+  for (i in rev(seq_along(sys.frames()))) {
+    ofile <- sys.frame(i)$ofile
+    if (!is.null(ofile)) return(dirname(normalizePath(ofile)))
+  }
+  # Truong hop chay qua Rscript: lay tu commandArgs
+  cmd_args <- commandArgs(trailingOnly = FALSE)
+  file_arg <- grep("^--file=", cmd_args, value = TRUE)
+  if (length(file_arg)) {
+    return(dirname(normalizePath(sub("^--file=", "", file_arg[1]))))
+  }
+  NULL
+}
+
+.script_dir <- .get_script_dir()
+if (!is.null(.script_dir) && dir.exists(.script_dir)) {
+  setwd(.script_dir)
+}
+
 BRAND_FALLBACK <- c(
   "Toyota", "Hyundai", "Mazda", "Kia", "Honda", "Ford",
   "Mitsubishi", "VinFast", "Mercedes-Benz", "BMW"
@@ -137,7 +160,7 @@ if (!is.null(MODEL_FILE) && file.exists(MODEL_FILE)) {
   load(MODEL_FILE, envir = ml_artifacts)
 }
 
-prepare_bonbanh_data <- function(raw) {
+prepare_master_data <- function(raw) {
   raw %>%
     mutate(
       year = suppressWarnings(as.integer(year)),
@@ -190,16 +213,42 @@ prepare_bonbanh_data <- function(raw) {
     )
 }
 
-if (exists("df_final", envir = ml_artifacts)) {
-  source_data <- get("df_final", envir = ml_artifacts)
-  APP_DATA_SOURCE_LABEL <- paste0(MODEL_SOURCE_LABEL, "::df_final")
-} else {
-  if (is.null(DATA_FILE) || !file.exists(DATA_FILE)) stop("Không tìm thấy file dữ liệu sạch trong thư mục data.")
-  raw_data <- read.csv(DATA_FILE, stringsAsFactors = FALSE, check.names = TRUE)
-  names(raw_data)[1] <- sub("^\ufeff", "", names(raw_data)[1])
-  source_data <- prepare_bonbanh_data(raw_data)
-  APP_DATA_SOURCE_LABEL <- DATA_SOURCE_LABEL
+assign_clusters_vectorized <- function(df) {
+  centers <- artifact("cluster_centers_real")
+  if (is.null(centers) || !nrow(centers)) {
+    df$cluster_id <- NA_integer_
+    df$cluster_name <- "Chưa có model"
+    return(df)
+  }
+  
+  cols <- c("price_billion", "car_age", "mileage_k", "engine_size")
+  valid_idx <- complete.cases(df[, cols])
+  if (sum(valid_idx) == 0) return(df)
+  
+  X <- as.matrix(df[valid_idx, cols, drop = FALSE])
+  C <- as.matrix(centers[, cols, drop = FALSE])
+  
+  scale_vec <- apply(C, 2, sd, na.rm = TRUE)
+  scale_vec[!is.finite(scale_vec) | scale_vec == 0] <- 1
+  
+  X_scaled <- sweep(X, 2, scale_vec, "/")
+  C_scaled <- sweep(C, 2, scale_vec, "/")
+  
+  dist_matrix <- matrix(NA_real_, nrow = nrow(X), ncol = nrow(C))
+  for (k in 1:nrow(C)) dist_matrix[, k] <- rowSums(sweep(X_scaled, 2, C_scaled[k, ], "-")^2, na.rm = TRUE)
+  
+  best_k <- max.col(-dist_matrix, ties.method = "first")
+  df$cluster_id[valid_idx] <- centers$cluster[best_k]
+  df$cluster_name[valid_idx] <- centers$ten_cum[best_k]
+  df
 }
+
+if (is.null(DATA_FILE) || !file.exists(DATA_FILE)) stop("Không tìm thấy file dữ liệu sạch trong thư mục data.")
+raw_data <- read.csv(DATA_FILE, stringsAsFactors = FALSE, check.names = TRUE)
+names(raw_data)[1] <- sub("^\ufeff", "", names(raw_data)[1])
+source_data <- prepare_master_data(raw_data)
+source_data <- assign_clusters_vectorized(source_data)
+APP_DATA_SOURCE_LABEL <- DATA_SOURCE_LABEL
 
 data_clean <- source_data %>%
   mutate(
@@ -886,7 +935,7 @@ ui <- fluidPage(
         });
         $(window).on('hashchange', activateFromHash);
         $('.menu-trigger').on('click', function(){ $('body').toggleClass('sidebar-open'); resizePlots(); });
-        $('#refresh-demo').on('click', function(){ toast('Dữ liệu bonbanh đã sẵn sàng'); });
+        $('#refresh-demo').on('click', function(){ toast('Dữ liệu Master đã sẵn sàng'); });
         $('#export-demo').on('click', function(){ toast('Mở báo cáo tổng hợp'); setTab('report','Báo cáo','Tổng hợp nhận xét tự động'); });
         $('#copy-insights').on('click', function(){
           var text = $('#insight-copy-source').text();
@@ -922,7 +971,7 @@ ui <- fluidPage(
         nav_item("compare", "So sánh xe", "scale", "Đặt 2-3 cấu hình cạnh nhau để cân nhắc"),
         nav_item("estimate", "Dự toán giá", "calculator", "Ước tính giá tham khảo cho một cấu hình xe"),
         nav_item("models", "Mô hình ML", "cog", "Hiệu năng hồi quy, cây quyết định và K-Means"),
-        nav_item("data", "Dữ liệu bonbanh", "table", "Duyệt nhanh bộ dữ liệu đã làm sạch"),
+          nav_item("data", "Dữ liệu Master", "table", "Duyệt nhanh bộ dữ liệu đã làm sạch"),
         nav_item("report", "Báo cáo", "report", "Tổng hợp nhận xét tự động")
       )
     ),
@@ -937,9 +986,9 @@ ui <- fluidPage(
           div(
             class = "header-actions",
             div(class = "searchbox", icon_svg("search"), tags$input(type = "text", placeholder = "Tìm hãng xe, dòng xe…")),
-            div(class = "badge-demo", icon_svg("database"), "Bonbanh data + ML"),
+              div(class = "badge-demo", icon_svg("database"), "Master Data + ML"),
             tags$button(id = "export-demo", class = "btn btn-outline hide-sm", type = "button", span(class = "btn-ico", icon_svg("download")), "Xuất báo cáo"),
-            tags$button(id = "refresh-demo", class = "btn btn-primary", type = "button", span(class = "btn-ico", icon_svg("refresh")), "Cập nhật dữ liệu")
+            actionButton("refresh_data", label = tagList(span(class = "btn-ico", icon_svg("refresh")), "Cập nhật dữ liệu"), class = "btn btn-primary")
           )
         )
       ),
@@ -966,7 +1015,7 @@ ui <- fluidPage(
           div(
             class = "grid grid-kpi",
             kpi_card("Tổng số mẫu xe", "kpi_total", "car", "ocean", trend = "Dữ liệu đã lọc và chuẩn hóa"),
-            kpi_card("Giá trung vị", "kpi_median", "dollar", "navy", trend = "Theo dữ liệu bonbanh"),
+              kpi_card("Giá trung vị", "kpi_median", "dollar", "navy", trend = "Theo dữ liệu Master"),
             kpi_card("Hãng phổ biến nhất", "kpi_top_brand", "trophy", "success", hint = "Theo số lượng tin"),
             kpi_card("Khu vực sôi động nhất", "kpi_top_region", "map", "ocean", hint = "Lượng tin nhiều nhất")
           ),
@@ -1116,7 +1165,7 @@ ui <- fluidPage(
         tags$section(
           id = "data", class = "page",
           section_card(
-            "Bộ dữ liệu bonbanh đã làm sạch", textOutput("data_desc", inline = TRUE), "table", body_class = "flush",
+            "Bộ dữ liệu Master đã làm sạch", textOutput("data_desc", inline = TRUE), "table", body_class = "flush",
             div(
               class = "data-toolbar",
               div(class = "toolbar-search", icon_svg("search"), textInput("data_query", NULL, placeholder = "Tìm hãng, dòng, phiên bản…", width = "100%")),
@@ -1131,7 +1180,7 @@ ui <- fluidPage(
           id = "report", class = "page space-y",
           div(
             class = "report-hero",
-            div(span(class = "report-badge", icon_svg("file"), "Báo cáo tự động"), h2("Tổng hợp nhận xét — dữ liệu bonbanh"), p(textOutput("report_intro", inline = TRUE))),
+            div(span(class = "report-badge", icon_svg("file"), "Báo cáo tự động"), h2("Tổng hợp nhận xét — dữ liệu Master"), p(textOutput("report_intro", inline = TRUE))),
             div(class = "report-actions", tags$button(class = "btn btn-outline", type = "button", onclick = "window.print()", span(class = "btn-ico", icon_svg("download")), "Tải PDF"), download_button("download_csv", "Tải CSV"), tags$button(id = "copy-insights", class = "btn btn-primary", type = "button", span(class = "btn-ico", icon_svg("copy")), "Sao chép nhận xét"))
           ),
           div(
@@ -1155,6 +1204,40 @@ ui <- fluidPage(
 # -------------------------------------------------------------------------
 
 server <- function(input, output, session) {
+
+  # ── Nút "Cập nhật dữ liệu" → chạy run_realtime.R rồi reload app ────────────
+  observeEvent(input$refresh_data, {
+    # Hiện thông báo đang cập nhật
+    showNotification(
+      tagList(span(class = "btn-ico", icon_svg("refresh")), " Đang cập nhật dữ liệu… Vui lòng chờ."),
+      id    = "refresh_notif",
+      type  = "message",
+      duration = NULL   # giữ cho đến khi tự xóa
+    )
+
+    result <- tryCatch({
+      source("web_scraping/run_realtime.R", local = TRUE)
+      TRUE
+    }, error = function(e) {
+      showNotification(
+        paste0("Lỗi cập nhật: ", e$message),
+        id = "refresh_notif", type = "error", duration = 8
+      )
+      FALSE
+    })
+
+    if (isTRUE(result)) {
+      removeNotification("refresh_notif")
+      showNotification(
+        tagList(icon_svg("database"), " Cập nhật thành công! Đang tải lại dữ liệu…"),
+        type = "message", duration = 3
+      )
+      # Reload toàn bộ session để data_clean nạp lại từ CSV mới
+      Sys.sleep(2)
+      session$reload()
+    }
+  })
+
   base_kpis <- reactive(kpis(data_clean))
   is_tab <- function(tab) identical(input$active_tab, tab)
 
@@ -2059,7 +2142,7 @@ server <- function(input, output, session) {
   output$report_region <- renderText({ req(is_tab("report")); report_k()$topRegion })
 
   insights <- reactive(c(
-    paste0(report_k()$topBrand, " có số lượng mẫu cao nhất trong dữ liệu, phản ánh độ phổ biến nổi bật trên tập tin bonbanh đã làm sạch."),
+    paste0(report_k()$topBrand, " có số lượng mẫu cao nhất trong dữ liệu, phản ánh độ phổ biến nổi bật trên tập tin Master đã làm sạch."),
     paste0("Mô hình hồi quy đạt R² khoảng ", artifact("reg_metrics", list(r_squared = NA))$r_squared, ", dùng các biến tuổi xe, odo, dung tích động cơ, hộp số, nguồn gốc và số chỗ."),
     "Số km đã đi là một trong các yếu tố ảnh hưởng mạnh đến giá, đặc biệt khi vượt mốc 100.000 km.",
     paste0("Phân khúc xe số tự động chiếm ", round(report_k()$automaticRatio * 100), "%, cho thấy xu hướng ưu tiên trải nghiệm lái thuận tiện."),
@@ -2087,7 +2170,7 @@ server <- function(input, output, session) {
   })
 
   output$download_csv <- downloadHandler(
-    filename = function() "hcmute-autoinsight-bonbanh.csv",
+    filename = function() "hcmute-autoinsight-master.csv",
     content = function(file) {
       write.csv(data_clean, file, row.names = FALSE, fileEncoding = "UTF-8")
     }
@@ -2112,4 +2195,6 @@ server <- function(input, output, session) {
   # refresh correctly when a page becomes visible.
 }
 
-shinyApp(ui = ui, server = server)
+# print() de dam bao app duoc khoi chay ngay ca khi goi bang source(),
+# vi source() mac dinh khong tu in/eval gia tri tra ve cuoi file.
+print(shinyApp(ui = ui, server = server))
