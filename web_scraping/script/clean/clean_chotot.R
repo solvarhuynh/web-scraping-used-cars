@@ -124,40 +124,15 @@ clean_chotot <- function() {
   #   - clean_transmission: "Automatic"/"Manual" → "Tự động"/"Số sàn"
   #   - clean_body_type, clean_drivetrain, clean_origin
   #   - brand/model → UPPERCASE
-  df_std <- standardize_car_data(df)
+  df_final <- standardize_car_data(df) %>%
+    apply_business_rules()
 
-  # ── BƯỚC 3: Lọc dòng lỗi & dedup URL (từ clean_data.R) ──────────────────────
-  # 3a. Xóa dòng toàn NA
-  n_before <- nrow(df_std)
-  df_std <- df_std %>% filter(!if_all(everything(), is.na))
-  n_blank <- n_before - nrow(df_std)
-  if (n_blank > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng trống hoàn toàn.", n_blank), "WARN")
-
-  # 3b. Xóa dòng lỗi scrape: chỉ có source/url, không có posted_date hoặc brand
-  #     (tính năng từ clean_data.R: filter !is.na(Posted_Time) & !is.na(Brand))
-  n_before <- nrow(df_std)
-  df_std <- df_std %>%
-    filter(!is.na(posted_date) & posted_date != "") %>%
-    filter(!is.na(brand) & brand != "")
-  n_err <- n_before - nrow(df_std)
-  if (n_err > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng lỗi scrape (thiếu brand/posted_date).", n_err), "WARN")
-
-  # 3c. Áp business rule + dedup URL (giữ dòng đầu tiên/cũ nhất cho mỗi URL)
-  #     (tính năng từ clean_data.R: distinct(URL, .keep_all = TRUE))
-  n_before <- nrow(df_std)
-  df_final <- apply_business_rules(df_std)
-  n_dup <- n_before - nrow(df_final)
-  if (n_dup > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng trùng URL hoặc không hợp lệ.", n_dup), "WARN")
-
-  # ── BƯỚC 4: Ghi output ───────────────────────────────────────────────────────
+  # ── BƯỚC 3: Ghi output ───────────────────────────────────────────────────────
   safe_write_csv(df_final, OUTPUT_FILE)
 
   log_message(SCRIPT_NAME, sprintf(
-    "=== Hoàn thành. Input: %d | Sau clean: %d dòng | Lưu tại: %s ===",
-    nrow(raw), nrow(df_final), OUTPUT_FILE
+    "=== Hoàn thành. %d dòng đã được lưu tại: %s ===",
+    nrow(df_final), OUTPUT_FILE
   ))
 
   invisible(df_final)

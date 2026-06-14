@@ -110,38 +110,18 @@ clean_bonbanh <- function() {
   #   - clean_drivetrain (đã pre-clean ở Bước 1)
   #   - clean_origin (đã pre-clean ở Bước 1)
   #   - brand/model → UPPERCASE
-  df_std <- standardize_car_data(df)
-
-  # ── BƯỚC 3: Lọc dòng lỗi & dedup URL ────────────────────────────────────────
-  # 3a. Xóa dòng toàn NA (dòng trống hoàn toàn)
-  n_before <- nrow(df_std)
-  df_std <- df_std %>% filter(!if_all(everything(), is.na))
-  n_blank <- n_before - nrow(df_std)
-  if (n_blank > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng trống hoàn toàn.", n_blank), "WARN")
-
-  # 3b. Xóa dòng lỗi scrape (chỉ có url/source, không có brand hoặc posted_date)
-  n_before <- nrow(df_std)
-  df_std <- df_std %>%
+  df_clean <- standardize_car_data(df) %>%
+    # Xóa các dòng lỗi (không có brand)
     filter(!is.na(brand) & brand != "") %>%
-    filter(!is.na(posted_date) & posted_date != "")
-  n_err <- n_before - nrow(df_std)
-  if (n_err > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng lỗi scrape (thiếu brand/posted_date).", n_err), "WARN")
+    # Áp business rule chung: year/price/mileage/url/model hợp lệ và URL duy nhất
+    apply_business_rules()
 
-  # 3c. Áp business rule chung + dedup URL (giữ dòng đầu tiên/cũ nhất cho mỗi URL)
-  n_before <- nrow(df_std)
-  df_clean <- apply_business_rules(df_std)
-  n_dup <- n_before - nrow(df_clean)
-  if (n_dup > 0)
-    log_message(SCRIPT_NAME, sprintf("Đã xóa %d dòng trùng URL hoặc không hợp lệ.", n_dup), "WARN")
-
-  # ── BƯỚC 4: Ghi output ───────────────────────────────────────────────────────
+  # ── BƯỚC 3: Ghi output ───────────────────────────────────────────────────────
   safe_write_csv(df_clean, OUTPUT_FILE)
 
   log_message(SCRIPT_NAME, sprintf(
-    "=== Hoàn thành. Input: %d | Sau clean: %d dòng | Lưu tại: %s ===",
-    nrow(raw), nrow(df_clean), OUTPUT_FILE
+    "=== Hoàn thành. %d dòng đã được lưu tại: %s ===",
+    nrow(df_clean), OUTPUT_FILE
   ))
 
   invisible(df_clean)
