@@ -5,7 +5,7 @@ library(dplyr)
 library(stringr)
 
 # THU THẬP LINK XE VÀ NƠI BÁN TỪ TRANG TỔNG
-so_trang <- 300 
+so_trang <- 500 
 df_links <- data.frame(url = character(), city = character(), stringsAsFactors = FALSE)
 
 cat("Đang thu thập link xe và Nơi bán...\n")
@@ -158,5 +158,8 @@ for (j in 1:nrow(df_links)) {
 # LƯU FILE
 duong_dan <- "web_scraping/data/raw/data_bonbanh_raw.csv"
 dir.create(dirname(duong_dan), recursive = TRUE, showWarnings = FALSE)
-write.csv(data_18_cols, duong_dan, row.names = FALSE, fileEncoding = "UTF-8")
+
+# Ghi tiếp (append) vào file nếu đã tồn tại, ngược lại tạo mới và ghi luôn tiêu đề cột
+co_san_file <- file.exists(duong_dan)
+write.table(data_18_cols, file = duong_dan, sep = ",", row.names = FALSE, col.names = !co_san_file, append = TRUE, fileEncoding = "UTF-8", qmethod = "double")
 cat("\nHOÀN TẤT! Dữ liệu đã lưu tại:", duong_dan, "\n")

@@ -7231,3 +7231,815 @@
 [2026-06-13 16:36:56] [web_scraping/run_pipeline.R] - INFO: Starting full pipeline. RUN_SCRAPE=FALSE
 [2026-06-13 16:36:56] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
 [2026-06-13 16:36:56] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 18079 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-13 16:38:40] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-13 16:38:41] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 18079 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-13 16:39:24] [utils.R] - INFO: Written 17675 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-13 16:39:24] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. 17675 dòng đã được lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-13 16:44:23] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Starting BanXeHoiCu scraping for 5 page(s).
+[2026-06-13 16:44:24] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Collected 19 detail URLs.
+[2026-06-13 16:44:24] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [1/19] https://banxehoicu.vn/ban-oto-cu/isuzu/mu-x/can-ban-xe-maxfor-2014-hoang-huy-103738.html
+[2026-06-13 16:44:26] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [2/19] https://banxehoicu.vn/ban-oto-cu/ford/focus/ban-ford-focus-2009-so-tu-dong-gia-chi-150-trieu.-103737.html
+[2026-06-13 16:44:27] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [3/19] https://banxehoicu.vn/ban-oto-cu/hyundai/grand-starex/ban-starex-9-cho-doi-2015-may-dau-.-xe-zin-nguyen-ban-khong-loi-keo-chi-zin-103706.html
+[2026-06-13 16:44:29] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [4/19] https://banxehoicu.vn/ban-oto-cu/suzuki/super-carry-van/suzuki-super-carry-van-blind-van-doi-2020-mau-trang-gia-190-trieu-103519.html
+[2026-06-13 16:44:30] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [5/19] https://banxehoicu.vn/ban-oto-cu/toyota/zace/ban-zace-gl-san-xuat-2004-chat-mien-ban.-may-so-ngon-than-vo-khong-loi-nho-103557.html
+[2026-06-13 16:44:32] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [6/19] https://banxehoicu.vn/ban-oto-cu/mitsubishi/jolie/ban-xe-mitsubishi-jolie-ss-2.0-doi-2004-mau-xanh-gia-80-trieu-103419.html
+[2026-06-13 16:44:33] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [7/19] https://banxehoicu.vn/ban-oto-cu/hyundai/grand-starex/ban-xe-hyundai-grand-starex-doi-2008-mau-vang-nau-nhap-khau-han-quoc-gia-250-trieu-102011.html
+[2026-06-13 16:44:34] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [8/19] https://banxehoicu.vn/ban-oto-cu/suzuki/super-carry-van/ban-su-tai-van-2-cho-doi-2020-mot-chu-tu-moi-xe-chay-4v-lop-con-zin-theo-xe-103006.html
+[2026-06-13 16:44:36] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [9/19] https://banxehoicu.vn/ban-oto-cu/hyundai/tracomeco/ban-hyundai-tracomeco-29-cho-than-rong-doi-2019.xe-dep-may-nguyen-100116.html
+[2026-06-13 16:44:37] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [10/19] https://banxehoicu.vn/ban-oto-cu/hyundai/grand-starex/ban-hyundai-starex-tai-van-6-cho-670kg-doi-2016-may-dau-nhap-khau-han-quoc-101298.html
+[2026-06-13 16:44:38] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [11/19] https://banxehoicu.vn/ban-oto-cu/hyundai/grand-starex/ban-starex-9-cho-may-dau-doi-2017-nhap-khau-han-quoc-xe-con-nguyen-ban-103544.html
+[2026-06-13 16:44:40] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [12/19] https://banxehoicu.vn/ban-oto-cu/hyundai/grand-starex/ban-starex-tai-van-dong-lanh-3-cho-600kg-doi-2012-may-dau-so-tu-dong-103674.html
+[2026-06-13 16:44:42] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [13/19] https://banxehoicu.vn/ban-oto-cu/toyota/hiace/ban-hiace-tai-van-xin-3-cho-doi-2011.xe-nguyen-ban-lap-rap-tu-nha-may-luc-moi-cung-103715.html
+[2026-06-13 16:44:43] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [14/19] https://banxehoicu.vn/ban-oto-cu/toyota/hiace/ban-hiace-tai-van-3-cho-doi-2009-may-dau-xe-dep-may-cuc-ngon-103716.html
+[2026-06-13 16:44:45] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [15/19] https://banxehoicu.vn/ban-oto-cu/toyota/hiace/ban-toyota-hiace-van-6-cho.-may-dau.sx-2010-ten-ca-nhan-su-dung.xe-dep-xuat-sac-103717.html
+[2026-06-13 16:44:46] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [16/19] https://banxehoicu.vn/ban-oto-cu/toyota/hiace/ban-hiace-tai-van-6-cho-san-xuat-nam-2011-may-dau-tai-820kg-103718.html
+[2026-06-13 16:44:47] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [17/19] https://banxehoicu.vn/ban-oto-cu/dongben/x30/ban-tai-van-srm-2-cho-doi-2025-xe-dep-ko-co-diem-che-mot-chu-tu-moi-odo-1-1-van-103719.html
+[2026-06-13 16:44:49] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [18/19] https://banxehoicu.vn/ban-oto-cu/toyota/hiace/ban-hiace-tai-van-6-cho-doi-2008-may-dau-tai-850kg-xe-con-zin-nguyen-may-zin-103720.html
+[2026-06-13 16:44:51] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Scraping [19/19] https://banxehoicu.vn/ban-oto-cu/vinfast/lux-a2-0/xe-sieu-luot-vinfast-vf8-xe-dep-nhu-moi-103736.html
+[2026-06-13 16:44:52] [web_scraping/script/scrap/scrap_banxehoicu.R] - INFO: Saved 19 raw rows to web_scraping/data/raw/data_banxehoicu_raw.csv
+[2026-06-13 16:46:44] [web_scraping/run_pipeline.R] - INFO: Starting full pipeline. RUN_SCRAPE=FALSE
+[2026-06-13 16:46:44] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-13 16:46:44] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 18079 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-13 16:47:19] [utils.R] - INFO: Written 17675 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-13 16:47:19] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. 17675 dòng đã được lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-13 16:47:19] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: === Bắt đầu cleaning dữ liệu Bán Xe Hơi Cũ ===
+[2026-06-13 16:47:19] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: Đọc được 2522 dòng từ web_scraping/data/raw/data_banxehoicu_raw.csv
+[2026-06-13 16:47:35] [utils.R] - INFO: Written 2018 rows to: web_scraping/data/clean/data_banxehoicu_clean.csv
+[2026-06-13 16:47:35] [web_scraping/script/clean/clean_banxehoicu.R] - INFO: === Hoàn thành. 2018 dòng đã được lưu tại: web_scraping/data/clean/data_banxehoicu_clean.csv ===
+[2026-06-13 16:47:35] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Bắt đầu cleaning dữ liệu BonBanh ===
+[2026-06-13 16:47:35] [web_scraping/script/clean/clean_bonbanh.R] - INFO: Đọc được 5971 dòng từ web_scraping/data/raw/data_bonbanh_raw.csv
+[2026-06-13 16:49:24] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-13 16:49:27] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-13 16:49:27] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 0. Starting from page 1.
+[2026-06-13 16:49:27] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 18409. STEP B will resume from #18410.
+[2026-06-13 16:49:27] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-13 16:49:27] [scrap_chotot.R] - INFO: Navigating to listing page 1: https://xe.chotot.com/mua-ban-oto
+[2026-06-13 16:49:40] [scrap_chotot.R] - INFO: Page 1: +29 new URLs | Total: 29
+[2026-06-13 16:49:42] [scrap_chotot.R] - INFO: Navigating to listing page 2: https://xe.chotot.com/mua-ban-oto?page=2
+[2026-06-13 16:49:56] [scrap_chotot.R] - INFO: Page 2: +24 new URLs | Total: 53
+[2026-06-13 16:49:58] [scrap_chotot.R] - INFO: Navigating to listing page 3: https://xe.chotot.com/mua-ban-oto?page=3
+[2026-06-13 16:50:12] [scrap_chotot.R] - INFO: Page 3: +20 new URLs | Total: 73
+[2026-06-13 16:50:15] [scrap_chotot.R] - INFO: Navigating to listing page 4: https://xe.chotot.com/mua-ban-oto?page=4
+[2026-06-13 16:50:36] [scrap_chotot.R] - INFO: Page 4: +17 new URLs | Total: 90
+[2026-06-13 16:50:38] [scrap_chotot.R] - INFO: Navigating to listing page 5: https://xe.chotot.com/mua-ban-oto?page=5
+[2026-06-13 16:50:50] [scrap_chotot.R] - INFO: Page 5: +20 new URLs | Total: 110
+[2026-06-13 16:50:52] [scrap_chotot.R] - INFO: Navigating to listing page 6: https://xe.chotot.com/mua-ban-oto?page=6
+[2026-06-13 16:51:05] [scrap_chotot.R] - INFO: Page 6: +20 new URLs | Total: 130
+[2026-06-13 16:51:07] [scrap_chotot.R] - INFO: Navigating to listing page 7: https://xe.chotot.com/mua-ban-oto?page=7
+[2026-06-13 16:51:19] [scrap_chotot.R] - INFO: Page 7: +20 new URLs | Total: 150
+[2026-06-13 16:51:22] [scrap_chotot.R] - INFO: Navigating to listing page 8: https://xe.chotot.com/mua-ban-oto?page=8
+[2026-06-13 16:51:34] [scrap_chotot.R] - INFO: Page 8: +20 new URLs | Total: 170
+[2026-06-13 16:51:36] [scrap_chotot.R] - INFO: Navigating to listing page 9: https://xe.chotot.com/mua-ban-oto?page=9
+[2026-06-13 16:51:49] [scrap_chotot.R] - INFO: Page 9: +20 new URLs | Total: 190
+[2026-06-13 16:51:52] [scrap_chotot.R] - INFO: Navigating to listing page 10: https://xe.chotot.com/mua-ban-oto?page=10
+[2026-06-13 16:52:04] [scrap_chotot.R] - INFO: Page 10: +20 new URLs | Total: 210
+[2026-06-13 16:52:06] [scrap_chotot.R] - INFO: Navigating to listing page 11: https://xe.chotot.com/mua-ban-oto?page=11
+[2026-06-13 16:52:19] [scrap_chotot.R] - INFO: Page 11: +20 new URLs | Total: 230
+[2026-06-13 16:52:21] [scrap_chotot.R] - INFO: Navigating to listing page 12: https://xe.chotot.com/mua-ban-oto?page=12
+[2026-06-13 16:52:34] [scrap_chotot.R] - INFO: Page 12: +18 new URLs | Total: 248
+[2026-06-13 16:52:35] [scrap_chotot.R] - INFO: Navigating to listing page 13: https://xe.chotot.com/mua-ban-oto?page=13
+[2026-06-13 16:52:48] [scrap_chotot.R] - INFO: Page 13: +19 new URLs | Total: 267
+[2026-06-13 16:52:50] [scrap_chotot.R] - INFO: Navigating to listing page 14: https://xe.chotot.com/mua-ban-oto?page=14
+[2026-06-13 16:53:03] [scrap_chotot.R] - INFO: Page 14: +20 new URLs | Total: 287
+[2026-06-13 16:53:05] [scrap_chotot.R] - INFO: Navigating to listing page 15: https://xe.chotot.com/mua-ban-oto?page=15
+[2026-06-13 16:53:18] [scrap_chotot.R] - INFO: Page 15: +20 new URLs | Total: 307
+[2026-06-13 16:53:20] [scrap_chotot.R] - INFO: Navigating to listing page 16: https://xe.chotot.com/mua-ban-oto?page=16
+[2026-06-13 16:53:33] [scrap_chotot.R] - INFO: Page 16: +19 new URLs | Total: 326
+[2026-06-13 16:53:35] [scrap_chotot.R] - INFO: Navigating to listing page 17: https://xe.chotot.com/mua-ban-oto?page=17
+[2026-06-13 16:53:47] [scrap_chotot.R] - INFO: Page 17: +20 new URLs | Total: 346
+[2026-06-13 16:53:49] [scrap_chotot.R] - INFO: Navigating to listing page 18: https://xe.chotot.com/mua-ban-oto?page=18
+[2026-06-13 16:54:02] [scrap_chotot.R] - INFO: Page 18: +20 new URLs | Total: 366
+[2026-06-13 16:54:04] [scrap_chotot.R] - INFO: Navigating to listing page 19: https://xe.chotot.com/mua-ban-oto?page=19
+[2026-06-13 16:54:17] [scrap_chotot.R] - INFO: Page 19: +20 new URLs | Total: 386
+[2026-06-13 16:54:19] [scrap_chotot.R] - INFO: Navigating to listing page 20: https://xe.chotot.com/mua-ban-oto?page=20
+[2026-06-13 16:54:32] [scrap_chotot.R] - INFO: Page 20: +20 new URLs | Total: 406
+[2026-06-13 16:54:32] [scrap_chotot.R] - INFO: Pausing 3.4 seconds after 20 pages...
+[2026-06-13 16:54:35] [scrap_chotot.R] - INFO: Navigating to listing page 21: https://xe.chotot.com/mua-ban-oto?page=21
+[2026-06-13 16:54:48] [scrap_chotot.R] - INFO: Page 21: +20 new URLs | Total: 426
+[2026-06-13 16:54:51] [scrap_chotot.R] - INFO: Navigating to listing page 22: https://xe.chotot.com/mua-ban-oto?page=22
+[2026-06-13 16:55:04] [scrap_chotot.R] - INFO: Page 22: +19 new URLs | Total: 445
+[2026-06-13 16:55:06] [scrap_chotot.R] - INFO: Navigating to listing page 23: https://xe.chotot.com/mua-ban-oto?page=23
+[2026-06-13 16:55:19] [scrap_chotot.R] - INFO: Page 23: +20 new URLs | Total: 465
+[2026-06-13 16:55:21] [scrap_chotot.R] - INFO: Navigating to listing page 24: https://xe.chotot.com/mua-ban-oto?page=24
+[2026-06-13 16:55:33] [scrap_chotot.R] - INFO: Page 24: +20 new URLs | Total: 485
+[2026-06-13 16:55:35] [scrap_chotot.R] - INFO: Navigating to listing page 25: https://xe.chotot.com/mua-ban-oto?page=25
+[2026-06-13 16:55:48] [scrap_chotot.R] - INFO: Page 25: +19 new URLs | Total: 504
+[2026-06-13 16:55:51] [scrap_chotot.R] - INFO: Navigating to listing page 26: https://xe.chotot.com/mua-ban-oto?page=26
+[2026-06-13 16:56:04] [scrap_chotot.R] - INFO: Page 26: +19 new URLs | Total: 523
+[2026-06-13 16:56:05] [scrap_chotot.R] - INFO: Navigating to listing page 27: https://xe.chotot.com/mua-ban-oto?page=27
+[2026-06-13 16:56:18] [scrap_chotot.R] - INFO: Page 27: +19 new URLs | Total: 542
+[2026-06-13 16:56:20] [scrap_chotot.R] - INFO: Navigating to listing page 28: https://xe.chotot.com/mua-ban-oto?page=28
+[2026-06-13 16:56:32] [scrap_chotot.R] - INFO: Page 28: +20 new URLs | Total: 562
+[2026-06-13 16:56:35] [scrap_chotot.R] - INFO: Navigating to listing page 29: https://xe.chotot.com/mua-ban-oto?page=29
+[2026-06-13 16:56:48] [scrap_chotot.R] - INFO: Page 29: +19 new URLs | Total: 581
+[2026-06-13 16:56:50] [scrap_chotot.R] - INFO: Navigating to listing page 30: https://xe.chotot.com/mua-ban-oto?page=30
+[2026-06-13 16:57:02] [scrap_chotot.R] - INFO: Page 30: +20 new URLs | Total: 601
+[2026-06-13 16:57:04] [scrap_chotot.R] - INFO: Navigating to listing page 31: https://xe.chotot.com/mua-ban-oto?page=31
+[2026-06-13 16:57:17] [scrap_chotot.R] - INFO: Page 31: +20 new URLs | Total: 621
+[2026-06-13 16:57:18] [scrap_chotot.R] - INFO: Navigating to listing page 32: https://xe.chotot.com/mua-ban-oto?page=32
+[2026-06-13 16:57:31] [scrap_chotot.R] - INFO: Page 32: +20 new URLs | Total: 641
+[2026-06-13 16:57:33] [scrap_chotot.R] - INFO: Navigating to listing page 33: https://xe.chotot.com/mua-ban-oto?page=33
+[2026-06-13 16:57:47] [scrap_chotot.R] - INFO: Page 33: +20 new URLs | Total: 661
+[2026-06-13 16:57:49] [scrap_chotot.R] - INFO: Navigating to listing page 34: https://xe.chotot.com/mua-ban-oto?page=34
+[2026-06-13 16:58:03] [scrap_chotot.R] - INFO: Page 34: +19 new URLs | Total: 680
+[2026-06-13 16:58:06] [scrap_chotot.R] - INFO: Navigating to listing page 35: https://xe.chotot.com/mua-ban-oto?page=35
+[2026-06-13 16:58:21] [scrap_chotot.R] - INFO: Page 35: +19 new URLs | Total: 699
+[2026-06-13 16:58:23] [scrap_chotot.R] - INFO: Navigating to listing page 36: https://xe.chotot.com/mua-ban-oto?page=36
+[2026-06-13 16:58:33] [scrap_chotot.R] - INFO: Page 36: +19 new URLs | Total: 718
+[2026-06-13 16:58:35] [scrap_chotot.R] - INFO: Navigating to listing page 37: https://xe.chotot.com/mua-ban-oto?page=37
+[2026-06-13 16:58:49] [scrap_chotot.R] - INFO: Page 37: +20 new URLs | Total: 738
+[2026-06-13 16:58:50] [scrap_chotot.R] - INFO: Navigating to listing page 38: https://xe.chotot.com/mua-ban-oto?page=38
+[2026-06-13 16:59:05] [scrap_chotot.R] - INFO: Page 38: +20 new URLs | Total: 758
+[2026-06-13 16:59:06] [scrap_chotot.R] - INFO: Navigating to listing page 39: https://xe.chotot.com/mua-ban-oto?page=39
+[2026-06-13 16:59:30] [scrap_chotot.R] - INFO: Page 39: +19 new URLs | Total: 777
+[2026-06-13 16:59:33] [scrap_chotot.R] - INFO: Navigating to listing page 40: https://xe.chotot.com/mua-ban-oto?page=40
+[2026-06-13 16:59:45] [scrap_chotot.R] - INFO: Page 40: +19 new URLs | Total: 796
+[2026-06-13 16:59:45] [scrap_chotot.R] - INFO: Pausing 2.7 seconds after 40 pages...
+[2026-06-13 16:59:48] [scrap_chotot.R] - INFO: Navigating to listing page 41: https://xe.chotot.com/mua-ban-oto?page=41
+[2026-06-13 17:00:02] [scrap_chotot.R] - INFO: Page 41: +20 new URLs | Total: 816
+[2026-06-13 17:00:04] [scrap_chotot.R] - INFO: Navigating to listing page 42: https://xe.chotot.com/mua-ban-oto?page=42
+[2026-06-13 17:00:17] [scrap_chotot.R] - INFO: Page 42: +20 new URLs | Total: 836
+[2026-06-13 17:00:20] [scrap_chotot.R] - INFO: Navigating to listing page 43: https://xe.chotot.com/mua-ban-oto?page=43
+[2026-06-13 17:00:33] [scrap_chotot.R] - INFO: Page 43: +19 new URLs | Total: 855
+[2026-06-13 17:00:34] [scrap_chotot.R] - INFO: Navigating to listing page 44: https://xe.chotot.com/mua-ban-oto?page=44
+[2026-06-13 17:00:47] [scrap_chotot.R] - INFO: Page 44: +20 new URLs | Total: 875
+[2026-06-13 17:00:50] [scrap_chotot.R] - INFO: Navigating to listing page 45: https://xe.chotot.com/mua-ban-oto?page=45
+[2026-06-13 17:01:03] [scrap_chotot.R] - INFO: Page 45: +18 new URLs | Total: 893
+[2026-06-13 17:01:06] [scrap_chotot.R] - INFO: Navigating to listing page 46: https://xe.chotot.com/mua-ban-oto?page=46
+[2026-06-13 17:01:21] [scrap_chotot.R] - INFO: Page 46: +20 new URLs | Total: 913
+[2026-06-13 17:01:22] [scrap_chotot.R] - INFO: Navigating to listing page 47: https://xe.chotot.com/mua-ban-oto?page=47
+[2026-06-13 17:01:36] [scrap_chotot.R] - INFO: Page 47: +19 new URLs | Total: 932
+[2026-06-13 17:01:38] [scrap_chotot.R] - INFO: Navigating to listing page 48: https://xe.chotot.com/mua-ban-oto?page=48
+[2026-06-13 17:01:52] [scrap_chotot.R] - INFO: Page 48: +20 new URLs | Total: 952
+[2026-06-13 17:01:54] [scrap_chotot.R] - INFO: Navigating to listing page 49: https://xe.chotot.com/mua-ban-oto?page=49
+[2026-06-13 17:02:07] [scrap_chotot.R] - INFO: Page 49: +19 new URLs | Total: 971
+[2026-06-13 17:02:10] [scrap_chotot.R] - INFO: Navigating to listing page 50: https://xe.chotot.com/mua-ban-oto?page=50
+[2026-06-13 17:02:23] [scrap_chotot.R] - INFO: Page 50: +20 new URLs | Total: 991
+[2026-06-13 17:02:26] [scrap_chotot.R] - INFO: Navigating to listing page 51: https://xe.chotot.com/mua-ban-oto?page=51
+[2026-06-13 17:02:39] [scrap_chotot.R] - INFO: Page 51: +20 new URLs | Total: 1011
+[2026-06-13 17:02:41] [scrap_chotot.R] - INFO: Navigating to listing page 52: https://xe.chotot.com/mua-ban-oto?page=52
+[2026-06-13 17:02:56] [scrap_chotot.R] - INFO: Page 52: +20 new URLs | Total: 1031
+[2026-06-13 17:02:58] [scrap_chotot.R] - INFO: Navigating to listing page 53: https://xe.chotot.com/mua-ban-oto?page=53
+[2026-06-13 17:03:12] [scrap_chotot.R] - INFO: Page 53: +18 new URLs | Total: 1049
+[2026-06-13 17:03:14] [scrap_chotot.R] - INFO: Navigating to listing page 54: https://xe.chotot.com/mua-ban-oto?page=54
+[2026-06-13 17:03:29] [scrap_chotot.R] - INFO: Page 54: +20 new URLs | Total: 1069
+[2026-06-13 17:03:30] [scrap_chotot.R] - INFO: Navigating to listing page 55: https://xe.chotot.com/mua-ban-oto?page=55
+[2026-06-13 17:03:43] [scrap_chotot.R] - INFO: Page 55: +20 new URLs | Total: 1089
+[2026-06-13 17:03:46] [scrap_chotot.R] - INFO: Navigating to listing page 56: https://xe.chotot.com/mua-ban-oto?page=56
+[2026-06-13 17:03:59] [scrap_chotot.R] - INFO: Page 56: +20 new URLs | Total: 1109
+[2026-06-13 17:04:00] [scrap_chotot.R] - INFO: Navigating to listing page 57: https://xe.chotot.com/mua-ban-oto?page=57
+[2026-06-13 17:04:14] [scrap_chotot.R] - INFO: Page 57: +19 new URLs | Total: 1128
+[2026-06-13 17:04:16] [scrap_chotot.R] - INFO: Navigating to listing page 58: https://xe.chotot.com/mua-ban-oto?page=58
+[2026-06-13 17:04:29] [scrap_chotot.R] - INFO: Page 58: +20 new URLs | Total: 1148
+[2026-06-13 17:04:31] [scrap_chotot.R] - INFO: Navigating to listing page 59: https://xe.chotot.com/mua-ban-oto?page=59
+[2026-06-13 17:04:45] [scrap_chotot.R] - INFO: Page 59: +20 new URLs | Total: 1168
+[2026-06-13 17:04:48] [scrap_chotot.R] - INFO: Navigating to listing page 60: https://xe.chotot.com/mua-ban-oto?page=60
+[2026-06-13 17:05:02] [scrap_chotot.R] - INFO: Page 60: +19 new URLs | Total: 1187
+[2026-06-13 17:05:02] [scrap_chotot.R] - INFO: Pausing 4.0 seconds after 60 pages...
+[2026-06-13 17:05:06] [scrap_chotot.R] - INFO: Navigating to listing page 61: https://xe.chotot.com/mua-ban-oto?page=61
+[2026-06-13 17:05:20] [scrap_chotot.R] - INFO: Page 61: +20 new URLs | Total: 1207
+[2026-06-13 17:05:23] [scrap_chotot.R] - INFO: Navigating to listing page 62: https://xe.chotot.com/mua-ban-oto?page=62
+[2026-06-13 17:05:36] [scrap_chotot.R] - INFO: Page 62: +19 new URLs | Total: 1226
+[2026-06-13 17:05:39] [scrap_chotot.R] - INFO: Navigating to listing page 63: https://xe.chotot.com/mua-ban-oto?page=63
+[2026-06-13 17:05:52] [scrap_chotot.R] - INFO: Page 63: +20 new URLs | Total: 1246
+[2026-06-13 17:05:54] [scrap_chotot.R] - INFO: Navigating to listing page 64: https://xe.chotot.com/mua-ban-oto?page=64
+[2026-06-13 17:06:07] [scrap_chotot.R] - INFO: Page 64: +19 new URLs | Total: 1265
+[2026-06-13 17:06:09] [scrap_chotot.R] - INFO: Navigating to listing page 65: https://xe.chotot.com/mua-ban-oto?page=65
+[2026-06-13 17:06:23] [scrap_chotot.R] - INFO: Page 65: +20 new URLs | Total: 1285
+[2026-06-13 17:06:25] [scrap_chotot.R] - INFO: Navigating to listing page 66: https://xe.chotot.com/mua-ban-oto?page=66
+[2026-06-13 17:06:40] [scrap_chotot.R] - INFO: Page 66: +20 new URLs | Total: 1305
+[2026-06-13 17:06:43] [scrap_chotot.R] - INFO: Navigating to listing page 67: https://xe.chotot.com/mua-ban-oto?page=67
+[2026-06-13 17:06:56] [scrap_chotot.R] - INFO: Page 67: +19 new URLs | Total: 1324
+[2026-06-13 17:06:58] [scrap_chotot.R] - INFO: Navigating to listing page 68: https://xe.chotot.com/mua-ban-oto?page=68
+[2026-06-13 17:07:11] [scrap_chotot.R] - INFO: Page 68: +20 new URLs | Total: 1344
+[2026-06-13 17:07:13] [scrap_chotot.R] - INFO: Navigating to listing page 69: https://xe.chotot.com/mua-ban-oto?page=69
+[2026-06-13 17:07:26] [scrap_chotot.R] - INFO: Page 69: +20 new URLs | Total: 1364
+[2026-06-13 17:07:28] [scrap_chotot.R] - INFO: Navigating to listing page 70: https://xe.chotot.com/mua-ban-oto?page=70
+[2026-06-13 17:07:42] [scrap_chotot.R] - INFO: Page 70: +20 new URLs | Total: 1384
+[2026-06-13 17:07:44] [scrap_chotot.R] - INFO: Navigating to listing page 71: https://xe.chotot.com/mua-ban-oto?page=71
+[2026-06-13 17:07:57] [scrap_chotot.R] - INFO: Page 71: +20 new URLs | Total: 1404
+[2026-06-13 17:07:59] [scrap_chotot.R] - INFO: Navigating to listing page 72: https://xe.chotot.com/mua-ban-oto?page=72
+[2026-06-13 17:08:11] [scrap_chotot.R] - INFO: Page 72: +20 new URLs | Total: 1424
+[2026-06-13 17:08:13] [scrap_chotot.R] - INFO: Navigating to listing page 73: https://xe.chotot.com/mua-ban-oto?page=73
+[2026-06-13 17:08:28] [scrap_chotot.R] - INFO: Page 73: +20 new URLs | Total: 1444
+[2026-06-13 17:08:29] [scrap_chotot.R] - INFO: Navigating to listing page 74: https://xe.chotot.com/mua-ban-oto?page=74
+[2026-06-13 17:08:43] [scrap_chotot.R] - INFO: Page 74: +19 new URLs | Total: 1463
+[2026-06-13 17:08:46] [scrap_chotot.R] - INFO: Navigating to listing page 75: https://xe.chotot.com/mua-ban-oto?page=75
+[2026-06-13 17:08:59] [scrap_chotot.R] - INFO: Page 75: +19 new URLs | Total: 1482
+[2026-06-13 17:09:01] [scrap_chotot.R] - INFO: Navigating to listing page 76: https://xe.chotot.com/mua-ban-oto?page=76
+[2026-06-13 17:09:16] [scrap_chotot.R] - INFO: Page 76: +20 new URLs | Total: 1502
+[2026-06-13 17:09:18] [scrap_chotot.R] - INFO: Navigating to listing page 77: https://xe.chotot.com/mua-ban-oto?page=77
+[2026-06-13 17:09:32] [scrap_chotot.R] - INFO: Page 77: +20 new URLs | Total: 1522
+[2026-06-13 17:09:33] [scrap_chotot.R] - INFO: Navigating to listing page 78: https://xe.chotot.com/mua-ban-oto?page=78
+[2026-06-13 17:09:47] [scrap_chotot.R] - INFO: Page 78: +20 new URLs | Total: 1542
+[2026-06-13 17:09:49] [scrap_chotot.R] - INFO: Navigating to listing page 79: https://xe.chotot.com/mua-ban-oto?page=79
+[2026-06-13 17:10:04] [scrap_chotot.R] - INFO: Page 79: +20 new URLs | Total: 1562
+[2026-06-13 17:10:07] [scrap_chotot.R] - INFO: Navigating to listing page 80: https://xe.chotot.com/mua-ban-oto?page=80
+[2026-06-13 17:10:21] [scrap_chotot.R] - INFO: Page 80: +19 new URLs | Total: 1581
+[2026-06-13 17:10:21] [scrap_chotot.R] - INFO: Pausing 3.6 seconds after 80 pages...
+[2026-06-13 17:10:25] [scrap_chotot.R] - INFO: Navigating to listing page 81: https://xe.chotot.com/mua-ban-oto?page=81
+[2026-06-13 17:10:39] [scrap_chotot.R] - INFO: Page 81: +20 new URLs | Total: 1601
+[2026-06-13 17:10:40] [scrap_chotot.R] - INFO: Navigating to listing page 82: https://xe.chotot.com/mua-ban-oto?page=82
+[2026-06-13 17:10:56] [scrap_chotot.R] - INFO: Page 82: +20 new URLs | Total: 1621
+[2026-06-13 17:10:57] [scrap_chotot.R] - INFO: Navigating to listing page 83: https://xe.chotot.com/mua-ban-oto?page=83
+[2026-06-13 17:11:12] [scrap_chotot.R] - INFO: Page 83: +18 new URLs | Total: 1639
+[2026-06-13 17:11:14] [scrap_chotot.R] - INFO: Navigating to listing page 84: https://xe.chotot.com/mua-ban-oto?page=84
+[2026-06-13 17:11:28] [scrap_chotot.R] - INFO: Page 84: +19 new URLs | Total: 1658
+[2026-06-13 17:11:29] [scrap_chotot.R] - INFO: Navigating to listing page 85: https://xe.chotot.com/mua-ban-oto?page=85
+[2026-06-13 17:11:44] [scrap_chotot.R] - INFO: Page 85: +20 new URLs | Total: 1678
+[2026-06-13 17:11:45] [scrap_chotot.R] - INFO: Navigating to listing page 86: https://xe.chotot.com/mua-ban-oto?page=86
+[2026-06-13 17:12:00] [scrap_chotot.R] - INFO: Page 86: +20 new URLs | Total: 1698
+[2026-06-13 17:12:02] [scrap_chotot.R] - INFO: Navigating to listing page 87: https://xe.chotot.com/mua-ban-oto?page=87
+[2026-06-13 17:12:16] [scrap_chotot.R] - INFO: Page 87: +20 new URLs | Total: 1718
+[2026-06-13 17:12:18] [scrap_chotot.R] - INFO: Navigating to listing page 88: https://xe.chotot.com/mua-ban-oto?page=88
+[2026-06-13 17:12:32] [scrap_chotot.R] - INFO: Page 88: +19 new URLs | Total: 1737
+[2026-06-13 17:12:34] [scrap_chotot.R] - INFO: Navigating to listing page 89: https://xe.chotot.com/mua-ban-oto?page=89
+[2026-06-13 17:12:50] [scrap_chotot.R] - INFO: Page 89: +20 new URLs | Total: 1757
+[2026-06-13 17:12:53] [scrap_chotot.R] - INFO: Navigating to listing page 90: https://xe.chotot.com/mua-ban-oto?page=90
+[2026-06-13 17:13:05] [scrap_chotot.R] - INFO: Page 90: +20 new URLs | Total: 1777
+[2026-06-13 17:13:07] [scrap_chotot.R] - INFO: Navigating to listing page 91: https://xe.chotot.com/mua-ban-oto?page=91
+[2026-06-13 17:13:19] [scrap_chotot.R] - INFO: Page 91: +20 new URLs | Total: 1797
+[2026-06-13 17:13:20] [scrap_chotot.R] - INFO: Navigating to listing page 92: https://xe.chotot.com/mua-ban-oto?page=92
+[2026-06-13 17:13:32] [scrap_chotot.R] - INFO: Page 92: +20 new URLs | Total: 1817
+[2026-06-13 17:13:34] [scrap_chotot.R] - INFO: Navigating to listing page 93: https://xe.chotot.com/mua-ban-oto?page=93
+[2026-06-13 17:13:48] [scrap_chotot.R] - INFO: Page 93: +20 new URLs | Total: 1837
+[2026-06-13 17:13:49] [scrap_chotot.R] - INFO: Navigating to listing page 94: https://xe.chotot.com/mua-ban-oto?page=94
+[2026-06-13 17:14:01] [scrap_chotot.R] - INFO: Page 94: +20 new URLs | Total: 1857
+[2026-06-13 17:14:04] [scrap_chotot.R] - INFO: Navigating to listing page 95: https://xe.chotot.com/mua-ban-oto?page=95
+[2026-06-13 17:14:17] [scrap_chotot.R] - INFO: Page 95: +20 new URLs | Total: 1877
+[2026-06-13 17:14:19] [scrap_chotot.R] - INFO: Navigating to listing page 96: https://xe.chotot.com/mua-ban-oto?page=96
+[2026-06-13 17:14:33] [scrap_chotot.R] - INFO: Page 96: +20 new URLs | Total: 1897
+[2026-06-13 17:14:34] [scrap_chotot.R] - INFO: Navigating to listing page 97: https://xe.chotot.com/mua-ban-oto?page=97
+[2026-06-13 17:14:47] [scrap_chotot.R] - INFO: Page 97: +20 new URLs | Total: 1917
+[2026-06-13 17:14:48] [scrap_chotot.R] - INFO: Navigating to listing page 98: https://xe.chotot.com/mua-ban-oto?page=98
+[2026-06-13 17:15:03] [scrap_chotot.R] - INFO: Page 98: +20 new URLs | Total: 1937
+[2026-06-13 17:15:05] [scrap_chotot.R] - INFO: Navigating to listing page 99: https://xe.chotot.com/mua-ban-oto?page=99
+[2026-06-13 17:15:19] [scrap_chotot.R] - INFO: Page 99: +20 new URLs | Total: 1957
+[2026-06-13 17:15:21] [scrap_chotot.R] - INFO: Navigating to listing page 100: https://xe.chotot.com/mua-ban-oto?page=100
+[2026-06-13 17:15:36] [scrap_chotot.R] - INFO: Page 100: +20 new URLs | Total: 1977
+[2026-06-13 17:15:36] [scrap_chotot.R] - INFO: Pausing 2.6 seconds after 100 pages...
+[2026-06-13 17:15:39] [scrap_chotot.R] - INFO: Navigating to listing page 101: https://xe.chotot.com/mua-ban-oto?page=101
+[2026-06-13 17:15:54] [scrap_chotot.R] - INFO: Page 101: +20 new URLs | Total: 1997
+[2026-06-13 17:15:55] [scrap_chotot.R] - INFO: Navigating to listing page 102: https://xe.chotot.com/mua-ban-oto?page=102
+[2026-06-13 17:16:09] [scrap_chotot.R] - INFO: Page 102: +20 new URLs | Total: 2017
+[2026-06-13 17:16:12] [scrap_chotot.R] - INFO: Navigating to listing page 103: https://xe.chotot.com/mua-ban-oto?page=103
+[2026-06-13 17:16:25] [scrap_chotot.R] - INFO: Page 103: +20 new URLs | Total: 2037
+[2026-06-13 17:16:27] [scrap_chotot.R] - INFO: Navigating to listing page 104: https://xe.chotot.com/mua-ban-oto?page=104
+[2026-06-13 17:16:43] [scrap_chotot.R] - INFO: Page 104: +19 new URLs | Total: 2056
+[2026-06-13 17:16:44] [scrap_chotot.R] - INFO: Navigating to listing page 105: https://xe.chotot.com/mua-ban-oto?page=105
+[2026-06-13 17:16:59] [scrap_chotot.R] - INFO: Page 105: +20 new URLs | Total: 2076
+[2026-06-13 17:17:01] [scrap_chotot.R] - INFO: Navigating to listing page 106: https://xe.chotot.com/mua-ban-oto?page=106
+[2026-06-13 17:17:19] [scrap_chotot.R] - INFO: Page 106: +20 new URLs | Total: 2096
+[2026-06-13 17:17:21] [scrap_chotot.R] - INFO: Navigating to listing page 107: https://xe.chotot.com/mua-ban-oto?page=107
+[2026-06-13 17:17:33] [scrap_chotot.R] - INFO: Page 107: +20 new URLs | Total: 2116
+[2026-06-13 17:17:35] [scrap_chotot.R] - INFO: Navigating to listing page 108: https://xe.chotot.com/mua-ban-oto?page=108
+[2026-06-13 17:17:47] [scrap_chotot.R] - INFO: Page 108: +20 new URLs | Total: 2136
+[2026-06-13 17:17:50] [scrap_chotot.R] - INFO: Navigating to listing page 109: https://xe.chotot.com/mua-ban-oto?page=109
+[2026-06-13 17:18:04] [scrap_chotot.R] - INFO: Page 109: +20 new URLs | Total: 2156
+[2026-06-13 17:18:07] [scrap_chotot.R] - INFO: Navigating to listing page 110: https://xe.chotot.com/mua-ban-oto?page=110
+[2026-06-13 17:18:23] [scrap_chotot.R] - INFO: Page 110: +19 new URLs | Total: 2175
+[2026-06-13 17:18:25] [scrap_chotot.R] - INFO: Navigating to listing page 111: https://xe.chotot.com/mua-ban-oto?page=111
+[2026-06-13 17:18:38] [scrap_chotot.R] - INFO: Page 111: +20 new URLs | Total: 2195
+[2026-06-13 17:18:40] [scrap_chotot.R] - INFO: Navigating to listing page 112: https://xe.chotot.com/mua-ban-oto?page=112
+[2026-06-13 17:18:53] [scrap_chotot.R] - INFO: Page 112: +20 new URLs | Total: 2215
+[2026-06-13 17:18:55] [scrap_chotot.R] - INFO: Navigating to listing page 113: https://xe.chotot.com/mua-ban-oto?page=113
+[2026-06-13 17:19:10] [scrap_chotot.R] - INFO: Page 113: +20 new URLs | Total: 2235
+[2026-06-13 17:19:12] [scrap_chotot.R] - INFO: Navigating to listing page 114: https://xe.chotot.com/mua-ban-oto?page=114
+[2026-06-13 17:19:24] [scrap_chotot.R] - INFO: Page 114: +20 new URLs | Total: 2255
+[2026-06-13 17:19:27] [scrap_chotot.R] - INFO: Navigating to listing page 115: https://xe.chotot.com/mua-ban-oto?page=115
+[2026-06-13 17:19:42] [scrap_chotot.R] - INFO: Page 115: +19 new URLs | Total: 2274
+[2026-06-13 17:19:45] [scrap_chotot.R] - INFO: Navigating to listing page 116: https://xe.chotot.com/mua-ban-oto?page=116
+[2026-06-13 17:19:57] [scrap_chotot.R] - INFO: Page 116: +20 new URLs | Total: 2294
+[2026-06-13 17:19:59] [scrap_chotot.R] - INFO: Navigating to listing page 117: https://xe.chotot.com/mua-ban-oto?page=117
+[2026-06-13 17:20:13] [scrap_chotot.R] - INFO: Page 117: +20 new URLs | Total: 2314
+[2026-06-13 17:20:15] [scrap_chotot.R] - INFO: Navigating to listing page 118: https://xe.chotot.com/mua-ban-oto?page=118
+[2026-06-13 17:20:28] [scrap_chotot.R] - INFO: Page 118: +20 new URLs | Total: 2334
+[2026-06-13 17:20:29] [scrap_chotot.R] - INFO: Navigating to listing page 119: https://xe.chotot.com/mua-ban-oto?page=119
+[2026-06-13 17:20:42] [scrap_chotot.R] - INFO: Page 119: +20 new URLs | Total: 2354
+[2026-06-13 17:20:44] [scrap_chotot.R] - INFO: Navigating to listing page 120: https://xe.chotot.com/mua-ban-oto?page=120
+[2026-06-13 17:20:57] [scrap_chotot.R] - INFO: Page 120: +20 new URLs | Total: 2374
+[2026-06-13 17:20:57] [scrap_chotot.R] - INFO: Pausing 4.1 seconds after 120 pages...
+[2026-06-13 17:21:01] [scrap_chotot.R] - INFO: Navigating to listing page 121: https://xe.chotot.com/mua-ban-oto?page=121
+[2026-06-13 17:21:14] [scrap_chotot.R] - INFO: Page 121: +20 new URLs | Total: 2394
+[2026-06-13 17:21:16] [scrap_chotot.R] - INFO: Navigating to listing page 122: https://xe.chotot.com/mua-ban-oto?page=122
+[2026-06-13 17:21:30] [scrap_chotot.R] - INFO: Page 122: +20 new URLs | Total: 2414
+[2026-06-13 17:21:32] [scrap_chotot.R] - INFO: Navigating to listing page 123: https://xe.chotot.com/mua-ban-oto?page=123
+[2026-06-13 17:21:44] [scrap_chotot.R] - INFO: Page 123: +19 new URLs | Total: 2433
+[2026-06-13 17:21:47] [scrap_chotot.R] - INFO: Navigating to listing page 124: https://xe.chotot.com/mua-ban-oto?page=124
+[2026-06-13 17:21:59] [scrap_chotot.R] - INFO: Page 124: +20 new URLs | Total: 2453
+[2026-06-13 17:22:02] [scrap_chotot.R] - INFO: Navigating to listing page 125: https://xe.chotot.com/mua-ban-oto?page=125
+[2026-06-13 17:22:15] [scrap_chotot.R] - INFO: Page 125: +20 new URLs | Total: 2473
+[2026-06-13 17:22:17] [scrap_chotot.R] - INFO: Navigating to listing page 126: https://xe.chotot.com/mua-ban-oto?page=126
+[2026-06-13 17:22:30] [scrap_chotot.R] - INFO: Page 126: +20 new URLs | Total: 2493
+[2026-06-13 17:22:32] [scrap_chotot.R] - INFO: Navigating to listing page 127: https://xe.chotot.com/mua-ban-oto?page=127
+[2026-06-13 17:22:46] [scrap_chotot.R] - INFO: Page 127: +20 new URLs | Total: 2513
+[2026-06-13 17:22:48] [scrap_chotot.R] - INFO: Navigating to listing page 128: https://xe.chotot.com/mua-ban-oto?page=128
+[2026-06-13 17:23:01] [scrap_chotot.R] - INFO: Page 128: +19 new URLs | Total: 2532
+[2026-06-13 17:23:03] [scrap_chotot.R] - INFO: Navigating to listing page 129: https://xe.chotot.com/mua-ban-oto?page=129
+[2026-06-13 17:23:15] [scrap_chotot.R] - INFO: Page 129: +20 new URLs | Total: 2552
+[2026-06-13 17:23:18] [scrap_chotot.R] - INFO: Navigating to listing page 130: https://xe.chotot.com/mua-ban-oto?page=130
+[2026-06-13 17:23:31] [scrap_chotot.R] - INFO: Page 130: +20 new URLs | Total: 2572
+[2026-06-13 17:23:33] [scrap_chotot.R] - INFO: Navigating to listing page 131: https://xe.chotot.com/mua-ban-oto?page=131
+[2026-06-13 17:23:46] [scrap_chotot.R] - INFO: Page 131: +20 new URLs | Total: 2592
+[2026-06-13 17:23:47] [scrap_chotot.R] - INFO: Navigating to listing page 132: https://xe.chotot.com/mua-ban-oto?page=132
+[2026-06-13 17:24:01] [scrap_chotot.R] - INFO: Page 132: +20 new URLs | Total: 2612
+[2026-06-13 17:24:03] [scrap_chotot.R] - INFO: Navigating to listing page 133: https://xe.chotot.com/mua-ban-oto?page=133
+[2026-06-13 17:24:18] [scrap_chotot.R] - INFO: Page 133: +20 new URLs | Total: 2632
+[2026-06-13 17:24:21] [scrap_chotot.R] - INFO: Navigating to listing page 134: https://xe.chotot.com/mua-ban-oto?page=134
+[2026-06-13 17:24:35] [scrap_chotot.R] - INFO: Page 134: +20 new URLs | Total: 2652
+[2026-06-13 17:24:36] [scrap_chotot.R] - INFO: Navigating to listing page 135: https://xe.chotot.com/mua-ban-oto?page=135
+[2026-06-13 17:24:51] [scrap_chotot.R] - INFO: Page 135: +20 new URLs | Total: 2672
+[2026-06-13 17:24:53] [scrap_chotot.R] - INFO: Navigating to listing page 136: https://xe.chotot.com/mua-ban-oto?page=136
+[2026-06-13 17:25:07] [scrap_chotot.R] - INFO: Page 136: +20 new URLs | Total: 2692
+[2026-06-13 17:25:09] [scrap_chotot.R] - INFO: Navigating to listing page 137: https://xe.chotot.com/mua-ban-oto?page=137
+[2026-06-13 17:25:25] [scrap_chotot.R] - INFO: Page 137: +20 new URLs | Total: 2712
+[2026-06-13 17:25:27] [scrap_chotot.R] - INFO: Navigating to listing page 138: https://xe.chotot.com/mua-ban-oto?page=138
+[2026-06-13 17:25:41] [scrap_chotot.R] - INFO: Page 138: +20 new URLs | Total: 2732
+[2026-06-13 17:25:44] [scrap_chotot.R] - INFO: Navigating to listing page 139: https://xe.chotot.com/mua-ban-oto?page=139
+[2026-06-13 17:25:57] [scrap_chotot.R] - INFO: Page 139: +20 new URLs | Total: 2752
+[2026-06-13 17:25:59] [scrap_chotot.R] - INFO: Navigating to listing page 140: https://xe.chotot.com/mua-ban-oto?page=140
+[2026-06-13 17:26:15] [scrap_chotot.R] - INFO: Page 140: +18 new URLs | Total: 2770
+[2026-06-13 17:26:15] [scrap_chotot.R] - INFO: Pausing 3.1 seconds after 140 pages...
+[2026-06-13 17:26:18] [scrap_chotot.R] - INFO: Navigating to listing page 141: https://xe.chotot.com/mua-ban-oto?page=141
+[2026-06-13 17:26:34] [scrap_chotot.R] - INFO: Page 141: +20 new URLs | Total: 2790
+[2026-06-13 17:26:36] [scrap_chotot.R] - INFO: Navigating to listing page 142: https://xe.chotot.com/mua-ban-oto?page=142
+[2026-06-13 17:26:49] [scrap_chotot.R] - INFO: Page 142: +20 new URLs | Total: 2810
+[2026-06-13 17:26:50] [scrap_chotot.R] - INFO: Navigating to listing page 143: https://xe.chotot.com/mua-ban-oto?page=143
+[2026-06-13 17:27:02] [scrap_chotot.R] - INFO: Page 143: +20 new URLs | Total: 2830
+[2026-06-13 17:27:05] [scrap_chotot.R] - INFO: Navigating to listing page 144: https://xe.chotot.com/mua-ban-oto?page=144
+[2026-06-13 17:27:18] [scrap_chotot.R] - INFO: Page 144: +20 new URLs | Total: 2850
+[2026-06-13 17:27:20] [scrap_chotot.R] - INFO: Navigating to listing page 145: https://xe.chotot.com/mua-ban-oto?page=145
+[2026-06-13 17:27:34] [scrap_chotot.R] - INFO: Page 145: +20 new URLs | Total: 2870
+[2026-06-13 17:27:36] [scrap_chotot.R] - INFO: Navigating to listing page 146: https://xe.chotot.com/mua-ban-oto?page=146
+[2026-06-13 17:27:49] [scrap_chotot.R] - INFO: Page 146: +19 new URLs | Total: 2889
+[2026-06-13 17:27:51] [scrap_chotot.R] - INFO: Navigating to listing page 147: https://xe.chotot.com/mua-ban-oto?page=147
+[2026-06-13 17:28:07] [scrap_chotot.R] - INFO: Page 147: +19 new URLs | Total: 2908
+[2026-06-13 17:28:09] [scrap_chotot.R] - INFO: Navigating to listing page 148: https://xe.chotot.com/mua-ban-oto?page=148
+[2026-06-13 17:28:26] [scrap_chotot.R] - INFO: Page 148: +20 new URLs | Total: 2928
+[2026-06-13 17:28:29] [scrap_chotot.R] - INFO: Navigating to listing page 149: https://xe.chotot.com/mua-ban-oto?page=149
+[2026-06-13 17:28:44] [scrap_chotot.R] - INFO: Page 149: +20 new URLs | Total: 2948
+[2026-06-13 17:28:46] [scrap_chotot.R] - INFO: Navigating to listing page 150: https://xe.chotot.com/mua-ban-oto?page=150
+[2026-06-13 17:28:58] [scrap_chotot.R] - INFO: Page 150: +20 new URLs | Total: 2968
+[2026-06-13 17:29:00] [scrap_chotot.R] - INFO: Navigating to listing page 151: https://xe.chotot.com/mua-ban-oto?page=151
+[2026-06-13 17:29:13] [scrap_chotot.R] - INFO: Page 151: +19 new URLs | Total: 2987
+[2026-06-13 17:29:15] [scrap_chotot.R] - INFO: Navigating to listing page 152: https://xe.chotot.com/mua-ban-oto?page=152
+[2026-06-13 17:29:28] [scrap_chotot.R] - INFO: Page 152: +20 new URLs | Total: 3007
+[2026-06-13 17:29:30] [scrap_chotot.R] - INFO: Navigating to listing page 153: https://xe.chotot.com/mua-ban-oto?page=153
+[2026-06-13 17:29:44] [scrap_chotot.R] - INFO: Page 153: +18 new URLs | Total: 3025
+[2026-06-13 17:29:45] [scrap_chotot.R] - INFO: Navigating to listing page 154: https://xe.chotot.com/mua-ban-oto?page=154
+[2026-06-13 17:29:58] [scrap_chotot.R] - INFO: Page 154: +19 new URLs | Total: 3044
+[2026-06-13 17:29:59] [scrap_chotot.R] - INFO: Navigating to listing page 155: https://xe.chotot.com/mua-ban-oto?page=155
+[2026-06-13 17:30:12] [scrap_chotot.R] - INFO: Page 155: +18 new URLs | Total: 3062
+[2026-06-13 17:30:14] [scrap_chotot.R] - INFO: Navigating to listing page 156: https://xe.chotot.com/mua-ban-oto?page=156
+[2026-06-13 17:30:27] [scrap_chotot.R] - INFO: Page 156: +20 new URLs | Total: 3082
+[2026-06-13 17:30:28] [scrap_chotot.R] - INFO: Navigating to listing page 157: https://xe.chotot.com/mua-ban-oto?page=157
+[2026-06-13 17:30:41] [scrap_chotot.R] - INFO: Page 157: +20 new URLs | Total: 3102
+[2026-06-13 17:30:43] [scrap_chotot.R] - INFO: Navigating to listing page 158: https://xe.chotot.com/mua-ban-oto?page=158
+[2026-06-13 17:30:56] [scrap_chotot.R] - INFO: Page 158: +20 new URLs | Total: 3122
+[2026-06-13 17:30:58] [scrap_chotot.R] - INFO: Navigating to listing page 159: https://xe.chotot.com/mua-ban-oto?page=159
+[2026-06-13 17:31:11] [scrap_chotot.R] - INFO: Page 159: +20 new URLs | Total: 3142
+[2026-06-13 17:31:14] [scrap_chotot.R] - INFO: Navigating to listing page 160: https://xe.chotot.com/mua-ban-oto?page=160
+[2026-06-13 17:31:28] [scrap_chotot.R] - INFO: Page 160: +20 new URLs | Total: 3162
+[2026-06-13 17:31:28] [scrap_chotot.R] - INFO: Pausing 2.9 seconds after 160 pages...
+[2026-06-13 17:31:31] [scrap_chotot.R] - INFO: Navigating to listing page 161: https://xe.chotot.com/mua-ban-oto?page=161
+[2026-06-13 17:31:44] [scrap_chotot.R] - INFO: Page 161: +20 new URLs | Total: 3182
+[2026-06-13 17:31:46] [scrap_chotot.R] - INFO: Navigating to listing page 162: https://xe.chotot.com/mua-ban-oto?page=162
+[2026-06-13 17:32:00] [scrap_chotot.R] - INFO: Page 162: +20 new URLs | Total: 3202
+[2026-06-13 17:32:02] [scrap_chotot.R] - INFO: Navigating to listing page 163: https://xe.chotot.com/mua-ban-oto?page=163
+[2026-06-13 17:32:14] [scrap_chotot.R] - INFO: Page 163: +20 new URLs | Total: 3222
+[2026-06-13 17:32:17] [scrap_chotot.R] - INFO: Navigating to listing page 164: https://xe.chotot.com/mua-ban-oto?page=164
+[2026-06-13 17:32:30] [scrap_chotot.R] - INFO: Page 164: +20 new URLs | Total: 3242
+[2026-06-13 17:32:32] [scrap_chotot.R] - INFO: Navigating to listing page 165: https://xe.chotot.com/mua-ban-oto?page=165
+[2026-06-13 17:32:45] [scrap_chotot.R] - INFO: Page 165: +20 new URLs | Total: 3262
+[2026-06-13 17:32:47] [scrap_chotot.R] - INFO: Navigating to listing page 166: https://xe.chotot.com/mua-ban-oto?page=166
+[2026-06-13 17:33:02] [scrap_chotot.R] - INFO: Page 166: +20 new URLs | Total: 3282
+[2026-06-13 17:33:05] [scrap_chotot.R] - INFO: Navigating to listing page 167: https://xe.chotot.com/mua-ban-oto?page=167
+[2026-06-13 17:33:18] [scrap_chotot.R] - INFO: Page 167: +19 new URLs | Total: 3301
+[2026-06-13 17:33:20] [scrap_chotot.R] - INFO: Navigating to listing page 168: https://xe.chotot.com/mua-ban-oto?page=168
+[2026-06-13 17:33:35] [scrap_chotot.R] - INFO: Page 168: +19 new URLs | Total: 3320
+[2026-06-13 17:33:37] [scrap_chotot.R] - INFO: Navigating to listing page 169: https://xe.chotot.com/mua-ban-oto?page=169
+[2026-06-13 17:33:51] [scrap_chotot.R] - INFO: Page 169: +20 new URLs | Total: 3340
+[2026-06-13 17:33:52] [scrap_chotot.R] - INFO: Navigating to listing page 170: https://xe.chotot.com/mua-ban-oto?page=170
+[2026-06-13 17:34:05] [scrap_chotot.R] - INFO: Page 170: +20 new URLs | Total: 3360
+[2026-06-13 17:34:07] [scrap_chotot.R] - INFO: Navigating to listing page 171: https://xe.chotot.com/mua-ban-oto?page=171
+[2026-06-13 17:34:21] [scrap_chotot.R] - INFO: Page 171: +19 new URLs | Total: 3379
+[2026-06-13 17:34:23] [scrap_chotot.R] - INFO: Navigating to listing page 172: https://xe.chotot.com/mua-ban-oto?page=172
+[2026-06-13 17:34:36] [scrap_chotot.R] - INFO: Page 172: +20 new URLs | Total: 3399
+[2026-06-13 17:34:37] [scrap_chotot.R] - INFO: Navigating to listing page 173: https://xe.chotot.com/mua-ban-oto?page=173
+[2026-06-13 17:34:53] [scrap_chotot.R] - INFO: Page 173: +20 new URLs | Total: 3419
+[2026-06-13 17:34:55] [scrap_chotot.R] - INFO: Navigating to listing page 174: https://xe.chotot.com/mua-ban-oto?page=174
+[2026-06-13 17:35:08] [scrap_chotot.R] - INFO: Page 174: +20 new URLs | Total: 3439
+[2026-06-13 17:35:09] [scrap_chotot.R] - INFO: Navigating to listing page 175: https://xe.chotot.com/mua-ban-oto?page=175
+[2026-06-13 17:35:25] [scrap_chotot.R] - INFO: Page 175: +20 new URLs | Total: 3459
+[2026-06-13 17:35:26] [scrap_chotot.R] - INFO: Navigating to listing page 176: https://xe.chotot.com/mua-ban-oto?page=176
+[2026-06-13 17:35:38] [scrap_chotot.R] - INFO: Page 176: +20 new URLs | Total: 3479
+[2026-06-13 17:35:41] [scrap_chotot.R] - INFO: Navigating to listing page 177: https://xe.chotot.com/mua-ban-oto?page=177
+[2026-06-13 17:35:57] [scrap_chotot.R] - INFO: Page 177: +20 new URLs | Total: 3499
+[2026-06-13 17:35:59] [scrap_chotot.R] - INFO: Navigating to listing page 178: https://xe.chotot.com/mua-ban-oto?page=178
+[2026-06-13 17:36:12] [scrap_chotot.R] - INFO: Page 178: +20 new URLs | Total: 3519
+[2026-06-13 17:36:14] [scrap_chotot.R] - INFO: Navigating to listing page 179: https://xe.chotot.com/mua-ban-oto?page=179
+[2026-06-13 17:36:29] [scrap_chotot.R] - INFO: Page 179: +20 new URLs | Total: 3539
+[2026-06-13 17:36:31] [scrap_chotot.R] - INFO: Navigating to listing page 180: https://xe.chotot.com/mua-ban-oto?page=180
+[2026-06-13 17:36:45] [scrap_chotot.R] - INFO: Page 180: +20 new URLs | Total: 3559
+[2026-06-13 17:36:45] [scrap_chotot.R] - INFO: Pausing 3.3 seconds after 180 pages...
+[2026-06-13 17:36:48] [scrap_chotot.R] - INFO: Navigating to listing page 181: https://xe.chotot.com/mua-ban-oto?page=181
+[2026-06-13 17:37:01] [scrap_chotot.R] - INFO: Page 181: +20 new URLs | Total: 3579
+[2026-06-13 17:37:03] [scrap_chotot.R] - INFO: Navigating to listing page 182: https://xe.chotot.com/mua-ban-oto?page=182
+[2026-06-13 17:37:16] [scrap_chotot.R] - INFO: Page 182: +19 new URLs | Total: 3598
+[2026-06-13 17:37:17] [scrap_chotot.R] - INFO: Navigating to listing page 183: https://xe.chotot.com/mua-ban-oto?page=183
+[2026-06-13 17:37:31] [scrap_chotot.R] - INFO: Page 183: +20 new URLs | Total: 3618
+[2026-06-13 17:37:33] [scrap_chotot.R] - INFO: Navigating to listing page 184: https://xe.chotot.com/mua-ban-oto?page=184
+[2026-06-13 17:37:46] [scrap_chotot.R] - INFO: Page 184: +20 new URLs | Total: 3638
+[2026-06-13 17:37:48] [scrap_chotot.R] - INFO: Navigating to listing page 185: https://xe.chotot.com/mua-ban-oto?page=185
+[2026-06-13 17:38:01] [scrap_chotot.R] - INFO: Page 185: +20 new URLs | Total: 3658
+[2026-06-13 17:38:03] [scrap_chotot.R] - INFO: Navigating to listing page 186: https://xe.chotot.com/mua-ban-oto?page=186
+[2026-06-13 17:38:16] [scrap_chotot.R] - INFO: Page 186: +20 new URLs | Total: 3678
+[2026-06-13 17:38:18] [scrap_chotot.R] - INFO: Navigating to listing page 187: https://xe.chotot.com/mua-ban-oto?page=187
+[2026-06-13 17:38:31] [scrap_chotot.R] - INFO: Page 187: +20 new URLs | Total: 3698
+[2026-06-13 17:38:33] [scrap_chotot.R] - INFO: Navigating to listing page 188: https://xe.chotot.com/mua-ban-oto?page=188
+[2026-06-13 17:38:46] [scrap_chotot.R] - INFO: Page 188: +20 new URLs | Total: 3718
+[2026-06-13 17:38:49] [scrap_chotot.R] - INFO: Navigating to listing page 189: https://xe.chotot.com/mua-ban-oto?page=189
+[2026-06-13 17:39:04] [scrap_chotot.R] - INFO: Page 189: +20 new URLs | Total: 3738
+[2026-06-13 17:39:06] [scrap_chotot.R] - INFO: Navigating to listing page 190: https://xe.chotot.com/mua-ban-oto?page=190
+[2026-06-13 17:39:21] [scrap_chotot.R] - INFO: Page 190: +20 new URLs | Total: 3758
+[2026-06-13 17:39:22] [scrap_chotot.R] - INFO: Navigating to listing page 191: https://xe.chotot.com/mua-ban-oto?page=191
+[2026-06-13 17:39:35] [scrap_chotot.R] - INFO: Page 191: +20 new URLs | Total: 3778
+[2026-06-13 17:39:37] [scrap_chotot.R] - INFO: Navigating to listing page 192: https://xe.chotot.com/mua-ban-oto?page=192
+[2026-06-13 17:39:51] [scrap_chotot.R] - INFO: Page 192: +19 new URLs | Total: 3797
+[2026-06-13 17:39:53] [scrap_chotot.R] - INFO: Navigating to listing page 193: https://xe.chotot.com/mua-ban-oto?page=193
+[2026-06-13 17:40:06] [scrap_chotot.R] - INFO: Page 193: +20 new URLs | Total: 3817
+[2026-06-13 17:40:08] [scrap_chotot.R] - INFO: Navigating to listing page 194: https://xe.chotot.com/mua-ban-oto?page=194
+[2026-06-13 17:40:21] [scrap_chotot.R] - INFO: Page 194: +20 new URLs | Total: 3837
+[2026-06-13 17:40:23] [scrap_chotot.R] - INFO: Navigating to listing page 195: https://xe.chotot.com/mua-ban-oto?page=195
+[2026-06-13 17:40:38] [scrap_chotot.R] - INFO: Page 195: +20 new URLs | Total: 3857
+[2026-06-13 17:40:41] [scrap_chotot.R] - INFO: Navigating to listing page 196: https://xe.chotot.com/mua-ban-oto?page=196
+[2026-06-13 17:40:54] [scrap_chotot.R] - INFO: Page 196: +19 new URLs | Total: 3876
+[2026-06-13 17:40:56] [scrap_chotot.R] - INFO: Navigating to listing page 197: https://xe.chotot.com/mua-ban-oto?page=197
+[2026-06-13 17:41:09] [scrap_chotot.R] - INFO: Page 197: +19 new URLs | Total: 3895
+[2026-06-13 17:41:11] [scrap_chotot.R] - INFO: Navigating to listing page 198: https://xe.chotot.com/mua-ban-oto?page=198
+[2026-06-13 17:41:24] [scrap_chotot.R] - INFO: Page 198: +19 new URLs | Total: 3914
+[2026-06-13 17:41:26] [scrap_chotot.R] - INFO: Navigating to listing page 199: https://xe.chotot.com/mua-ban-oto?page=199
+[2026-06-13 17:41:39] [scrap_chotot.R] - INFO: Page 199: +20 new URLs | Total: 3934
+[2026-06-13 17:41:41] [scrap_chotot.R] - INFO: Navigating to listing page 200: https://xe.chotot.com/mua-ban-oto?page=200
+[2026-06-13 17:41:58] [scrap_chotot.R] - INFO: Page 200: +19 new URLs | Total: 3953
+[2026-06-13 17:41:58] [scrap_chotot.R] - INFO: Pausing 4.0 seconds after 200 pages...
+[2026-06-13 17:42:02] [scrap_chotot.R] - INFO: Navigating to listing page 201: https://xe.chotot.com/mua-ban-oto?page=201
+[2026-06-13 17:42:15] [scrap_chotot.R] - INFO: Page 201: +20 new URLs | Total: 3973
+[2026-06-13 17:42:17] [scrap_chotot.R] - INFO: Navigating to listing page 202: https://xe.chotot.com/mua-ban-oto?page=202
+[2026-06-13 17:42:31] [scrap_chotot.R] - INFO: Page 202: +20 new URLs | Total: 3993
+[2026-06-13 17:42:33] [scrap_chotot.R] - INFO: Navigating to listing page 203: https://xe.chotot.com/mua-ban-oto?page=203
+[2026-06-13 17:42:47] [scrap_chotot.R] - INFO: Page 203: +20 new URLs | Total: 4013
+[2026-06-13 17:42:49] [scrap_chotot.R] - INFO: Navigating to listing page 204: https://xe.chotot.com/mua-ban-oto?page=204
+[2026-06-13 17:43:02] [scrap_chotot.R] - INFO: Page 204: +20 new URLs | Total: 4033
+[2026-06-13 17:43:04] [scrap_chotot.R] - INFO: Navigating to listing page 205: https://xe.chotot.com/mua-ban-oto?page=205
+[2026-06-13 17:43:18] [scrap_chotot.R] - INFO: Page 205: +19 new URLs | Total: 4052
+[2026-06-13 17:43:20] [scrap_chotot.R] - INFO: Navigating to listing page 206: https://xe.chotot.com/mua-ban-oto?page=206
+[2026-06-13 17:43:33] [scrap_chotot.R] - INFO: Page 206: +20 new URLs | Total: 4072
+[2026-06-13 17:43:35] [scrap_chotot.R] - INFO: Navigating to listing page 207: https://xe.chotot.com/mua-ban-oto?page=207
+[2026-06-13 17:43:49] [scrap_chotot.R] - INFO: Page 207: +20 new URLs | Total: 4092
+[2026-06-13 17:43:51] [scrap_chotot.R] - INFO: Navigating to listing page 208: https://xe.chotot.com/mua-ban-oto?page=208
+[2026-06-13 17:44:04] [scrap_chotot.R] - INFO: Page 208: +20 new URLs | Total: 4112
+[2026-06-13 17:44:06] [scrap_chotot.R] - INFO: Navigating to listing page 209: https://xe.chotot.com/mua-ban-oto?page=209
+[2026-06-13 17:44:19] [scrap_chotot.R] - INFO: Page 209: +20 new URLs | Total: 4132
+[2026-06-13 17:44:21] [scrap_chotot.R] - INFO: Navigating to listing page 210: https://xe.chotot.com/mua-ban-oto?page=210
+[2026-06-13 17:44:34] [scrap_chotot.R] - INFO: Page 210: +20 new URLs | Total: 4152
+[2026-06-13 17:44:37] [scrap_chotot.R] - INFO: Navigating to listing page 211: https://xe.chotot.com/mua-ban-oto?page=211
+[2026-06-13 17:44:54] [scrap_chotot.R] - INFO: Page 211: +20 new URLs | Total: 4172
+[2026-06-13 17:44:55] [scrap_chotot.R] - INFO: Navigating to listing page 212: https://xe.chotot.com/mua-ban-oto?page=212
+[2026-06-13 17:45:12] [scrap_chotot.R] - INFO: Page 212: +20 new URLs | Total: 4192
+[2026-06-13 17:45:14] [scrap_chotot.R] - INFO: Navigating to listing page 213: https://xe.chotot.com/mua-ban-oto?page=213
+[2026-06-13 17:45:28] [scrap_chotot.R] - INFO: Page 213: +20 new URLs | Total: 4212
+[2026-06-13 17:45:31] [scrap_chotot.R] - INFO: Navigating to listing page 214: https://xe.chotot.com/mua-ban-oto?page=214
+[2026-06-13 17:45:44] [scrap_chotot.R] - INFO: Page 214: +20 new URLs | Total: 4232
+[2026-06-13 17:45:46] [scrap_chotot.R] - INFO: Navigating to listing page 215: https://xe.chotot.com/mua-ban-oto?page=215
+[2026-06-13 17:46:00] [scrap_chotot.R] - INFO: Page 215: +20 new URLs | Total: 4252
+[2026-06-13 17:46:02] [scrap_chotot.R] - INFO: Navigating to listing page 216: https://xe.chotot.com/mua-ban-oto?page=216
+[2026-06-13 17:46:16] [scrap_chotot.R] - INFO: Page 216: +20 new URLs | Total: 4272
+[2026-06-13 17:46:18] [scrap_chotot.R] - INFO: Navigating to listing page 217: https://xe.chotot.com/mua-ban-oto?page=217
+[2026-06-13 17:46:33] [scrap_chotot.R] - INFO: Page 217: +20 new URLs | Total: 4292
+[2026-06-13 17:46:35] [scrap_chotot.R] - INFO: Navigating to listing page 218: https://xe.chotot.com/mua-ban-oto?page=218
+[2026-06-13 17:46:50] [scrap_chotot.R] - INFO: Page 218: +20 new URLs | Total: 4312
+[2026-06-13 17:46:52] [scrap_chotot.R] - INFO: Navigating to listing page 219: https://xe.chotot.com/mua-ban-oto?page=219
+[2026-06-13 17:47:06] [scrap_chotot.R] - INFO: Page 219: +20 new URLs | Total: 4332
+[2026-06-13 17:47:08] [scrap_chotot.R] - INFO: Reached session page limit (220). Stopping URL collection.
+[2026-06-13 17:47:08] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 4332
+[2026-06-13 17:47:08] [scrap_chotot.R] - INFO: Loaded 19752 total URLs from file.
+[2026-06-13 17:47:08] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-13 17:47:08] [scrap_chotot.R] - INFO: Resuming from car #18410 (skipping first 18409 already flushed).
+[2026-06-13 17:50:36] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18429.
+[2026-06-13 20:25:41] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 219. Starting from page 220.
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 18429. STEP B will resume from #18430.
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Reached session page limit (220). Stopping URL collection.
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 0
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Loaded 19752 total URLs from file.
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-13 20:25:43] [scrap_chotot.R] - INFO: Resuming from car #18430 (skipping first 18429 already flushed).
+[2026-06-13 20:28:06] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18449.
+[2026-06-13 20:30:14] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18469.
+[2026-06-13 20:31:26] [scrap_chotot.R] - INFO: Proactive session reset at car #18480.
+[2026-06-13 20:31:26] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18479.
+[2026-06-13 20:31:31] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 20:34:00] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18499.
+[2026-06-13 20:36:12] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18519.
+[2026-06-13 20:37:19] [scrap_chotot.R] - INFO: Proactive session reset at car #18530.
+[2026-06-13 20:37:19] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18529.
+[2026-06-13 20:37:24] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 20:39:43] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18549.
+[2026-06-13 20:41:58] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18569.
+[2026-06-13 20:43:07] [scrap_chotot.R] - INFO: Proactive session reset at car #18580.
+[2026-06-13 20:43:07] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18579.
+[2026-06-13 20:43:13] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 20:45:23] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18599.
+[2026-06-13 20:47:33] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18619.
+[2026-06-13 20:48:37] [scrap_chotot.R] - INFO: Proactive session reset at car #18630.
+[2026-06-13 20:48:37] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18629.
+[2026-06-13 20:48:42] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 20:50:55] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18649.
+[2026-06-13 20:53:06] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18669.
+[2026-06-13 20:54:18] [scrap_chotot.R] - INFO: Proactive session reset at car #18680.
+[2026-06-13 20:54:18] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18679.
+[2026-06-13 20:54:24] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 20:56:34] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18699.
+[2026-06-13 20:58:46] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18719.
+[2026-06-13 20:59:58] [scrap_chotot.R] - INFO: Proactive session reset at car #18730.
+[2026-06-13 20:59:58] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18729.
+[2026-06-13 21:00:03] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:02:20] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18749.
+[2026-06-13 21:04:27] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18769.
+[2026-06-13 21:05:39] [scrap_chotot.R] - INFO: Proactive session reset at car #18780.
+[2026-06-13 21:05:39] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18779.
+[2026-06-13 21:05:45] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:07:56] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18799.
+[2026-06-13 21:10:15] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18819.
+[2026-06-13 21:11:22] [scrap_chotot.R] - INFO: Proactive session reset at car #18830.
+[2026-06-13 21:11:22] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18829.
+[2026-06-13 21:11:27] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:13:52] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18849.
+[2026-06-13 21:16:03] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18869.
+[2026-06-13 21:17:18] [scrap_chotot.R] - INFO: Proactive session reset at car #18880.
+[2026-06-13 21:17:18] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18879.
+[2026-06-13 21:17:23] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:19:29] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18899.
+[2026-06-13 21:21:47] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18919.
+[2026-06-13 21:23:01] [scrap_chotot.R] - INFO: Proactive session reset at car #18930.
+[2026-06-13 21:23:01] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18929.
+[2026-06-13 21:23:06] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:25:27] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18949.
+[2026-06-13 21:27:36] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18969.
+[2026-06-13 21:28:45] [scrap_chotot.R] - INFO: Proactive session reset at car #18980.
+[2026-06-13 21:28:45] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 18979.
+[2026-06-13 21:28:51] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:31:00] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 18999.
+[2026-06-13 21:33:18] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19019.
+[2026-06-13 21:34:28] [scrap_chotot.R] - INFO: Proactive session reset at car #19030.
+[2026-06-13 21:34:28] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19029.
+[2026-06-13 21:34:33] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:36:44] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19049.
+[2026-06-13 21:38:54] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19069.
+[2026-06-13 21:40:02] [scrap_chotot.R] - INFO: Proactive session reset at car #19080.
+[2026-06-13 21:40:02] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19079.
+[2026-06-13 21:40:08] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:42:18] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19099.
+[2026-06-13 21:44:26] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19119.
+[2026-06-13 21:45:36] [scrap_chotot.R] - INFO: Proactive session reset at car #19130.
+[2026-06-13 21:45:36] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19129.
+[2026-06-13 21:45:41] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:47:57] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19149.
+[2026-06-13 21:50:09] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19169.
+[2026-06-13 21:51:19] [scrap_chotot.R] - INFO: Proactive session reset at car #19180.
+[2026-06-13 21:51:19] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19179.
+[2026-06-13 21:51:25] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:53:40] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19199.
+[2026-06-13 21:55:48] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19219.
+[2026-06-13 21:56:54] [scrap_chotot.R] - INFO: Proactive session reset at car #19230.
+[2026-06-13 21:56:54] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19229.
+[2026-06-13 21:56:59] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 21:59:11] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19249.
+[2026-06-13 22:01:13] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19269.
+[2026-06-13 22:02:20] [scrap_chotot.R] - INFO: Proactive session reset at car #19280.
+[2026-06-13 22:02:20] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19279.
+[2026-06-13 22:02:26] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:04:36] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19299.
+[2026-06-13 22:06:44] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19319.
+[2026-06-13 22:07:53] [scrap_chotot.R] - INFO: Proactive session reset at car #19330.
+[2026-06-13 22:07:53] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19329.
+[2026-06-13 22:07:59] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:10:04] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19349.
+[2026-06-13 22:12:03] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19369.
+[2026-06-13 22:13:10] [scrap_chotot.R] - INFO: Proactive session reset at car #19380.
+[2026-06-13 22:13:10] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19379.
+[2026-06-13 22:13:16] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:15:22] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19399.
+[2026-06-13 22:17:24] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19419.
+[2026-06-13 22:18:28] [scrap_chotot.R] - INFO: Proactive session reset at car #19430.
+[2026-06-13 22:18:28] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19429.
+[2026-06-13 22:18:33] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:20:38] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19449.
+[2026-06-13 22:22:43] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19469.
+[2026-06-13 22:23:50] [scrap_chotot.R] - INFO: Proactive session reset at car #19480.
+[2026-06-13 22:23:50] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19479.
+[2026-06-13 22:23:55] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:26:05] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19499.
+[2026-06-13 22:28:11] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19519.
+[2026-06-13 22:29:19] [scrap_chotot.R] - INFO: Proactive session reset at car #19530.
+[2026-06-13 22:29:19] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19529.
+[2026-06-13 22:29:25] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:31:32] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19549.
+[2026-06-13 22:33:46] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19569.
+[2026-06-13 22:34:54] [scrap_chotot.R] - INFO: Proactive session reset at car #19580.
+[2026-06-13 22:34:54] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19579.
+[2026-06-13 22:34:59] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:37:00] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19599.
+[2026-06-13 22:39:03] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19619.
+[2026-06-13 22:40:09] [scrap_chotot.R] - INFO: Proactive session reset at car #19630.
+[2026-06-13 22:40:09] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19629.
+[2026-06-13 22:40:14] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:42:15] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19649.
+[2026-06-13 22:44:24] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19669.
+[2026-06-13 22:45:30] [scrap_chotot.R] - INFO: Proactive session reset at car #19680.
+[2026-06-13 22:45:30] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19679.
+[2026-06-13 22:45:36] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:47:47] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19699.
+[2026-06-13 22:49:54] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19719.
+[2026-06-13 22:51:04] [scrap_chotot.R] - INFO: Proactive session reset at car #19730.
+[2026-06-13 22:51:04] [scrap_chotot.R] - INFO: Flushed 10 records to CSV. urlnum = 19729.
+[2026-06-13 22:51:09] [scrap_chotot.R] - INFO: New session started.
+[2026-06-13 22:53:24] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19749.
+[2026-06-13 22:53:44] [scrap_chotot.R] - INFO: Flushed 3 records to CSV. urlnum = 19752.
+[2026-06-13 22:53:45] [scrap_chotot.R] - INFO: Session scraped 1323 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-13 22:53:45] [scrap_chotot.R] - INFO: === Scrape complete ===
+[2026-06-14 01:20:57] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-14 01:20:57] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 19422 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 01:21:51] [utils.R] - INFO: Written 18977 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-14 01:21:51] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. 18977 dòng đã được lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-14 05:57:44] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Bắt đầu cleaning dữ liệu BonBanh ===
+[2026-06-14 05:57:44] [web_scraping/script/clean/clean_bonbanh.R] - INFO: Đọc được 6371 dòng từ web_scraping/data/raw/data_bonbanh_raw.csv
+[2026-06-14 05:58:30] [utils.R] - INFO: Written 6025 rows to: web_scraping/data/clean/data_bonbanh_clean.csv
+[2026-06-14 05:58:30] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Hoàn thành. 6025 dòng đã được lưu tại: web_scraping/data/clean/data_bonbanh_clean.csv ===
+[2026-06-14 14:08:56] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-14 14:08:56] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 19422 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 14:09:31] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 6 dòng lỗi scrape (thiếu brand/posted_date).
+[2026-06-14 14:09:31] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 439 dòng trùng URL hoặc không hợp lệ.
+[2026-06-14 14:09:31] [utils.R] - INFO: Written 18977 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-14 14:09:31] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. Input: 19422 | Sau clean: 18977 dòng | Lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-14 14:12:58] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Bắt đầu cleaning dữ liệu BonBanh ===
+[2026-06-14 14:12:58] [web_scraping/script/clean/clean_bonbanh.R] - INFO: Đọc được 6371 dòng từ web_scraping/data/raw/data_bonbanh_raw.csv
+[2026-06-14 14:13:30] [web_scraping/script/clean/clean_bonbanh.R] - WARN: Đã xóa 346 dòng trùng URL hoặc không hợp lệ.
+[2026-06-14 14:13:31] [utils.R] - INFO: Written 6025 rows to: web_scraping/data/clean/data_bonbanh_clean.csv
+[2026-06-14 14:13:31] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Hoàn thành. Input: 6371 | Sau clean: 6025 dòng | Lưu tại: web_scraping/data/clean/data_bonbanh_clean.csv ===
+[2026-06-14 14:15:03] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-14 14:15:03] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean/data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-14 14:15:03] [init_database.R] - INFO: Imported 6025 records from web_scraping/data/clean/data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-14 14:15:04] [init_database.R] - INFO: Imported 18977 records from web_scraping/data/clean/data_chotot_clean.csv into web_scraping/data/init_db//data_chotot.db
+[2026-06-14 14:15:04] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-14 14:16:41] [web_scraping/script/merge_data.R] - INFO: Starting merge of individual SQLite databases into master outputs.
+[2026-06-14 14:16:42] [web_scraping/script/merge_data.R] - INFO: Merged 2018/2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-14 14:16:42] [web_scraping/script/merge_data.R] - INFO: Merged 6025/6025 records from web_scraping/data/init_db/data_bonbanh.db
+[2026-06-14 14:16:42] [web_scraping/script/merge_data.R] - INFO: Merged 18977/18977 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-14 14:16:42] [web_scraping/script/merge_data.R] - INFO: === Merge complete. 27020 unique records -> web_scraping/data/master_data.db and web_scraping/data/master_data.csv ===
+[2026-06-14 14:45:29] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-14 14:45:29] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 19422 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 14:46:19] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 6 dòng lỗi scrape (thiếu brand/posted_date).
+[2026-06-14 14:46:19] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 439 dòng trùng URL hoặc không hợp lệ.
+[2026-06-14 14:46:19] [utils.R] - INFO: Written 18977 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-14 14:46:19] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. Input: 19422 | Sau clean: 18977 dòng | Lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-14 14:52:29] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 219. Starting from page 220.
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 19752. STEP B will resume from #19753.
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Reached session page limit (220). Stopping URL collection.
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 0
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Loaded 19752 total URLs from file.
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Resuming from car #19753 (skipping first 19752 already flushed).
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: Session scraped 0 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 14:52:33] [scrap_chotot.R] - INFO: === Scrape complete ===
+[2026-06-14 14:53:21] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-14 14:53:23] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-14 14:53:23] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 0. Starting from page 1.
+[2026-06-14 14:53:23] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 19752. STEP B will resume from #19753.
+[2026-06-14 14:53:23] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-14 14:53:23] [scrap_chotot.R] - INFO: Navigating to listing page 1: https://xe.chotot.com/mua-ban-oto
+[2026-06-14 14:53:36] [scrap_chotot.R] - INFO: Page 1: +29 new URLs | Total: 29
+[2026-06-14 14:53:38] [scrap_chotot.R] - INFO: Navigating to listing page 2: https://xe.chotot.com/mua-ban-oto?page=2
+[2026-06-14 14:53:51] [scrap_chotot.R] - INFO: Page 2: +23 new URLs | Total: 52
+[2026-06-14 14:53:54] [scrap_chotot.R] - INFO: Navigating to listing page 3: https://xe.chotot.com/mua-ban-oto?page=3
+[2026-06-14 14:54:06] [scrap_chotot.R] - INFO: Page 3: +20 new URLs | Total: 72
+[2026-06-14 14:54:08] [scrap_chotot.R] - INFO: Navigating to listing page 4: https://xe.chotot.com/mua-ban-oto?page=4
+[2026-06-14 14:54:19] [scrap_chotot.R] - INFO: Page 4: +20 new URLs | Total: 92
+[2026-06-14 14:54:21] [scrap_chotot.R] - INFO: Reached session page limit (5). Stopping URL collection.
+[2026-06-14 14:54:21] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 92
+[2026-06-14 14:54:21] [scrap_chotot.R] - INFO: Loaded 19777 total URLs from file.
+[2026-06-14 14:54:21] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-14 14:54:21] [scrap_chotot.R] - INFO: Resuming from car #19753 (skipping first 19752 already flushed).
+[2026-06-14 14:56:42] [scrap_chotot.R] - INFO: Flushed 20 records to CSV. urlnum = 19772.
+[2026-06-14 14:57:14] [scrap_chotot.R] - INFO: Flushed 5 records to CSV. urlnum = 19777.
+[2026-06-14 14:57:15] [scrap_chotot.R] - INFO: Session scraped 25 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 14:57:15] [scrap_chotot.R] - INFO: === Scrape complete ===
+[2026-06-14 14:58:21] [web_scraping/script/clean/clean_chotot.R] - INFO: === Bắt đầu cleaning dữ liệu Chợ Tốt ===
+[2026-06-14 14:58:21] [web_scraping/script/clean/clean_chotot.R] - INFO: Đọc được 19447 dòng từ web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 14:58:56] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 6 dòng lỗi scrape (thiếu brand/posted_date).
+[2026-06-14 14:58:56] [web_scraping/script/clean/clean_chotot.R] - WARN: Đã xóa 442 dòng trùng URL hoặc không hợp lệ.
+[2026-06-14 14:58:56] [utils.R] - INFO: Written 18999 rows to: web_scraping/data/clean/data_chotot_clean.csv
+[2026-06-14 14:58:56] [web_scraping/script/clean/clean_chotot.R] - INFO: === Hoàn thành. Input: 19447 | Sau clean: 18999 dòng | Lưu tại: web_scraping/data/clean/data_chotot_clean.csv ===
+[2026-06-14 15:01:06] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Bắt đầu cleaning dữ liệu BonBanh ===
+[2026-06-14 15:01:06] [web_scraping/script/clean/clean_bonbanh.R] - INFO: Đọc được 6371 dòng từ web_scraping/data/raw/data_bonbanh_raw.csv
+[2026-06-14 15:01:44] [web_scraping/script/clean/clean_bonbanh.R] - WARN: Đã xóa 346 dòng trùng URL hoặc không hợp lệ.
+[2026-06-14 15:01:44] [utils.R] - INFO: Written 6025 rows to: web_scraping/data/clean/data_bonbanh_clean.csv
+[2026-06-14 15:01:44] [web_scraping/script/clean/clean_bonbanh.R] - INFO: === Hoàn thành. Input: 6371 | Sau clean: 6025 dòng | Lưu tại: web_scraping/data/clean/data_bonbanh_clean.csv ===
+[2026-06-14 15:01:59] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-14 15:01:59] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean/data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-14 15:01:59] [init_database.R] - INFO: Imported 6025 records from web_scraping/data/clean/data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-14 15:01:59] [init_database.R] - INFO: Imported 18999 records from web_scraping/data/clean/data_chotot_clean.csv into web_scraping/data/init_db//data_chotot.db
+[2026-06-14 15:01:59] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-14 15:02:40] [web_scraping/script/merge_data.R] - INFO: Starting merge of individual SQLite databases into master outputs.
+[2026-06-14 15:02:40] [web_scraping/script/merge_data.R] - INFO: Merged 2018/2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-14 15:02:40] [web_scraping/script/merge_data.R] - ERROR: Failed for bonbanh: database is locked
+[2026-06-14 15:02:40] [web_scraping/script/merge_data.R] - INFO: Merged 18999/18999 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-14 15:02:40] [web_scraping/script/merge_data.R] - INFO: === Merge complete. 27042 unique records -> web_scraping/data/master_data.db and web_scraping/data/master_data.csv ===
+[2026-06-14 15:19:36] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-14 15:19:36] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean/data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-14 15:19:36] [init_database.R] - INFO: Imported 6025 records from web_scraping/data/clean/data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-14 15:19:36] [init_database.R] - ERROR: Failed for chotot: database is locked
+[2026-06-14 15:19:36] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-14 15:19:44] [init_database.R] - INFO: Starting per-source SQLite database initialization.
+[2026-06-14 15:19:44] [init_database.R] - INFO: Imported 2018 records from web_scraping/data/clean/data_banxehoicu_clean.csv into web_scraping/data/init_db//data_banxehoicu.db
+[2026-06-14 15:19:44] [init_database.R] - INFO: Imported 6025 records from web_scraping/data/clean/data_bonbanh_clean.csv into web_scraping/data/init_db//data_bonbanh.db
+[2026-06-14 15:19:44] [init_database.R] - INFO: Imported 18999 records from web_scraping/data/clean/data_chotot_clean.csv into web_scraping/data/init_db//data_chotot.db
+[2026-06-14 15:19:44] [init_database.R] - INFO: === Per-source database initialization complete. ===
+[2026-06-14 15:19:48] [web_scraping/script/merge_data.R] - INFO: Starting merge of individual SQLite databases into master outputs.
+[2026-06-14 15:19:49] [web_scraping/script/merge_data.R] - INFO: Merged 2018/2018 records from web_scraping/data/init_db/data_banxehoicu.db
+[2026-06-14 15:19:49] [web_scraping/script/merge_data.R] - INFO: Merged 6025/6025 records from web_scraping/data/init_db/data_bonbanh.db
+[2026-06-14 15:19:49] [web_scraping/script/merge_data.R] - INFO: Merged 18999/18999 records from web_scraping/data/init_db/data_chotot.db
+[2026-06-14 15:19:49] [web_scraping/script/merge_data.R] - INFO: === Merge complete. 27042 unique records -> web_scraping/data/master_data.db and web_scraping/data/master_data.csv ===
+[2026-06-14 15:20:28] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 4. Starting from page 5.
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 19777. STEP B will resume from #19778.
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Reached session page limit (5). Stopping URL collection.
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 0
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Loaded 19777 total URLs from file.
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Resuming from car #19778 (skipping first 19777 already flushed).
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: Session scraped 0 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 15:20:30] [scrap_chotot.R] - INFO: === Scrape complete ===
+[2026-06-14 15:20:30] [realtime_chotot.R] - INFO: === Bắt đầu realtime Chợ Tốt ===
+[2026-06-14 15:20:32] [realtime_chotot.R] - INFO: Kiểm tra trang 1...
+[2026-06-14 15:20:45] [realtime_chotot.R] - INFO: Trang 1: URL cuối đã có trong DB → so ngược từng URL.
+[2026-06-14 15:20:45] [realtime_chotot.R] - INFO: Phát hiện 0 URL mới cần cào.
+[2026-06-14 15:20:45] [realtime_chotot.R] - INFO: Không có URL mới. Kết thúc.
+[2026-06-14 15:20:45] [realtime_chotot.R] - INFO: Đã đóng session.
+[2026-06-14 15:21:19] [realtime_bonbanh.R] - INFO: === Bắt đầu realtime BonBanh ===
+[2026-06-14 15:21:19] [realtime_bonbanh.R] - INFO: Kiểm tra trang 1...
+[2026-06-14 15:21:20] [realtime_bonbanh.R] - INFO: Trang 1: URL cuối chưa có trong DB → lấy hết 20 URL.
+[2026-06-14 15:21:21] [realtime_bonbanh.R] - INFO: Kiểm tra trang 2...
+[2026-06-14 15:21:21] [realtime_bonbanh.R] - INFO: Trang 2: URL cuối đã có trong DB → so ngược.
+[2026-06-14 15:21:21] [realtime_bonbanh.R] - INFO: Phát hiện 20 URL mới.
+[2026-06-14 15:21:21] [realtime_bonbanh.R] - INFO: Đã ghi 20 URL mới vào đầu: web_scraping/data/raw/meta/urls_bonbanh.txt
+[2026-06-14 15:21:24] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-kia-k3-luxury-1.6-at-2023-6826381): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:24] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-kia-k3-luxury-1.6-at-2023-6826381): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:25] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-mazda-cx5-2.0-at-2019-6810607): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:25] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-mazda-cx5-2.0-at-2019-6810607): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:29] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-toyota-corolla_altis-1.8g-at-2012-6629910): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:29] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-toyota-corolla_altis-1.8g-at-2012-6629910): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:30] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-ford-ranger-wildtrak-3.2l-4x4-at-2015-6620211): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:30] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-ford-ranger-wildtrak-3.2l-4x4-at-2015-6620211): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:37] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-2026-6798450): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:37] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-mercedes_benz-c_class-c200-avantgarde-2026-6798450): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:38] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2020-6766198): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:38] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-mercedes_benz-c_class-c200-exclusive-2020-6766198): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:41] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-kia-cerato-2.0-at-premium-2019-6739822): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:41] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-kia-cerato-2.0-at-premium-2019-6739822): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:46] [realtime_bonbanh.R] - WARN: init_db INSERT lỗi (https://bonbanh.com/xe-volkswagen-touareg-luxury-2.0-tsi-2024-5242533): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:46] [realtime_bonbanh.R] - WARN: master INSERT lỗi (https://bonbanh.com/xe-volkswagen-touareg-luxury-2.0-tsi-2024-5242533): UNIQUE constraint failed: car_listings.url
+[2026-06-14 15:21:53] [realtime_bonbanh.R] - INFO: Đã ghi 20 dòng vào: web_scraping/data/realtime/data_bonbanh_rt.csv
+[2026-06-14 15:21:53] [realtime_bonbanh.R] - INFO: === Hoàn thành. 20 URL mới | 12 vào init_db | 12 vào master ===
+[2026-06-14 15:29:10] [scrap_chotot.R] - INFO: Launching headless Chrome browser
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: Browser session ready.
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: Checkpoint: last completed page = 4. Starting from page 5.
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: urlnum checkpoint: last flushed URL index = 19777. STEP B will resume from #19778.
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: === Step A+C: Collecting listing URLs ===
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: Reached session page limit (5). Stopping URL collection.
+[2026-06-14 15:29:13] [scrap_chotot.R] - INFO: Total new listing URLs collected this session: 0
+[2026-06-14 15:29:14] [scrap_chotot.R] - INFO: Loaded 19777 total URLs from file.
+[2026-06-14 15:29:14] [scrap_chotot.R] - INFO: === Step B: Scraping detail pages ===
+[2026-06-14 15:29:14] [scrap_chotot.R] - INFO: Resuming from car #19778 (skipping first 19777 already flushed).
+[2026-06-14 15:29:14] [scrap_chotot.R] - INFO: Session scraped 0 new records. Appended directly to: web_scraping/data/raw/data_chotot_raw.csv
+[2026-06-14 15:29:14] [scrap_chotot.R] - INFO: === Scrape complete ===
+[2026-06-14 15:29:14] [realtime_chotot.R] - INFO: === Bắt đầu realtime Chợ Tốt ===
+[2026-06-14 15:29:16] [realtime_chotot.R] - INFO: Kiểm tra trang 1...
+[2026-06-14 15:29:29] [realtime_chotot.R] - INFO: Trang 1: URL cuối đã có trong DB → so ngược từng URL.
+[2026-06-14 15:29:29] [realtime_chotot.R] - INFO: Phát hiện 0 URL mới cần cào.
+[2026-06-14 15:29:29] [realtime_chotot.R] - INFO: Không có URL mới. Kết thúc.
+[2026-06-14 15:29:29] [realtime_chotot.R] - INFO: Đã đóng session.
+[2026-06-14 15:39:49] [realtime_chotot.R] - INFO: === Bắt đầu realtime Chợ Tốt ===
+[2026-06-14 15:39:51] [realtime_chotot.R] - INFO: Kiểm tra trang 1...
+[2026-06-14 15:40:03] [realtime_chotot.R] - INFO: Trang 1: URL cuối đã có trong DB → so ngược từng URL.
+[2026-06-14 15:40:03] [realtime_chotot.R] - INFO: Phát hiện 0 URL mới cần cào.
+[2026-06-14 15:40:03] [realtime_chotot.R] - INFO: Không có URL mới. Kết thúc.
+[2026-06-14 15:40:03] [realtime_chotot.R] - INFO: Đã đóng session.
